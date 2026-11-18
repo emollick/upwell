@@ -1,0 +1,1096 @@
+{
+  "Ceramic_Pearl": {
+    "baseColor": "Ceramic_Pearl_Color.jpg",
+    "roughnessMap": "Ceramic_Pearl_Roughness.jpg",
+    "normal": "Ceramic_Pearl_Normal.jpg",
+    "roughness": 0.41,
+    "metallic": 0.3,
+    "alpha": 1,
+    "rgb": [
+      190,
+      196,
+      193
+    ]
+  },
+  "Composite_Slate": {
+    "baseColor": "Composite_Slate_Color.jpg",
+    "roughnessMap": "Composite_Slate_Roughness.jpg",
+    "normal": "Composite_Slate_Normal.jpg",
+    "roughness": 0.47,
+    "metallic": 0.4,
+    "alpha": 1,
+    "rgb": [
+      91,
+      102,
+      106
+    ]
+  },
+  "Carbon_Ceramic": {
+    "baseColor": "Carbon_Ceramic_Color.jpg",
+    "roughnessMap": "Carbon_Ceramic_Roughness.jpg",
+    "normal": "Carbon_Ceramic_Normal.jpg",
+    "roughness": 0.37,
+    "metallic": 0.46,
+    "alpha": 1,
+    "rgb": [
+      40,
+      46,
+      49
+    ]
+  },
+  "Safety_Amber": {
+    "baseColor": "Safety_Amber_Color.jpg",
+    "roughnessMap": "Safety_Amber_Roughness.jpg",
+    "normal": "Safety_Amber_Normal.jpg",
+    "roughness": 0.38,
+    "metallic": 0.35,
+    "alpha": 1,
+    "rgb": [
+      190,
+      102,
+      48
+    ]
+  },
+  "Signal_Orange": {
+    "baseColor": "Signal_Orange_Color.jpg",
+    "roughnessMap": "Signal_Orange_Roughness.jpg",
+    "normal": "Signal_Orange_Normal.jpg",
+    "roughness": 0.4,
+    "metallic": 0.4,
+    "alpha": 1,
+    "rgb": [
+      183,
+      73,
+      38
+    ]
+  },
+  "Aluminum": {
+    "baseColor": "Aluminum_Color.jpg",
+    "roughnessMap": "Aluminum_Roughness.jpg",
+    "normal": "Aluminum_Normal.jpg",
+    "roughness": 0.3,
+    "metallic": 0.85,
+    "alpha": 1,
+    "rgb": [
+      159,
+      165,
+      167
+    ]
+  },
+  "Graphite_Alloy": {
+    "baseColor": "Graphite_Alloy_Color.jpg",
+    "roughnessMap": "Graphite_Alloy_Roughness.jpg",
+    "normal": "Graphite_Alloy_Normal.jpg",
+    "roughness": 0.38,
+    "metallic": 0.78,
+    "alpha": 1,
+    "rgb": [
+      73,
+      80,
+      86
+    ]
+  },
+  "Titanium": {
+    "baseColor": "Titanium_Color.jpg",
+    "roughnessMap": "Titanium_Roughness.jpg",
+    "normal": "Titanium_Normal.jpg",
+    "roughness": 0.27,
+    "metallic": 0.81,
+    "alpha": 1,
+    "rgb": [
+      143,
+      151,
+      154
+    ]
+  },
+  "Black_Rubber": {
+    "baseColor": "Black_Rubber_Color.jpg",
+    "roughnessMap": "Black_Rubber_Roughness.jpg",
+    "normal": "Black_Rubber_Normal.jpg",
+    "roughness": 0.76,
+    "metallic": 0.03,
+    "alpha": 1,
+    "rgb": [
+      33,
+      38,
+      36
+    ]
+  },
+  "Floor_Rubber": {
+    "baseColor": "Floor_Rubber_Color.jpg",
+    "roughnessMap": "Floor_Rubber_Roughness.jpg",
+    "normal": "Floor_Rubber_Normal.jpg",
+    "roughness": 0.71,
+    "metallic": 0.08,
+    "alpha": 1,
+    "rgb": [
+      58,
+      63,
+      60
+    ]
+  },
+  "Pressure_Fabric": {
+    "baseColor": "Pressure_Fabric_Color.jpg",
+    "roughnessMap": "Pressure_Fabric_Roughness.jpg",
+    "normal": "Pressure_Fabric_Normal.jpg",
+    "roughness": 0.89,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      69,
+      87,
+      91
+    ]
+  },
+  "Technical_Twill": {
+    "baseColor": "Technical_Twill_Color.jpg",
+    "roughnessMap": "Technical_Twill_Roughness.jpg",
+    "normal": "Technical_Twill_Normal.jpg",
+    "roughness": 0.86,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      145,
+      155,
+      154
+    ]
+  },
+  "Aramid_Webbing": {
+    "baseColor": "Aramid_Webbing_Color.jpg",
+    "roughnessMap": "Aramid_Webbing_Roughness.jpg",
+    "normal": "Aramid_Webbing_Normal.jpg",
+    "roughness": 0.83,
+    "metallic": 0.01,
+    "alpha": 1,
+    "rgb": [
+      112,
+      102,
+      87
+    ]
+  },
+  "Harness_Grip": {
+    "baseColor": "Harness_Grip_Color.jpg",
+    "roughnessMap": "Harness_Grip_Roughness.jpg",
+    "normal": "Harness_Grip_Normal.jpg",
+    "roughness": 0.68,
+    "metallic": 0.03,
+    "alpha": 1,
+    "rgb": [
+      45,
+      49,
+      49
+    ]
+  },
+  "Paper": {
+    "baseColor": "Paper_Color.jpg",
+    "roughnessMap": "Paper_Roughness.jpg",
+    "normal": "Paper_Normal.jpg",
+    "roughness": 0.87,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      196,
+      188,
+      156
+    ]
+  },
+  "Data_Jacket": {
+    "baseColor": "Data_Jacket_Color.jpg",
+    "roughnessMap": "Data_Jacket_Roughness.jpg",
+    "normal": "Data_Jacket_Normal.jpg",
+    "roughness": 0.86,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      93,
+      81,
+      74
+    ]
+  },
+  "Smoked_Display": {
+    "baseColor": "Smoked_Display_Color.jpg",
+    "roughnessMap": "Smoked_Display_Roughness.jpg",
+    "normal": "Smoked_Display_Normal.jpg",
+    "roughness": 0.22,
+    "metallic": 0.32,
+    "alpha": 1,
+    "rgb": [
+      20,
+      33,
+      28
+    ]
+  },
+  "Cable_Cyan": {
+    "baseColor": "Cable_Cyan_Color.jpg",
+    "roughnessMap": "Cable_Cyan_Roughness.jpg",
+    "normal": "Cable_Cyan_Normal.jpg",
+    "roughness": 0.54,
+    "metallic": 0.1,
+    "alpha": 1,
+    "rgb": [
+      53,
+      113,
+      132
+    ]
+  },
+  "Cable_Orange": {
+    "baseColor": "Cable_Orange_Color.jpg",
+    "roughnessMap": "Cable_Orange_Roughness.jpg",
+    "normal": "Cable_Orange_Normal.jpg",
+    "roughness": 0.58,
+    "metallic": 0.08,
+    "alpha": 1,
+    "rgb": [
+      166,
+      84,
+      43
+    ]
+  },
+  "Cable_Blue": {
+    "baseColor": "Cable_Blue_Color.jpg",
+    "roughnessMap": "Cable_Blue_Roughness.jpg",
+    "normal": "Cable_Blue_Normal.jpg",
+    "roughness": 0.57,
+    "metallic": 0.08,
+    "alpha": 1,
+    "rgb": [
+      53,
+      72,
+      106
+    ]
+  },
+  "Restraint_Webbing": {
+    "baseColor": "Restraint_Webbing_Color.jpg",
+    "roughnessMap": "Restraint_Webbing_Roughness.jpg",
+    "normal": "Restraint_Webbing_Normal.jpg",
+    "roughness": 0.88,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      132,
+      53,
+      43
+    ]
+  },
+  "Opal_Emitter": {
+    "rgb": [
+      244,
+      235,
+      209
+    ],
+    "roughness": 0.34,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 2.2
+  },
+  "Mint_Emitter": {
+    "rgb": [
+      107,
+      215,
+      221
+    ],
+    "roughness": 0.34,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 1.5
+  },
+  "Amber_Emitter": {
+    "rgb": [
+      251,
+      170,
+      56
+    ],
+    "roughness": 0.34,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 1.9
+  },
+  "Red_Emitter": {
+    "rgb": [
+      218,
+      62,
+      31
+    ],
+    "roughness": 0.34,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 1.35
+  },
+  "Blue_Emitter": {
+    "rgb": [
+      158,
+      197,
+      214
+    ],
+    "roughness": 0.34,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 1.4
+  },
+  "Clear_Glass": {
+    "rgb": [
+      148,
+      177,
+      166
+    ],
+    "roughness": 0.13,
+    "metallic": 0.18,
+    "alpha": 0.037
+  },
+  "Hull_Stencils": {
+    "baseColor": "Hull_Stencils.png",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.47,
+    "metallic": 0.06,
+    "alpha": 1,
+    "alphaFromMap": true
+  },
+  "Nav_Active_Pixels": {
+    "baseColor": "Nav_Active_Pixels.jpg",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.24,
+    "metallic": 0.1,
+    "alpha": 1,
+    "emission": 0.48
+  },
+  "Carriage_Print": {
+    "baseColor": "Carriage_Print.jpg",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.67,
+    "metallic": 0.1,
+    "alpha": 1,
+    "emission": 0
+  },
+  "Display_Phosphor": {
+    "baseColor": "Carriage_Print.jpg",
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.24,
+    "metallic": 0.1,
+    "alpha": 1,
+    "emission": 0.48
+  },
+  "Surface_pilot_console": {
+    "rgb": [
+      223,
+      229,
+      229
+    ],
+    "roughness": 0.32,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_pilot_console_basecolor.jpg",
+    "roughnessMap": "Surface_pilot_console_roughness.jpg",
+    "normal": "Surface_pilot_console_normal.jpg"
+  },
+  "Surface_nav_screen": {
+    "rgb": [
+      12,
+      20,
+      25
+    ],
+    "roughness": 0.1,
+    "metallic": 0,
+    "family": "glass",
+    "alpha": 1,
+    "baseColor": "Surface_nav_screen_basecolor.jpg",
+    "roughnessMap": "Surface_nav_screen_roughness.jpg",
+    "normal": "Surface_nav_screen_normal.jpg"
+  },
+  "Surface_ascent_lever": {
+    "rgb": [
+      130,
+      140,
+      145
+    ],
+    "roughness": 0.28,
+    "metallic": 1,
+    "family": "metal",
+    "alpha": 1,
+    "baseColor": "Surface_ascent_lever_basecolor.jpg",
+    "roughnessMap": "Surface_ascent_lever_roughness.jpg",
+    "normal": "Surface_ascent_lever_normal.jpg"
+  },
+  "Surface_window": {
+    "rgb": [
+      160,
+      184,
+      192
+    ],
+    "roughness": 0.05,
+    "metallic": 0,
+    "family": "glass",
+    "alpha": 0.037,
+    "baseColor": "Surface_window_basecolor.jpg",
+    "roughnessMap": "Surface_window_roughness.jpg",
+    "normal": "Surface_window_normal.jpg"
+  },
+  "Surface_roller_shade": {
+    "rgb": [
+      35,
+      42,
+      47
+    ],
+    "roughness": 0.57,
+    "metallic": 0,
+    "family": "fabric",
+    "alpha": 1,
+    "baseColor": "Surface_roller_shade_basecolor.jpg",
+    "roughnessMap": "Surface_roller_shade_roughness.jpg",
+    "normal": "Surface_roller_shade_normal.jpg"
+  },
+  "Surface_lounge_seat": {
+    "rgb": [
+      42,
+      49,
+      55
+    ],
+    "roughness": 0.78,
+    "metallic": 0,
+    "family": "fabric",
+    "alpha": 1,
+    "baseColor": "Surface_lounge_seat_basecolor.jpg",
+    "roughnessMap": "Surface_lounge_seat_roughness.jpg",
+    "normal": "Surface_lounge_seat_normal.jpg"
+  },
+  "Surface_lamp": {
+    "rgb": [
+      231,
+      237,
+      238
+    ],
+    "roughness": 0.22,
+    "metallic": 0,
+    "family": "glass",
+    "alpha": 1,
+    "baseColor": "Surface_lamp_basecolor.jpg",
+    "roughnessMap": "Surface_lamp_roughness.jpg",
+    "normal": "Surface_lamp_normal.jpg",
+    "emission": 2.8
+  },
+  "Surface_field_glasses": {
+    "rgb": [
+      30,
+      37,
+      43
+    ],
+    "roughness": 0.48,
+    "metallic": 0,
+    "family": "carbon",
+    "alpha": 1,
+    "baseColor": "Surface_field_glasses_basecolor.jpg",
+    "roughnessMap": "Surface_field_glasses_roughness.jpg",
+    "normal": "Surface_field_glasses_normal.jpg"
+  },
+  "Surface_bunk": {
+    "rgb": [
+      45,
+      52,
+      57
+    ],
+    "roughness": 0.81,
+    "metallic": 0,
+    "family": "fabric",
+    "alpha": 1,
+    "baseColor": "Surface_bunk_basecolor.jpg",
+    "roughnessMap": "Surface_bunk_roughness.jpg",
+    "normal": "Surface_bunk_normal.jpg"
+  },
+  "Surface_privacy_curtain": {
+    "rgb": [
+      183,
+      193,
+      198
+    ],
+    "roughness": 0.73,
+    "metallic": 0,
+    "family": "fabric",
+    "alpha": 1,
+    "baseColor": "Surface_privacy_curtain_basecolor.jpg",
+    "roughnessMap": "Surface_privacy_curtain_roughness.jpg",
+    "normal": "Surface_privacy_curtain_normal.jpg"
+  },
+  "Surface_locker_drawer": {
+    "rgb": [
+      221,
+      229,
+      229
+    ],
+    "roughness": 0.34,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_locker_drawer_basecolor.jpg",
+    "roughnessMap": "Surface_locker_drawer_roughness.jpg",
+    "normal": "Surface_locker_drawer_normal.jpg"
+  },
+  "Surface_access_card": {
+    "rgb": [
+      16,
+      23,
+      29
+    ],
+    "roughness": 0.28,
+    "metallic": 0,
+    "family": "laminate",
+    "alpha": 1,
+    "baseColor": "Surface_access_card_basecolor.jpg",
+    "roughnessMap": "Surface_access_card_roughness.jpg",
+    "normal": "Surface_access_card_normal.jpg"
+  },
+  "Surface_reading_lamp": {
+    "rgb": [
+      147,
+      157,
+      163
+    ],
+    "roughness": 0.27,
+    "metallic": 1,
+    "family": "metal",
+    "alpha": 1,
+    "baseColor": "Surface_reading_lamp_basecolor.jpg",
+    "roughnessMap": "Surface_reading_lamp_roughness.jpg",
+    "normal": "Surface_reading_lamp_normal.jpg"
+  },
+  "Surface_logbook": {
+    "rgb": [
+      20,
+      28,
+      34
+    ],
+    "roughness": 0.2,
+    "metallic": 0,
+    "family": "glass",
+    "alpha": 1,
+    "baseColor": "Surface_logbook_basecolor.jpg",
+    "roughnessMap": "Surface_logbook_roughness.jpg",
+    "normal": "Surface_logbook_normal.jpg"
+  },
+  "Surface_mug": {
+    "rgb": [
+      223,
+      230,
+      230
+    ],
+    "roughness": 0.28,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_mug_basecolor.jpg",
+    "roughnessMap": "Surface_mug_roughness.jpg",
+    "normal": "Surface_mug_normal.jpg"
+  },
+  "Surface_grab_handle": {
+    "rgb": [
+      124,
+      137,
+      145
+    ],
+    "roughness": 0.3,
+    "metallic": 1,
+    "family": "metal",
+    "alpha": 1,
+    "baseColor": "Surface_grab_handle_basecolor.jpg",
+    "roughnessMap": "Surface_grab_handle_roughness.jpg",
+    "normal": "Surface_grab_handle_normal.jpg"
+  },
+  "Surface_pressure_hatch": {
+    "rgb": [
+      223,
+      230,
+      230
+    ],
+    "roughness": 0.33,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_pressure_hatch_basecolor.jpg",
+    "roughnessMap": "Surface_pressure_hatch_roughness.jpg",
+    "normal": "Surface_pressure_hatch_normal.jpg"
+  },
+  "Surface_card_reader": {
+    "rgb": [
+      17,
+      25,
+      31
+    ],
+    "roughness": 0.16,
+    "metallic": 0,
+    "family": "glass",
+    "alpha": 1,
+    "baseColor": "Surface_card_reader_basecolor.jpg",
+    "roughnessMap": "Surface_card_reader_roughness.jpg",
+    "normal": "Surface_card_reader_normal.jpg"
+  },
+  "Surface_service_cabinet": {
+    "rgb": [
+      219,
+      227,
+      229
+    ],
+    "roughness": 0.34,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_service_cabinet_basecolor.jpg",
+    "roughnessMap": "Surface_service_cabinet_roughness.jpg",
+    "normal": "Surface_service_cabinet_normal.jpg"
+  },
+  "Surface_breaker": {
+    "rgb": [
+      128,
+      140,
+      147
+    ],
+    "roughness": 0.28,
+    "metallic": 1,
+    "family": "metal",
+    "alpha": 1,
+    "baseColor": "Surface_breaker_basecolor.jpg",
+    "roughnessMap": "Surface_breaker_roughness.jpg",
+    "normal": "Surface_breaker_normal.jpg"
+  },
+  "Surface_pressure_gauge": {
+    "rgb": [
+      130,
+      141,
+      147
+    ],
+    "roughness": 0.26,
+    "metallic": 1,
+    "family": "metal",
+    "alpha": 1,
+    "baseColor": "Surface_pressure_gauge_basecolor.jpg",
+    "roughnessMap": "Surface_pressure_gauge_roughness.jpg",
+    "normal": "Surface_pressure_gauge_normal.jpg"
+  },
+  "Surface_intercom": {
+    "rgb": [
+      222,
+      230,
+      231
+    ],
+    "roughness": 0.34,
+    "metallic": 0,
+    "family": "aramid",
+    "alpha": 1,
+    "baseColor": "Surface_intercom_basecolor.jpg",
+    "roughnessMap": "Surface_intercom_roughness.jpg",
+    "normal": "Surface_intercom_normal.jpg"
+  },
+  "Surface_tool_roll": {
+    "rgb": [
+      35,
+      43,
+      49
+    ],
+    "roughness": 0.8,
+    "metallic": 0,
+    "family": "fabric",
+    "alpha": 1,
+    "baseColor": "Surface_tool_roll_basecolor.jpg",
+    "roughnessMap": "Surface_tool_roll_roughness.jpg",
+    "normal": "Surface_tool_roll_normal.jpg"
+  },
+  "Surface_docking_wheel": {
+    "rgb": [
+      29,
+      37,
+      43
+    ],
+    "roughness": 0.42,
+    "metallic": 0,
+    "family": "carbon",
+    "alpha": 1,
+    "baseColor": "Surface_docking_wheel_basecolor.jpg",
+    "roughnessMap": "Surface_docking_wheel_roughness.jpg",
+    "normal": "Surface_docking_wheel_normal.jpg"
+  },
+  "Service_Print": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "alpha": 1,
+    "metallic": 0.12,
+    "roughness": 0.43,
+    "baseColor": "Handheld_Atlas.jpg",
+    "emission": 0
+  },
+  "Handheld_Display": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "alpha": 1,
+    "metallic": 0.035,
+    "roughness": 0.34,
+    "baseColor": "Handheld_Atlas.jpg",
+    "emission": 0.63,
+    "specular": 0.2
+  },
+  "Optical_Coating": {
+    "rgb": [
+      24,
+      70,
+      78
+    ],
+    "alpha": 1,
+    "metallic": 0.62,
+    "roughness": 0.068,
+    "baseColor": "Optical_Interference.jpg",
+    "coat": 0.91,
+    "coatRoughness": 0.055,
+    "iridescence": 0.42,
+    "emission": 0.18
+  },
+  "Optical_Laminate": {
+    "rgb": [
+      87,
+      121,
+      133
+    ],
+    "alpha": 0.105,
+    "metallic": 0.31,
+    "roughness": 0.047,
+    "coat": 0.82,
+    "coatRoughness": 0.05,
+    "transmission": 0.38
+  },
+  "Credential_Contacts": {
+    "rgb": [
+      154,
+      135,
+      82
+    ],
+    "alpha": 1,
+    "metallic": 0.86,
+    "roughness": 0.27
+  },
+  "Grip_Elastomer": {
+    "baseColor": "Grip_Elastomer_Color.jpg",
+    "roughnessMap": "Grip_Elastomer_Roughness.jpg",
+    "normal": "Grip_Elastomer_Normal.jpg",
+    "roughness": 0.72,
+    "metallic": 0.03,
+    "alpha": 1,
+    "rgb": [
+      42,
+      46,
+      44
+    ],
+    "normalStrength": 0.47
+  },
+  "Wallet_Canvas": {
+    "baseColor": "Wallet_Canvas_Color.jpg",
+    "roughnessMap": "Wallet_Canvas_Roughness.jpg",
+    "normal": "Wallet_Canvas_Normal.jpg",
+    "roughness": 0.86,
+    "metallic": 0.0,
+    "alpha": 1,
+    "rgb": [
+      69,
+      76,
+      74
+    ],
+    "normalStrength": 0.34
+  },
+  "Handheld_Markings": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "baseColor": "Handheld_Ink.png",
+    "alpha": 1,
+    "alphaFromMap": true,
+    "roughness": 0.5,
+    "metallic": 0.08
+  },
+  "Precision_Titanium": {
+    "baseColor": "Precision_Titanium_Color.jpg",
+    "roughnessMap": "Precision_Titanium_Roughness.jpg",
+    "normal": "Precision_Titanium_Normal.jpg",
+    "roughness": 0.27,
+    "metallic": 0.84,
+    "alpha": 1,
+    "rgb": [
+      143,
+      151,
+      154
+    ],
+    "normalStrength": 0.19
+  },
+  "Anodized_Frame": {
+    "baseColor": "Anodized_Frame_Color.jpg",
+    "roughnessMap": "Anodized_Frame_Roughness.jpg",
+    "normal": "Anodized_Frame_Normal.jpg",
+    "roughness": 0.38,
+    "metallic": 0.63,
+    "alpha": 1,
+    "rgb": [
+      73,
+      80,
+      86
+    ],
+    "normalStrength": 0.16
+  },
+  "Handheld_Shell": {
+    "baseColor": "Handheld_Shell_Color.jpg",
+    "roughnessMap": "Handheld_Shell_Roughness.jpg",
+    "normal": "Handheld_Shell_Normal.jpg",
+    "roughness": 0.41,
+    "metallic": 0.3,
+    "alpha": 1,
+    "rgb": [
+      190,
+      196,
+      193
+    ],
+    "normalStrength": 0.14
+  },
+  "Gravity_Print": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.53,
+    "metallic": 0.16,
+    "alpha": 1,
+    "baseColor": "Gravity_Instruments.jpg"
+  },
+  "Cell_Diffuser": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "roughness": 0.49,
+    "metallic": 0.02,
+    "alpha": 1,
+    "baseColor": "Gravity_Instruments.jpg",
+    "emission": 0.61
+  },
+  "Cell_Backlight": {
+    "rgb": [
+      243,
+      218,
+      153
+    ],
+    "roughness": 0.38,
+    "metallic": 0.06,
+    "alpha": 1,
+    "emission": 1.38
+  },
+  "Cell_Optical_Glass": {
+    "rgb": [
+      194,
+      217,
+      214
+    ],
+    "roughness": 0.105,
+    "metallic": 0.1,
+    "alpha": 0.065,
+    "transmission": 0.28,
+    "coat": 0.69,
+    "coatRoughness": 0.09
+  },
+  "Cell_Liquid": {
+    "rgb": [
+      213,
+      164,
+      62
+    ],
+    "roughness": 0.065,
+    "metallic": 0,
+    "alpha": 0.47,
+    "transmission": 0.7,
+    "coat": 0.34,
+    "coatRoughness": 0.045,
+    "ior": 1.333
+  },
+  "Cell_Gas": {
+    "rgb": [
+      203,
+      217,
+      205
+    ],
+    "roughness": 0.065,
+    "metallic": 0,
+    "alpha": 0.09,
+    "transmission": 0.77,
+    "coat": 0.35,
+    "coatRoughness": 0.05,
+    "ior": 1.05
+  },
+  "Cell_Meniscus": {
+    "rgb": [
+      137,
+      155,
+      124
+    ],
+    "roughness": 0.105,
+    "metallic": 0.19,
+    "alpha": 0.8,
+    "coat": 0.74,
+    "coatRoughness": 0.06
+  },
+  "Load_Index": {
+    "rgb": [
+      220,
+      100,
+      49
+    ],
+    "roughness": 0.36,
+    "metallic": 0.33,
+    "alpha": 1,
+    "emission": 0.12
+  },
+  "Load_Mass": {
+    "rgb": [
+      91,
+      96,
+      92
+    ],
+    "roughness": 0.29,
+    "metallic": 0.82,
+    "alpha": 1
+  },
+  "Wick_Mesh": {
+    "rgb": [
+      139,
+      125,
+      88
+    ],
+    "roughness": 0.48,
+    "metallic": 0.65,
+    "alpha": 1
+  },
+  "Quilt_Ripstop": {
+    "rgb": [
+      88,
+      104,
+      101
+    ],
+    "roughness": 0.89,
+    "metallic": 0.0,
+    "alpha": 1.0,
+    "normalStrength": 0.76,
+    "specular": 0.24,
+    "sheen": 0.24,
+    "sheenRoughness": 0.65,
+    "baseColor": "Quilt_Ripstop_Color.jpg",
+    "normal": "Quilt_Ripstop_Normal.jpg",
+    "roughnessMap": "Quilt_Ripstop_Roughness.jpg"
+  },
+  "Quilt_Lining": {
+    "rgb": [
+      140,
+      147,
+      135
+    ],
+    "roughness": 0.88,
+    "metallic": 0.0,
+    "alpha": 1.0,
+    "normalStrength": 0.76,
+    "specular": 0.24,
+    "sheen": 0.24,
+    "sheenRoughness": 0.65,
+    "baseColor": "Quilt_Lining_Color.jpg",
+    "normal": "Quilt_Lining_Normal.jpg",
+    "roughnessMap": "Quilt_Lining_Roughness.jpg"
+  },
+  "Curtain_Acoustic": {
+    "rgb": [
+      111,
+      127,
+      123
+    ],
+    "roughness": 0.91,
+    "metallic": 0.0,
+    "alpha": 1.0,
+    "normalStrength": 0.76,
+    "specular": 0.24,
+    "sheen": 0.24,
+    "sheenRoughness": 0.65,
+    "baseColor": "Curtain_Acoustic_Color.jpg",
+    "normal": "Curtain_Acoustic_Normal.jpg",
+    "roughnessMap": "Curtain_Acoustic_Roughness.jpg"
+  },
+  "Cell_Etch": {
+    "rgb": [
+      45,
+      70,
+      65
+    ],
+    "roughness": 0.65,
+    "metallic": 0.11,
+    "alpha": 1
+  },
+  "Berth_Bias_Tape": {
+    "rgb": [
+      67,
+      78,
+      77
+    ],
+    "roughness": 0.86,
+    "metallic": 0.0,
+    "alpha": 1.0,
+    "normalStrength": 0.76,
+    "specular": 0.24,
+    "sheen": 0.24,
+    "sheenRoughness": 0.65,
+    "baseColor": "Berth_Bias_Tape_Color.jpg",
+    "normal": "Berth_Bias_Tape_Normal.jpg",
+    "roughnessMap": "Berth_Bias_Tape_Roughness.jpg"
+  },
+  "Vessel_Enamel": {
+    "rgb": [
+      184,
+      192,
+      185
+    ],
+    "roughness": 0.48,
+    "metallic": 0.035,
+    "alpha": 1,
+    "family": "coating",
+    "normalStrength": 0.55,
+    "baseColor": "Vessel_Enamel_Color.jpg",
+    "roughnessMap": "Vessel_Enamel_Roughness.jpg",
+    "normal": "Vessel_Enamel_Normal.jpg"
+  },
+  "Vessel_Keeper": {
+    "rgb": [
+      132,
+      141,
+      139
+    ],
+    "roughness": 0.33,
+    "metallic": 0.83,
+    "alpha": 1,
+    "family": "metal",
+    "normalStrength": 0.48,
+    "baseColor": "Vessel_Keeper_Color.jpg",
+    "roughnessMap": "Vessel_Keeper_Roughness.jpg",
+    "normal": "Vessel_Keeper_Normal.jpg"
+  }
+}

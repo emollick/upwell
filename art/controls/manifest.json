@@ -1,0 +1,1164 @@
+{
+  "version": 1,
+  "count": 20,
+  "generation": "Built-in image_gen; five explicitly authorized four-piece family sheets; no API/CLI fallback",
+  "rendered_variants": 0,
+  "generated_variants": 20,
+  "limitations": [
+    "Returned source sheets are1254x1254 despite a2048 request. Native crops are not upscaled.",
+    "These are generated documentary-style concept references, not photographs of manufactured hardware or exact Blender renders.",
+    "Knurl counts, fasteners, dimensions and legend placement may differ from source geometry.",
+    "No per-pixel material segmentation or UV registration is claimed. Glass rendered alpha is coverage, not physical transmission."
+  ],
+  "finishes": {
+    "Graphite_Alloy": {
+      "material": "Graphite_Alloy",
+      "source_asset": "metal_plate",
+      "source_page": "https://polyhaven.com/a/metal_plate",
+      "license": "CC0",
+      "maps": {
+        "albedo": "../surface-scans/metal_plate/albedo.jpg",
+        "normal": "../surface-scans/metal_plate/normal.jpg",
+        "roughness": "../surface-scans/metal_plate/roughness.jpg"
+      },
+      "tint_srgb": [
+        0.12,
+        0.15,
+        0.17
+      ],
+      "roughness_target": 0.34,
+      "metallic": 0.8,
+      "normal_strength": 0.12,
+      "usage": "Retint/remap measured source microstructure; material is a finish approximation, not a measured aerospace alloy."
+    },
+    "Titanium": {
+      "material": "Titanium",
+      "source_asset": "metal_plate",
+      "source_page": "https://polyhaven.com/a/metal_plate",
+      "license": "CC0",
+      "maps": {
+        "albedo": "../surface-scans/metal_plate/albedo.jpg",
+        "normal": "../surface-scans/metal_plate/normal.jpg",
+        "roughness": "../surface-scans/metal_plate/roughness.jpg"
+      },
+      "tint_srgb": [
+        0.63,
+        0.66,
+        0.68
+      ],
+      "roughness_target": 0.27,
+      "metallic": 0.92,
+      "normal_strength": 0.1,
+      "usage": "Retint/remap measured source microstructure; material is a finish approximation, not a measured aerospace alloy."
+    },
+    "Carbon_Ceramic": {
+      "material": "Carbon_Ceramic",
+      "source_asset": "blue_metal_plate",
+      "source_page": "https://polyhaven.com/a/blue_metal_plate",
+      "license": "CC0",
+      "maps": {
+        "albedo": "../surface-scans/blue_metal_plate/albedo.jpg",
+        "normal": "../surface-scans/blue_metal_plate/normal.jpg",
+        "roughness": "../surface-scans/blue_metal_plate/roughness.jpg"
+      },
+      "tint_srgb": [
+        0.025,
+        0.035,
+        0.04
+      ],
+      "roughness_target": 0.29,
+      "metallic": 0.05,
+      "normal_strength": 0.06,
+      "usage": "Retint/remap measured source microstructure; material is a finish approximation, not a measured aerospace alloy."
+    },
+    "Black_Rubber": {
+      "material": "Black_Rubber",
+      "source_asset": "rubber_tiles",
+      "source_page": "https://polyhaven.com/a/rubber_tiles",
+      "license": "CC0",
+      "maps": {
+        "albedo": "../surface-scans/rubber_tiles/albedo.jpg",
+        "normal": "../surface-scans/rubber_tiles/normal.jpg",
+        "roughness": "../surface-scans/rubber_tiles/roughness.jpg"
+      },
+      "tint_srgb": [
+        0.012,
+        0.015,
+        0.017
+      ],
+      "roughness_target": 0.62,
+      "metallic": 0,
+      "normal_strength": 0.08,
+      "usage": "Retint/remap measured source microstructure; material is a finish approximation, not a measured aerospace alloy."
+    },
+    "Grip_Elastomer": {
+      "material": "Grip_Elastomer",
+      "source_asset": "scuba_suede",
+      "source_page": "https://polyhaven.com/a/scuba_suede",
+      "license": "CC0",
+      "maps": {
+        "albedo": "../surface-scans/scuba_suede/albedo.jpg",
+        "normal": "../surface-scans/scuba_suede/normal.jpg",
+        "roughness": "../surface-scans/scuba_suede/roughness.jpg"
+      },
+      "tint_srgb": [
+        0.028,
+        0.035,
+        0.037
+      ],
+      "roughness_target": 0.54,
+      "metallic": 0,
+      "normal_strength": 0.1,
+      "usage": "Retint/remap measured source microstructure; material is a finish approximation, not a measured aerospace alloy."
+    },
+    "Sapphire_Glass": {
+      "material": "Sapphire_Glass",
+      "source_asset": null,
+      "maps": {},
+      "ior": 1.52,
+      "roughness": 0.075,
+      "transmission": 1,
+      "thickness_m": 0.024,
+      "usage": "Analytic dielectric; no opaque scan painted onto glass. Existing nav_screen procedural roughness is optional, not a factual scan."
+    },
+    "Witness_Amber": {
+      "material": "Witness_Amber",
+      "source_asset": null,
+      "maps": {},
+      "color_srgb": [
+        1,
+        0.54,
+        0.17
+      ],
+      "roughness": 0.23,
+      "emission": 1.1,
+      "usage": "Analytic tinted lens/emission; not a measured material."
+    },
+    "Witness_Teal": {
+      "material": "Witness_Teal",
+      "source_asset": null,
+      "maps": {},
+      "color_srgb": [
+        0.28,
+        0.83,
+        0.78
+      ],
+      "roughness": 0.23,
+      "emission": 1.1,
+      "usage": "Analytic tinted lens/emission; not a measured material."
+    }
+  },
+  "items": [
+    {
+      "id": "guide_flood",
+      "name": "Guide inspection flood",
+      "tag": "EL / 112",
+      "description": "A guarded lever powers the white work light over the port guide wheels. The guide camera looks directly into its beam.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/guide_flood.png",
+      "alpha": "masks/guide_flood_alpha.png",
+      "silhouette": "masks/guide_flood_silhouette.png",
+      "source_sheet": "sheets/switches.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        91,
+        34,
+        555,
+        614
+      ],
+      "dimensions": [
+        464,
+        580
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1409334126040428,
+      "silhouette_area": 228192,
+      "sha256": "0900725c08801cdbfc06694e8f6b3ae67522c1a6f04c29812d282e026b6ed782",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "cabin_lights",
+      "name": "Cabin light rocker",
+      "tag": "EL / 211",
+      "description": "The split rocker switches the observation saloon light circuit. Its green witness strip follows the circuit.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/cabin_lights.png",
+      "alpha": "masks/cabin_lights_alpha.png",
+      "silhouette": "masks/cabin_lights_silhouette.png",
+      "source_sheet": "sheets/switches.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        68,
+        34,
+        535,
+        615
+      ],
+      "dimensions": [
+        467,
+        581
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.13946271473167063,
+      "silhouette_area": 230654,
+      "sha256": "96cdbc4ebad08503dad0797038121a98ff7f05f7250d7ef1bb416a60c19eb9e1",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "solar_film",
+      "name": "Solar film paddle",
+      "tag": "PV / 207",
+      "description": "This amber paddle runs the forward solar film between the two limits of its track.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/solar_film.png",
+      "alpha": "masks/solar_film_alpha.png",
+      "silhouette": "masks/solar_film_silhouette.png",
+      "source_sheet": "sheets/switches.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        91,
+        12,
+        559,
+        598
+      ],
+      "dimensions": [
+        468,
+        586
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1321030600040839,
+      "silhouette_area": 234827,
+      "sha256": "466bc00223cc898c2e9622eb28138101dc24ae7e0e9373837a314c458393a608",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "vent_fan",
+      "name": "Circulation fan switch",
+      "tag": "EC / 116",
+      "description": "The crossbar switches the overhead impeller. Air from the grille moves the loose restraints and wrist cords.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/vent_fan.png",
+      "alpha": "masks/vent_fan_alpha.png",
+      "silhouette": "masks/vent_fan_silhouette.png",
+      "source_sheet": "sheets/switches.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        66,
+        14,
+        535,
+        600
+      ],
+      "dimensions": [
+        469,
+        586
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Grip_Elastomer",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1310609313258185,
+      "silhouette_area": 236113,
+      "sha256": "2d34adf47f17f4710f9096198599b3b1a2a9a839ada0249cd6fbc842670ae061",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Grip_Elastomer": "crossbar or lens knob grip",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "key_route",
+      "name": "Passage page key",
+      "tag": "AV / 121",
+      "description": "Selects passage altitude, elapsed ship time and the current climb sector on the wide display.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_route.png",
+      "alpha": "masks/key_route_alpha.png",
+      "silhouette": "masks/key_route_silhouette.png",
+      "source_sheet": "sheets/keys_a.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        78,
+        14,
+        554,
+        610
+      ],
+      "dimensions": [
+        476,
+        596
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.15196195928035644,
+      "silhouette_area": 237148,
+      "sha256": "0b11983a6ab530eb93d52437c5d7902a4b1ac5a87b3d764e70c4a984288ab1dd",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "key_optics",
+      "name": "Exterior optics key",
+      "tag": "AV / 122",
+      "description": "Selects the live camera image. The selector lever chooses the head and the lens encoder changes its field of view.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_optics.png",
+      "alpha": "masks/key_optics_alpha.png",
+      "silhouette": "masks/key_optics_silhouette.png",
+      "source_sheet": "sheets/keys_a.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        78,
+        14,
+        554,
+        610
+      ],
+      "dimensions": [
+        476,
+        596
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.15270923805763917,
+      "silhouette_area": 236976,
+      "sha256": "79e945aa56803b1823f938d583a03c4c066f7561915a752dd0f1362eb4fa0dad",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      },
+      "visible_variation": "Generated CAM key lacks requested witness slit; production geometry remains authoritative."
+    },
+    {
+      "id": "key_seals",
+      "name": "Pressure page key",
+      "tag": "AV / 123",
+      "description": "Brings up the pressure taps, service access and transfer clamp on the wide display.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_seals.png",
+      "alpha": "masks/key_seals_alpha.png",
+      "silhouette": "masks/key_seals_silhouette.png",
+      "source_sheet": "sheets/keys_a.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        78,
+        15,
+        554,
+        611
+      ],
+      "dimensions": [
+        476,
+        596
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.15221927697253398,
+      "silhouette_area": 237130,
+      "sha256": "32399bd76691503b04d22bfa90a62b63b8cc2c37bcfd5f39710123682b72d8fa",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "key_load",
+      "name": "Apparent load key",
+      "tag": "AV / 124",
+      "description": "Selects the accelerometer. The vertical and lateral components come from the carriage force model.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_load.png",
+      "alpha": "masks/key_load_alpha.png",
+      "silhouette": "masks/key_load_silhouette.png",
+      "source_sheet": "sheets/keys_a.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        78,
+        15,
+        554,
+        610
+      ],
+      "dimensions": [
+        476,
+        595
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1520725937433797,
+      "silhouette_area": 236910,
+      "sha256": "087f553138606546d688ca9724566796d698324cf3578b45228236ff531016cd",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "key_traffic",
+      "name": "Counterline traffic key",
+      "tag": "AV / 125",
+      "description": "Shows the next or passing counterline car, its service class and crossing time.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_traffic.png",
+      "alpha": "masks/key_traffic_alpha.png",
+      "silhouette": "masks/key_traffic_silhouette.png",
+      "source_sheet": "sheets/keys_b_port.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        46,
+        14,
+        543,
+        606
+      ],
+      "dimensions": [
+        497,
+        592
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.12445619663929523,
+      "silhouette_area": 254332,
+      "sha256": "03d9a6ac3a48636ea954177d4fb44445e9ac56b9c360cf647dd557676ac3c7b9",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "key_comms",
+      "name": "Crew radio key",
+      "tag": "CO / 126",
+      "description": "Calls the current operations bulletin from the crew channel. The wide display carries the local transcript.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_comms.png",
+      "alpha": "masks/key_comms_alpha.png",
+      "silhouette": "masks/key_comms_silhouette.png",
+      "source_sheet": "sheets/keys_b_port.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        46,
+        14,
+        543,
+        606
+      ],
+      "dimensions": [
+        497,
+        592
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.12449018434933928,
+      "silhouette_area": 254301,
+      "sha256": "728d7e2e03b17d262b98f4957079719815632a87e7157080c55f9ad56598f3d3",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "key_lamp_test",
+      "name": "Annunciator test key",
+      "tag": "EL / 127",
+      "description": "Energizes every switch witness light for a timed lamp check. The other controls keep their positions.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/key_lamp_test.png",
+      "alpha": "masks/key_lamp_test_alpha.png",
+      "silhouette": "masks/key_lamp_test_silhouette.png",
+      "source_sheet": "sheets/keys_b_port.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        46,
+        14,
+        543,
+        606
+      ],
+      "dimensions": [
+        497,
+        592
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1251937299472511,
+      "silhouette_area": 254162,
+      "sha256": "e1504e761701e9aa03a30f5684e1a7d2b98b6145a188da603f49816d800e85f7",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "floor_observation_port",
+      "name": "Sealed floor observation port",
+      "tag": "PRESSURE GLAZING",
+      "description": "Closed laminated observation glazing, titanium pressure frame and double elastomer seals; no open hatch.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/floor_observation_port.png",
+      "alpha": "masks/floor_observation_port_alpha.png",
+      "silhouette": "masks/floor_observation_port_silhouette.png",
+      "source_sheet": "sheets/keys_b_port.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        0,
+        66,
+        611,
+        540
+      ],
+      "dimensions": [
+        611,
+        474
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Sapphire_Glass"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.13735523835173713,
+      "silhouette_area": 246657,
+      "sha256": "c73fe9719202b92ca29142398a3d1f258fc0cae13cbb8bd17f96cf12a48248f5",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Sapphire_Glass": "closed glazing surface"
+      }
+    },
+    {
+      "id": "panel_gain",
+      "name": "Display luminance encoder",
+      "tag": "AV / 128",
+      "description": "Five mechanical stops set the brightness of the three flight-deck screens.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/panel_gain.png",
+      "alpha": "masks/panel_gain_alpha.png",
+      "silhouette": "masks/panel_gain_silhouette.png",
+      "source_sheet": "sheets/encoders_displays.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        62,
+        49,
+        588,
+        602
+      ],
+      "dimensions": [
+        526,
+        553
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.288963070428152,
+      "silhouette_area": 204467,
+      "sha256": "3f611327d70900c04b77fc83e0132cd1f8b7b1855e987fd7092d6595d7fd8441",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "camera_focus",
+      "name": "Camera lens encoder",
+      "tag": "OP / 129",
+      "description": "Five stops change the focal length of the selected exterior camera. The narrowest field resolves detail on the guide and passing traffic.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/camera_focus.png",
+      "alpha": "masks/camera_focus_alpha.png",
+      "silhouette": "masks/camera_focus_silhouette.png",
+      "source_sheet": "sheets/encoders_displays.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        28,
+        49,
+        555,
+        605
+      ],
+      "dimensions": [
+        527,
+        556
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Grip_Elastomer",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.2893635755532197,
+      "silhouette_area": 205896,
+      "sha256": "9d8f37c7afd22dceed6260d55afc8449f686af356d5f7745461c04a67bd0a92e",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Grip_Elastomer": "crossbar or lens knob grip",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "diagnostic_screen",
+      "name": "Environmental display",
+      "tag": "EC / 131",
+      "description": "Touch the small port screen to alternate between cabin air and the 28-volt electrical bus.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/diagnostic_screen.png",
+      "alpha": "masks/diagnostic_screen_alpha.png",
+      "silhouette": "masks/diagnostic_screen_silhouette.png",
+      "source_sheet": "sheets/encoders_displays.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        40,
+        50,
+        611,
+        581
+      ],
+      "dimensions": [
+        571,
+        531
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Sapphire_Glass",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.11104514826798065,
+      "silhouette_area": 266502,
+      "sha256": "4382bfd11639e014d493f559660fec7f8e800557d23acb149514a905b8300e81",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Sapphire_Glass": "closed glazing surface",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "drive_screen",
+      "name": "Traction display",
+      "tag": "DR / 132",
+      "description": "Touch the drive repeater to choose motor output or guide pickup readings.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/drive_screen.png",
+      "alpha": "masks/drive_screen_alpha.png",
+      "silhouette": "masks/drive_screen_silhouette.png",
+      "source_sheet": "sheets/encoders_displays.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        12,
+        49,
+        586,
+        581
+      ],
+      "dimensions": [
+        574,
+        532
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Sapphire_Glass",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.11280160331141442,
+      "silhouette_area": 267550,
+      "sha256": "330e81aa4da595ce38d8ec38b3c5c6e3d5a3c0aa5d4e6ab3dabe3b5ee957ffda",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Sapphire_Glass": "closed glazing surface",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "test_power",
+      "name": "Power bus test",
+      "tag": "EW / 521",
+      "description": "Loads the 28-volt feeder with its calibrated resistor and measures the return voltage at the far connector.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/test_power.png",
+      "alpha": "masks/test_power_alpha.png",
+      "silhouette": "masks/test_power_silhouette.png",
+      "source_sheet": "sheets/service.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        15,
+        10,
+        596,
+        609
+      ],
+      "dimensions": [
+        581,
+        599
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.19724210459773747,
+      "silhouette_area": 276373,
+      "sha256": "30f25b60ce7b9c6c7b0079f2df8287984809a257b4ffcfd590e0d90551514096",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "test_fiber",
+      "name": "Fiber loopback test",
+      "tag": "EW / 522",
+      "description": "Sends an optical packet around the blue return loop. The receiver measures optical loss.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/test_fiber.png",
+      "alpha": "masks/test_fiber_alpha.png",
+      "silhouette": "masks/test_fiber_silhouette.png",
+      "source_sheet": "sheets/service.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "crop_within_quadrant_xyxy": [
+        16,
+        10,
+        596,
+        609
+      ],
+      "dimensions": [
+        580,
+        599
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.19571412123654366,
+      "silhouette_area": 276224,
+      "sha256": "caf019d2041b5f9e7b05571df0ca10bcb0202c33b76568be194131f09fe9cf07",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    },
+    {
+      "id": "test_seal",
+      "name": "Pressure reference test",
+      "tag": "PV / 523",
+      "description": "Applies the internal 0.20 kPa calibration reference to the seal instrument, then returns its taps to the hatch.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/test_seal.png",
+      "alpha": "masks/test_seal_alpha.png",
+      "silhouette": "masks/test_seal_silhouette.png",
+      "source_sheet": "sheets/service.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        15,
+        11,
+        595,
+        609
+      ],
+      "dimensions": [
+        580,
+        598
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Witness_Amber"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.1958107484719179,
+      "silhouette_area": 275968,
+      "sha256": "0427b497708fd0cefb65f74fa84389752ce62189de0bd472d89b6aecabf1b44b",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Witness_Amber": "amber witness slit or lens"
+      }
+    },
+    {
+      "id": "test_return",
+      "name": "Guide pickup test",
+      "tag": "EW / 524",
+      "description": "Sends the pickup reference to the guide head and measures the phase offset on the return pair.",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/test_return.png",
+      "alpha": "masks/test_return_alpha.png",
+      "silhouette": "masks/test_return_silhouette.png",
+      "source_sheet": "sheets/service.png",
+      "sheet_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_quadrant_xyxy": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "crop_within_quadrant_xyxy": [
+        16,
+        11,
+        596,
+        609
+      ],
+      "dimensions": [
+        580,
+        598
+      ],
+      "material_assignments": [
+        "Graphite_Alloy",
+        "Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Witness_Teal"
+      ],
+      "registration": "Reference/alpha/silhouette exactly pixel registered. Generated view is not UV-, camera-, or geometry-registered to the production mesh.",
+      "alpha_cleanup": "Largest alpha>=220 component after 2px opening, expanded3px; original alpha retained inside. No RGB threshold or hand-drawn silhouette.",
+      "removed_alpha_pixels": 0,
+      "transparent_fraction": 0.19555991235151654,
+      "silhouette_area": 275849,
+      "sha256": "3c159a81a520ddc6cf37eefca5012907ea831a1869699b9641c71c81456959c2",
+      "finish_regions": {
+        "Graphite_Alloy": "housing and mounting bezel",
+        "Titanium": "guards, stem, cap, retaining rim and exposed fasteners",
+        "Black_Rubber": "gasket and seal",
+        "Carbon_Ceramic": "button or rocker face",
+        "Witness_Teal": "teal witness slit or lens"
+      }
+    }
+  ]
+}

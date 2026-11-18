@@ -1,0 +1,18 @@
+{
+  "source": "USGS The National Map, USDA National Agriculture Imagery Program public-domain RGB aerial surveys. Earth surface samples adapted onto a fictional rotating habitat.",
+  "provider": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer",
+  "tiles": [
+    {
+      "name": "agriculture",
+      "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer/exportImage?bbox=-121.928%2C38.438%2C-121.921%2C38.467&bboxSR=4326&imageSR=3857&size=768%2C3120&format=jpg&bandIds=0%2C1%2C2&f=image&interpolation=RSP_BilinearInterpolation"
+    },
+    {
+      "name": "riparian",
+      "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer/exportImage?bbox=-121.960%2C38.512%2C-121.953%2C38.520&bboxSR=4326&imageSR=3857&size=640%2C768&format=jpg&bandIds=0%2C1%2C2&f=image&interpolation=RSP_BilinearInterpolation"
+    },
+    {
+      "name": "village",
+      "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPPlus/ImageServer/exportImage?bbox=-121.9735%2C38.5185%2C-121.965%2C38.5249&bboxSR=4326&imageSR=3857&size=768%2C768&format=jpg&bandIds=0%2C1%2C2&f=image&interpolation=RSP_BilinearInterpolation"
+    }
+  ]
+}

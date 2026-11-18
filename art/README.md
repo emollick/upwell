@@ -1,0 +1,9 @@
+# Upwell prop art
+
+Twenty-four individual built-in image_gen product references, one per manifest prop. Art direction: a stunning true space vessel with contemporary advanced orbital hardware, pearl-white aramid composite fairings, titanium, graphite nanoceramic and CFRP, sapphire-black flush MFDs, precise teal and amber telemetry, and dark vermilion identification. Wear is limited to touch-edge polish, minute abrasion and adhesive witness marks. Full final prompts are in `prompts.json`; completion is recorded in `reference-status.json`. Final references supersede the earlier railway-themed pass.
+
+`refs/{id}.png` are generated RGBA concept references, not photographs of real products. `masks/{id}_alpha.png` preserves each source alpha; `_silhouette.png` thresholds that same alpha at 128. These masks describe the rendered prop, not a generic rectangular card. Glass alpha depends on the generated image and is not a transmission measurement.
+
+`textures/{id}_basecolor.png`, `_roughness.png`, and `_normal.png` are deterministic, tileable 512px primary-surface studies made by `process_art.py`. They are designed to be mapped onto corresponding modeled surface parts. They are not photogrammetry, baked geometry maps, or photographs pasted onto 3D meshes. Keep technical-knit fabric on cushion surfaces and titanium on structural parts. `textures/materials.json` records shader suggestions, scale and provenance. Normal maps use OpenGL tangent-space +Y. Color is sRGB; roughness and normals are linear data. Glass requires shader transmission; metallic surfaces require metallic=1. Localized edge wear belongs in geometry/material masks, beyond these repeating surface tiles.
+
+Re-run `python art/process_art.py` from the Upwell directory to regenerate maps and rebuild the alpha masks and contact sheet from references currently present. Original generated files remain under Codex generated_images; the project owns its copied references.

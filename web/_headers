@@ -1,0 +1,38 @@
+/unity/Build/unity.wasm.unityweb
+  Content-Type: application/wasm
+  Content-Encoding: br
+
+/unity/Build/unity.framework.js.unityweb
+  Content-Type: application/javascript
+  Content-Encoding: br
+
+/unity/Build/unity.data.unityweb
+  Content-Type: application/octet-stream
+  Content-Encoding: br
+
+/assets/rooms/*.glb
+  Content-Type: model/gltf-binary
+
+/assets/terminals/*.glb
+  Content-Type: model/gltf-binary
+
+/assets/harbor/*.glb
+  Content-Type: model/gltf-binary
+
+/assets/guideway/*.glb
+  Content-Type: model/gltf-binary
+
+/assets/orbital/*.glb
+  Content-Type: model/gltf-binary
+
+/assets/fracture/*.glb
+  Content-Type: model/gltf-binary
+
+/media/*.mp4
+  Content-Type: video/mp4
+
+/assets/orbital/shared-*.bin
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/pbr/*.bin
+  Cache-Control: public, max-age=31536000, immutable

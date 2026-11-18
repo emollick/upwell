@@ -1,0 +1,2511 @@
+{
+  "basis": "glTF metres: +X starboard, +Y up, +Z aft",
+  "stations": {
+    "anchor": {
+      "file": "anchor.glb",
+      "waterline": -7,
+      "bounds": [
+        [
+          -56.71,
+          -8.7755,
+          -158.64
+        ],
+        [
+          59.47,
+          18.0227,
+          12.985
+        ]
+      ],
+      "motions": [
+        {
+          "node": "anchor_arm_port",
+          "channel": "arm",
+          "kind": "rotate",
+          "axis": "y",
+          "amount": 74,
+          "clearAmount": 74,
+          "dockedAmount": 0,
+          "phaseDelay": 0
+        },
+        {
+          "node": "anchor_arm_starboard",
+          "channel": "arm",
+          "kind": "rotate",
+          "axis": "y",
+          "amount": -74,
+          "clearAmount": -74,
+          "dockedAmount": 0,
+          "phaseDelay": 0.055
+        },
+        {
+          "node": "anchor_bridge",
+          "channel": "bridge",
+          "kind": "translate",
+          "axis": "z",
+          "amount": 2.42,
+          "clearAmount": 2.42,
+          "dockedAmount": 0,
+          "phaseDelay": 0.09
+        },
+        {
+          "node": "anchor_shutter_port",
+          "channel": "shutter",
+          "kind": "translate",
+          "axis": "x",
+          "amount": -3.83,
+          "clearAmount": -3.83,
+          "dockedAmount": 0,
+          "phaseDelay": 0.0
+        },
+        {
+          "node": "anchor_shutter_starboard",
+          "channel": "shutter",
+          "kind": "translate",
+          "axis": "x",
+          "amount": 3.83,
+          "clearAmount": 3.83,
+          "dockedAmount": 0,
+          "phaseDelay": 0.045
+        },
+        {
+          "node": "anchor_drum",
+          "channel": "drum",
+          "kind": "rotate",
+          "axis": "z",
+          "amount": 284,
+          "clearAmount": 284,
+          "dockedAmount": 0,
+          "phaseDelay": 0.04
+        },
+        {
+          "node": "anchor_beacon",
+          "channel": "beacon",
+          "kind": "spin",
+          "axis": "y",
+          "amount": 360,
+          "clearAmount": 360,
+          "dockedAmount": 0,
+          "phaseDelay": 0
+        }
+      ],
+      "lights": [
+        {
+          "id": "anchor_booth",
+          "position": [
+            -4.77,
+            2.61,
+            -10.01
+          ],
+          "target": [
+            -4.77,
+            1.33,
+            -10.33
+          ],
+          "color": [
+            1,
+            0.76,
+            0.5
+          ],
+          "power": 225,
+          "size": 1.45,
+          "exposure": 1
+        },
+        {
+          "id": "anchor_front_key-1",
+          "position": [
+            -4.83,
+            4.78,
+            -7.1
+          ],
+          "target": [
+            -1.2,
+            0.82,
+            -3.93
+          ],
+          "color": [
+            1.0,
+            0.7,
+            0.46
+          ],
+          "power": 620,
+          "size": 2.1,
+          "exposure": 1
+        },
+        {
+          "id": "anchor_front_key1",
+          "position": [
+            4.83,
+            4.78,
+            -7.1
+          ],
+          "target": [
+            1.2,
+            0.82,
+            -3.93
+          ],
+          "color": [
+            1.0,
+            0.7,
+            0.46
+          ],
+          "power": 620,
+          "size": 2.1,
+          "exposure": 1
+        },
+        {
+          "id": "anchor_sea_portal",
+          "position": [
+            -5.88,
+            4.8,
+            -16.0
+          ],
+          "target": [
+            1.4,
+            0.92,
+            -3.5
+          ],
+          "color": [
+            1,
+            0.76,
+            0.55
+          ],
+          "power": 1300,
+          "size": 4.9,
+          "exposure": 1
+        }
+      ],
+      "display": "anchor_display",
+      "displayCenter": [
+        -3.29,
+        2.72,
+        -7.84
+      ],
+      "parts": [
+        {
+          "id": "anchor_static",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_static",
+          "file": "anchor/static.fbx",
+          "webPivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "webBounds": [
+            [
+              -15.09335,
+              -6.23,
+              -27.69739
+            ],
+            [
+              15.09335,
+              18.02275,
+              12.985
+            ]
+          ],
+          "localBounds": [
+            [
+              -15.09335,
+              -6.23,
+              -27.69739
+            ],
+            [
+              15.09335,
+              18.02275,
+              12.985
+            ]
+          ],
+          "webCenter": [
+            0.0,
+            5.89637,
+            -7.3562
+          ],
+          "localReferenceVertex": [
+            -13.295,
+            -0.215,
+            6.71
+          ]
+        },
+        {
+          "id": "anchor_arm_port",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_arm_port",
+          "file": "anchor/arm_port.fbx",
+          "webPivot": [
+            -4.88,
+            1.22,
+            -3.15
+          ],
+          "webBounds": [
+            [
+              -5.137,
+              0.98,
+              -3.407
+            ],
+            [
+              -2.357,
+              1.49,
+              -2.857
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.257,
+              -0.24,
+              -0.257
+            ],
+            [
+              2.523,
+              0.27,
+              0.293
+            ]
+          ],
+          "webCenter": [
+            -3.747,
+            1.235,
+            -3.132
+          ],
+          "localReferenceVertex": [
+            0.01763,
+            0.07118,
+            -0.22187
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "y",
+            "amount": 74,
+            "clearAmount": 74,
+            "dockedAmount": 0,
+            "phaseDelay": 0
+          }
+        },
+        {
+          "id": "anchor_arm_starboard",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_arm_starboard",
+          "file": "anchor/arm_starboard.fbx",
+          "webPivot": [
+            4.88,
+            1.22,
+            -3.15
+          ],
+          "webBounds": [
+            [
+              2.357,
+              0.98,
+              -3.407
+            ],
+            [
+              5.137,
+              1.49,
+              -2.857
+            ]
+          ],
+          "localBounds": [
+            [
+              -2.523,
+              -0.24,
+              -0.257
+            ],
+            [
+              0.257,
+              0.27,
+              0.293
+            ]
+          ],
+          "webCenter": [
+            3.747,
+            1.235,
+            -3.132
+          ],
+          "localReferenceVertex": [
+            -0.01362,
+            0.07118,
+            -0.11694
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "y",
+            "amount": -74,
+            "clearAmount": -74,
+            "dockedAmount": 0,
+            "phaseDelay": 0.055
+          }
+        },
+        {
+          "id": "anchor_bridge",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_bridge",
+          "file": "anchor/bridge.fbx",
+          "webPivot": [
+            0.0,
+            1.29,
+            5.93
+          ],
+          "webBounds": [
+            [
+              -1.275,
+              0.025,
+              5.94
+            ],
+            [
+              1.275,
+              2.555,
+              7.19
+            ]
+          ],
+          "localBounds": [
+            [
+              -1.275,
+              -1.265,
+              0.01
+            ],
+            [
+              1.275,
+              1.265,
+              1.26
+            ]
+          ],
+          "webCenter": [
+            0.0,
+            1.29,
+            6.565
+          ],
+          "localReferenceVertex": [
+            -0.926,
+            -1.26,
+            0.15
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "z",
+            "amount": 2.42,
+            "clearAmount": 2.42,
+            "dockedAmount": 0,
+            "phaseDelay": 0.09
+          }
+        },
+        {
+          "id": "anchor_shutter_port",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_shutter_port",
+          "file": "anchor/shutter_port.fbx",
+          "webPivot": [
+            -1.93,
+            8.5,
+            0.0
+          ],
+          "webBounds": [
+            [
+              -4.251,
+              8.304,
+              -6.331
+            ],
+            [
+              -0.06,
+              8.663,
+              6.331
+            ]
+          ],
+          "localBounds": [
+            [
+              -2.321,
+              -0.196,
+              -6.331
+            ],
+            [
+              1.87,
+              0.163,
+              6.331
+            ]
+          ],
+          "webCenter": [
+            -2.1555,
+            8.4835,
+            0.0
+          ],
+          "localReferenceVertex": [
+            -1.87,
+            -0.0495,
+            -3.864
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "x",
+            "amount": -3.83,
+            "clearAmount": -3.83,
+            "dockedAmount": 0,
+            "phaseDelay": 0.0
+          }
+        },
+        {
+          "id": "anchor_shutter_starboard",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_shutter_starboard",
+          "file": "anchor/shutter_starboard.fbx",
+          "webPivot": [
+            1.93,
+            8.5,
+            0.0
+          ],
+          "webBounds": [
+            [
+              0.06,
+              8.304,
+              -6.331
+            ],
+            [
+              4.251,
+              8.663,
+              6.331
+            ]
+          ],
+          "localBounds": [
+            [
+              -1.87,
+              -0.196,
+              -6.331
+            ],
+            [
+              2.321,
+              0.163,
+              6.331
+            ]
+          ],
+          "webCenter": [
+            2.1555,
+            8.4835,
+            0.0
+          ],
+          "localReferenceVertex": [
+            -1.87,
+            -0.0495,
+            -3.864
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "x",
+            "amount": 3.83,
+            "clearAmount": 3.83,
+            "dockedAmount": 0,
+            "phaseDelay": 0.045
+          }
+        },
+        {
+          "id": "anchor_drum",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_drum",
+          "file": "anchor/drum.fbx",
+          "webPivot": [
+            -5.15,
+            1.22,
+            -0.85
+          ],
+          "webBounds": [
+            [
+              -5.84,
+              0.53,
+              -1.8356
+            ],
+            [
+              -4.46,
+              1.91,
+              0.1356
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.69,
+              -0.69,
+              -0.9856
+            ],
+            [
+              0.69,
+              0.69,
+              0.9856
+            ]
+          ],
+          "webCenter": [
+            -5.15,
+            1.22,
+            -0.85
+          ],
+          "localReferenceVertex": [
+            0.5244,
+            0.0,
+            -0.8109
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "z",
+            "amount": 284,
+            "clearAmount": 284,
+            "dockedAmount": 0,
+            "phaseDelay": 0.04
+          }
+        },
+        {
+          "id": "anchor_beacon",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_beacon",
+          "file": "anchor/beacon.fbx",
+          "webPivot": [
+            -3.86,
+            2.05,
+            -7.47
+          ],
+          "webBounds": [
+            [
+              -3.953,
+              2.05,
+              -7.563
+            ],
+            [
+              -3.767,
+              2.317,
+              -7.377
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.093,
+              0.0,
+              -0.093
+            ],
+            [
+              0.093,
+              0.267,
+              0.093
+            ]
+          ],
+          "webCenter": [
+            -3.86,
+            2.1835,
+            -7.47
+          ],
+          "localReferenceVertex": [
+            0.093,
+            0.0,
+            0.0
+          ],
+          "animation": {
+            "kind": "spin",
+            "axis": "y",
+            "amount": 360,
+            "clearAmount": 360,
+            "dockedAmount": 0,
+            "phaseDelay": 0
+          }
+        },
+        {
+          "id": "anchor_display",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_display",
+          "file": "anchor/display.fbx",
+          "webPivot": [
+            -3.29,
+            2.72,
+            -7.84
+          ],
+          "webBounds": [
+            [
+              -3.7165,
+              2.531,
+              -7.825
+            ],
+            [
+              -2.8635,
+              2.909,
+              -7.825
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.4265,
+              -0.189,
+              0.015
+            ],
+            [
+              0.4265,
+              0.189,
+              0.015
+            ]
+          ],
+          "webCenter": [
+            -3.29,
+            2.72,
+            -7.825
+          ],
+          "localReferenceVertex": [
+            -0.4265,
+            -0.189,
+            0.015
+          ]
+        },
+        {
+          "id": "anchor_apron",
+          "room": "anchor",
+          "station": "anchor",
+          "node": "anchor_apron",
+          "file": "anchor/apron.fbx",
+          "webPivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "webBounds": [
+            [
+              -56.71,
+              -8.77545,
+              -158.64
+            ],
+            [
+              59.47,
+              17.412,
+              12.405
+            ]
+          ],
+          "localBounds": [
+            [
+              -56.71,
+              -8.77545,
+              -158.64
+            ],
+            [
+              59.47,
+              17.412,
+              12.405
+            ]
+          ],
+          "webCenter": [
+            1.38,
+            4.31827,
+            -73.1175
+          ],
+          "localReferenceVertex": [
+            -17.295,
+            -6.49,
+            8.58
+          ]
+        }
+      ]
+    },
+    "aster": {
+      "file": "aster.glb",
+      "waterline": null,
+      "bounds": [
+        [
+          -12.14,
+          -11.014,
+          -28.285
+        ],
+        [
+          12.14,
+          10.323,
+          14.52
+        ]
+      ],
+      "motions": [
+        {
+          "node": "aster_arm_port",
+          "channel": "arm",
+          "kind": "rotate",
+          "axis": "y",
+          "amount": 74,
+          "clearAmount": 74,
+          "dockedAmount": 0,
+          "phaseDelay": 0
+        },
+        {
+          "node": "aster_arm_starboard",
+          "channel": "arm",
+          "kind": "rotate",
+          "axis": "y",
+          "amount": -74,
+          "clearAmount": -74,
+          "dockedAmount": 0,
+          "phaseDelay": 0.055
+        },
+        {
+          "node": "aster_bridge",
+          "channel": "bridge",
+          "kind": "translate",
+          "axis": "z",
+          "amount": 2.42,
+          "clearAmount": 2.42,
+          "dockedAmount": 0,
+          "phaseDelay": 0.09
+        },
+        {
+          "node": "aster_shutter_port",
+          "channel": "shutter",
+          "kind": "translate",
+          "axis": "x",
+          "amount": -3.83,
+          "clearAmount": -3.83,
+          "dockedAmount": 0,
+          "phaseDelay": 0.0
+        },
+        {
+          "node": "aster_shutter_starboard",
+          "channel": "shutter",
+          "kind": "translate",
+          "axis": "x",
+          "amount": 3.83,
+          "clearAmount": 3.83,
+          "dockedAmount": 0,
+          "phaseDelay": 0.045
+        },
+        {
+          "node": "aster_drum",
+          "channel": "drum",
+          "kind": "rotate",
+          "axis": "z",
+          "amount": 193,
+          "clearAmount": 193,
+          "dockedAmount": 0,
+          "phaseDelay": 0.04
+        },
+        {
+          "node": "aster_beacon",
+          "channel": "beacon",
+          "kind": "spin",
+          "axis": "y",
+          "amount": 360,
+          "clearAmount": 360,
+          "dockedAmount": 0,
+          "phaseDelay": 0
+        }
+      ],
+      "lights": [
+        {
+          "id": "aster_booth",
+          "position": [
+            -6.88,
+            2.87,
+            -2.99
+          ],
+          "target": [
+            -7.2,
+            1.59,
+            -2.99
+          ],
+          "color": [
+            0.52,
+            0.84,
+            1
+          ],
+          "power": 225,
+          "size": 1.45,
+          "exposure": 1
+        },
+        {
+          "id": "aster_booth_1",
+          "position": [
+            -4.68,
+            5.69,
+            -13.28
+          ],
+          "target": [
+            -4.68,
+            4.41,
+            -13.6
+          ],
+          "color": [
+            0.52,
+            0.84,
+            1
+          ],
+          "power": 225,
+          "size": 1.45,
+          "exposure": 1
+        },
+        {
+          "id": "aster_capture_key-1",
+          "position": [
+            -4.93,
+            3.91,
+            -7.84
+          ],
+          "target": [
+            -0.75,
+            0.89,
+            -3.64
+          ],
+          "color": [
+            0.62,
+            0.83,
+            1
+          ],
+          "power": 510,
+          "size": 2.11,
+          "exposure": 1
+        },
+        {
+          "id": "aster_capture_key1",
+          "position": [
+            4.93,
+            3.91,
+            -7.84
+          ],
+          "target": [
+            0.75,
+            0.89,
+            -3.64
+          ],
+          "color": [
+            0.62,
+            0.83,
+            1
+          ],
+          "power": 510,
+          "size": 2.11,
+          "exposure": 1
+        },
+        {
+          "id": "aster_gallery",
+          "position": [
+            -4.8,
+            4.74,
+            -10.9
+          ],
+          "target": [
+            0.65,
+            1.17,
+            -3.98
+          ],
+          "color": [
+            1,
+            0.78,
+            0.55
+          ],
+          "power": 670,
+          "size": 2.43,
+          "exposure": 1
+        },
+        {
+          "id": "aster_optics_bench",
+          "position": [
+            2.96,
+            2.72,
+            -12.79
+          ],
+          "target": [
+            2.46,
+            1.2,
+            -13.65
+          ],
+          "color": [
+            0.43,
+            0.73,
+            1
+          ],
+          "power": 168,
+          "size": 1.23,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_0",
+          "position": [
+            -3.88,
+            -1.27,
+            -6.44
+          ],
+          "target": [
+            -2.0564,
+            -8.0,
+            -3.0912
+          ],
+          "color": [
+            0.54,
+            0.77,
+            1
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_1",
+          "position": [
+            3.88,
+            -1.27,
+            -6.44
+          ],
+          "target": [
+            2.0564,
+            -8.0,
+            -3.0912
+          ],
+          "color": [
+            1,
+            0.76,
+            0.55
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_2",
+          "position": [
+            -3.88,
+            -1.27,
+            6.44
+          ],
+          "target": [
+            -2.0564,
+            -8.0,
+            3.0912
+          ],
+          "color": [
+            0.54,
+            0.77,
+            1
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_3",
+          "position": [
+            3.88,
+            -1.27,
+            6.44
+          ],
+          "target": [
+            2.0564,
+            -8.0,
+            3.0912
+          ],
+          "color": [
+            1,
+            0.76,
+            0.55
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_4",
+          "position": [
+            0.0,
+            -1.27,
+            -7.88
+          ],
+          "target": [
+            0.0,
+            -8.0,
+            -3.7824
+          ],
+          "color": [
+            0.54,
+            0.77,
+            1
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        },
+        {
+          "id": "aster_underdeck_5",
+          "position": [
+            0.0,
+            -1.27,
+            7.88
+          ],
+          "target": [
+            0.0,
+            -8.0,
+            3.7824
+          ],
+          "color": [
+            1,
+            0.76,
+            0.55
+          ],
+          "power": 610,
+          "size": 1.36,
+          "exposure": 1
+        }
+      ],
+      "display": "aster_display",
+      "displayCenter": [
+        -3.72,
+        2.72,
+        -8.07
+      ],
+      "parts": [
+        {
+          "id": "aster_static",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_static",
+          "file": "aster/static.fbx",
+          "webPivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "webBounds": [
+            [
+              -12.14,
+              -11.014,
+              -28.285
+            ],
+            [
+              12.14,
+              10.27,
+              14.52
+            ]
+          ],
+          "localBounds": [
+            [
+              -12.14,
+              -11.014,
+              -28.285
+            ],
+            [
+              12.14,
+              10.27,
+              14.52
+            ]
+          ],
+          "webCenter": [
+            0.0,
+            -0.372,
+            -6.8825
+          ],
+          "localReferenceVertex": [
+            -12.135,
+            -0.185,
+            6.795
+          ]
+        },
+        {
+          "id": "aster_arm_port",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_arm_port",
+          "file": "aster/arm_port.fbx",
+          "webPivot": [
+            -4.88,
+            1.22,
+            -2.91
+          ],
+          "webBounds": [
+            [
+              -5.137,
+              0.98,
+              -3.167
+            ],
+            [
+              -2.357,
+              1.49,
+              -2.617
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.257,
+              -0.24,
+              -0.257
+            ],
+            [
+              2.523,
+              0.27,
+              0.293
+            ]
+          ],
+          "webCenter": [
+            -3.747,
+            1.235,
+            -2.892
+          ],
+          "localReferenceVertex": [
+            0.01763,
+            0.07118,
+            -0.22187
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "y",
+            "amount": 74,
+            "clearAmount": 74,
+            "dockedAmount": 0,
+            "phaseDelay": 0
+          }
+        },
+        {
+          "id": "aster_arm_starboard",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_arm_starboard",
+          "file": "aster/arm_starboard.fbx",
+          "webPivot": [
+            4.88,
+            1.22,
+            -2.91
+          ],
+          "webBounds": [
+            [
+              2.357,
+              0.98,
+              -3.167
+            ],
+            [
+              5.137,
+              1.49,
+              -2.617
+            ]
+          ],
+          "localBounds": [
+            [
+              -2.523,
+              -0.24,
+              -0.257
+            ],
+            [
+              0.257,
+              0.27,
+              0.293
+            ]
+          ],
+          "webCenter": [
+            3.747,
+            1.235,
+            -2.892
+          ],
+          "localReferenceVertex": [
+            -0.01362,
+            0.07118,
+            -0.11694
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "y",
+            "amount": -74,
+            "clearAmount": -74,
+            "dockedAmount": 0,
+            "phaseDelay": 0.055
+          }
+        },
+        {
+          "id": "aster_bridge",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_bridge",
+          "file": "aster/bridge.fbx",
+          "webPivot": [
+            0.0,
+            1.29,
+            5.93
+          ],
+          "webBounds": [
+            [
+              -1.275,
+              0.025,
+              5.94
+            ],
+            [
+              1.275,
+              2.555,
+              7.19
+            ]
+          ],
+          "localBounds": [
+            [
+              -1.275,
+              -1.265,
+              0.01
+            ],
+            [
+              1.275,
+              1.265,
+              1.26
+            ]
+          ],
+          "webCenter": [
+            0.0,
+            1.29,
+            6.565
+          ],
+          "localReferenceVertex": [
+            -0.926,
+            -1.26,
+            0.15
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "z",
+            "amount": 2.42,
+            "clearAmount": 2.42,
+            "dockedAmount": 0,
+            "phaseDelay": 0.09
+          }
+        },
+        {
+          "id": "aster_shutter_port",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_shutter_port",
+          "file": "aster/shutter_port.fbx",
+          "webPivot": [
+            -1.93,
+            10.16,
+            0.0
+          ],
+          "webBounds": [
+            [
+              -4.251,
+              9.964,
+              -6.331
+            ],
+            [
+              -0.06,
+              10.323,
+              6.331
+            ]
+          ],
+          "localBounds": [
+            [
+              -2.321,
+              -0.196,
+              -6.331
+            ],
+            [
+              1.87,
+              0.163,
+              6.331
+            ]
+          ],
+          "webCenter": [
+            -2.1555,
+            10.1435,
+            0.0
+          ],
+          "localReferenceVertex": [
+            -1.87,
+            -0.0495,
+            -3.864
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "x",
+            "amount": -3.83,
+            "clearAmount": -3.83,
+            "dockedAmount": 0,
+            "phaseDelay": 0.0
+          }
+        },
+        {
+          "id": "aster_shutter_starboard",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_shutter_starboard",
+          "file": "aster/shutter_starboard.fbx",
+          "webPivot": [
+            1.93,
+            10.16,
+            0.0
+          ],
+          "webBounds": [
+            [
+              0.06,
+              9.964,
+              -6.331
+            ],
+            [
+              4.251,
+              10.323,
+              6.331
+            ]
+          ],
+          "localBounds": [
+            [
+              -1.87,
+              -0.196,
+              -6.331
+            ],
+            [
+              2.321,
+              0.163,
+              6.331
+            ]
+          ],
+          "webCenter": [
+            2.1555,
+            10.1435,
+            0.0
+          ],
+          "localReferenceVertex": [
+            -1.87,
+            -0.0495,
+            -3.864
+          ],
+          "animation": {
+            "kind": "translate",
+            "axis": "x",
+            "amount": 3.83,
+            "clearAmount": 3.83,
+            "dockedAmount": 0,
+            "phaseDelay": 0.045
+          }
+        },
+        {
+          "id": "aster_drum",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_drum",
+          "file": "aster/drum.fbx",
+          "webPivot": [
+            5.42,
+            1.38,
+            -0.63
+          ],
+          "webBounds": [
+            [
+              4.73,
+              0.69,
+              -1.6156
+            ],
+            [
+              6.11,
+              2.07,
+              0.3556
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.69,
+              -0.69,
+              -0.9856
+            ],
+            [
+              0.69,
+              0.69,
+              0.9856
+            ]
+          ],
+          "webCenter": [
+            5.42,
+            1.38,
+            -0.63
+          ],
+          "localReferenceVertex": [
+            0.5244,
+            0.0,
+            -0.8109
+          ],
+          "animation": {
+            "kind": "rotate",
+            "axis": "z",
+            "amount": 193,
+            "clearAmount": 193,
+            "dockedAmount": 0,
+            "phaseDelay": 0.04
+          }
+        },
+        {
+          "id": "aster_beacon",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_beacon",
+          "file": "aster/beacon.fbx",
+          "webPivot": [
+            -4.28,
+            1.99,
+            -7.91
+          ],
+          "webBounds": [
+            [
+              -4.373,
+              1.99,
+              -8.003
+            ],
+            [
+              -4.187,
+              2.257,
+              -7.817
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.093,
+              0.0,
+              -0.093
+            ],
+            [
+              0.093,
+              0.267,
+              0.093
+            ]
+          ],
+          "webCenter": [
+            -4.28,
+            2.1235,
+            -7.91
+          ],
+          "localReferenceVertex": [
+            0.093,
+            0.0,
+            0.0
+          ],
+          "animation": {
+            "kind": "spin",
+            "axis": "y",
+            "amount": 360,
+            "clearAmount": 360,
+            "dockedAmount": 0,
+            "phaseDelay": 0
+          }
+        },
+        {
+          "id": "aster_display",
+          "room": "aster",
+          "station": "aster",
+          "node": "aster_display",
+          "file": "aster/display.fbx",
+          "webPivot": [
+            -3.72,
+            2.72,
+            -8.07
+          ],
+          "webBounds": [
+            [
+              -4.1465,
+              2.531,
+              -8.055
+            ],
+            [
+              -3.2935,
+              2.909,
+              -8.055
+            ]
+          ],
+          "localBounds": [
+            [
+              -0.4265,
+              -0.189,
+              0.015
+            ],
+            [
+              0.4265,
+              0.189,
+              0.015
+            ]
+          ],
+          "webCenter": [
+            -3.72,
+            2.72,
+            -8.055
+          ],
+          "localReferenceVertex": [
+            -0.4265,
+            -0.189,
+            0.015
+          ]
+        }
+      ]
+    }
+  },
+  "parts": [
+    {
+      "id": "anchor_static",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_static",
+      "file": "anchor/static.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -15.09335,
+          -6.23,
+          -27.69739
+        ],
+        [
+          15.09335,
+          18.02275,
+          12.985
+        ]
+      ],
+      "localBounds": [
+        [
+          -15.09335,
+          -6.23,
+          -27.69739
+        ],
+        [
+          15.09335,
+          18.02275,
+          12.985
+        ]
+      ],
+      "webCenter": [
+        0.0,
+        5.89637,
+        -7.3562
+      ],
+      "localReferenceVertex": [
+        -13.295,
+        -0.215,
+        6.71
+      ]
+    },
+    {
+      "id": "anchor_arm_port",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_arm_port",
+      "file": "anchor/arm_port.fbx",
+      "webPivot": [
+        -4.88,
+        1.22,
+        -3.15
+      ],
+      "webBounds": [
+        [
+          -5.137,
+          0.98,
+          -3.407
+        ],
+        [
+          -2.357,
+          1.49,
+          -2.857
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.257,
+          -0.24,
+          -0.257
+        ],
+        [
+          2.523,
+          0.27,
+          0.293
+        ]
+      ],
+      "webCenter": [
+        -3.747,
+        1.235,
+        -3.132
+      ],
+      "localReferenceVertex": [
+        0.01763,
+        0.07118,
+        -0.22187
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "y",
+        "amount": 74,
+        "clearAmount": 74,
+        "dockedAmount": 0,
+        "phaseDelay": 0
+      }
+    },
+    {
+      "id": "anchor_arm_starboard",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_arm_starboard",
+      "file": "anchor/arm_starboard.fbx",
+      "webPivot": [
+        4.88,
+        1.22,
+        -3.15
+      ],
+      "webBounds": [
+        [
+          2.357,
+          0.98,
+          -3.407
+        ],
+        [
+          5.137,
+          1.49,
+          -2.857
+        ]
+      ],
+      "localBounds": [
+        [
+          -2.523,
+          -0.24,
+          -0.257
+        ],
+        [
+          0.257,
+          0.27,
+          0.293
+        ]
+      ],
+      "webCenter": [
+        3.747,
+        1.235,
+        -3.132
+      ],
+      "localReferenceVertex": [
+        -0.01362,
+        0.07118,
+        -0.11694
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "y",
+        "amount": -74,
+        "clearAmount": -74,
+        "dockedAmount": 0,
+        "phaseDelay": 0.055
+      }
+    },
+    {
+      "id": "anchor_bridge",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_bridge",
+      "file": "anchor/bridge.fbx",
+      "webPivot": [
+        0.0,
+        1.29,
+        5.93
+      ],
+      "webBounds": [
+        [
+          -1.275,
+          0.025,
+          5.94
+        ],
+        [
+          1.275,
+          2.555,
+          7.19
+        ]
+      ],
+      "localBounds": [
+        [
+          -1.275,
+          -1.265,
+          0.01
+        ],
+        [
+          1.275,
+          1.265,
+          1.26
+        ]
+      ],
+      "webCenter": [
+        0.0,
+        1.29,
+        6.565
+      ],
+      "localReferenceVertex": [
+        -0.926,
+        -1.26,
+        0.15
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "z",
+        "amount": 2.42,
+        "clearAmount": 2.42,
+        "dockedAmount": 0,
+        "phaseDelay": 0.09
+      }
+    },
+    {
+      "id": "anchor_shutter_port",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_shutter_port",
+      "file": "anchor/shutter_port.fbx",
+      "webPivot": [
+        -1.93,
+        8.5,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -4.251,
+          8.304,
+          -6.331
+        ],
+        [
+          -0.06,
+          8.663,
+          6.331
+        ]
+      ],
+      "localBounds": [
+        [
+          -2.321,
+          -0.196,
+          -6.331
+        ],
+        [
+          1.87,
+          0.163,
+          6.331
+        ]
+      ],
+      "webCenter": [
+        -2.1555,
+        8.4835,
+        0.0
+      ],
+      "localReferenceVertex": [
+        -1.87,
+        -0.0495,
+        -3.864
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": -3.83,
+        "clearAmount": -3.83,
+        "dockedAmount": 0,
+        "phaseDelay": 0.0
+      }
+    },
+    {
+      "id": "anchor_shutter_starboard",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_shutter_starboard",
+      "file": "anchor/shutter_starboard.fbx",
+      "webPivot": [
+        1.93,
+        8.5,
+        0.0
+      ],
+      "webBounds": [
+        [
+          0.06,
+          8.304,
+          -6.331
+        ],
+        [
+          4.251,
+          8.663,
+          6.331
+        ]
+      ],
+      "localBounds": [
+        [
+          -1.87,
+          -0.196,
+          -6.331
+        ],
+        [
+          2.321,
+          0.163,
+          6.331
+        ]
+      ],
+      "webCenter": [
+        2.1555,
+        8.4835,
+        0.0
+      ],
+      "localReferenceVertex": [
+        -1.87,
+        -0.0495,
+        -3.864
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": 3.83,
+        "clearAmount": 3.83,
+        "dockedAmount": 0,
+        "phaseDelay": 0.045
+      }
+    },
+    {
+      "id": "anchor_drum",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_drum",
+      "file": "anchor/drum.fbx",
+      "webPivot": [
+        -5.15,
+        1.22,
+        -0.85
+      ],
+      "webBounds": [
+        [
+          -5.84,
+          0.53,
+          -1.8356
+        ],
+        [
+          -4.46,
+          1.91,
+          0.1356
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.69,
+          -0.69,
+          -0.9856
+        ],
+        [
+          0.69,
+          0.69,
+          0.9856
+        ]
+      ],
+      "webCenter": [
+        -5.15,
+        1.22,
+        -0.85
+      ],
+      "localReferenceVertex": [
+        0.5244,
+        0.0,
+        -0.8109
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "z",
+        "amount": 284,
+        "clearAmount": 284,
+        "dockedAmount": 0,
+        "phaseDelay": 0.04
+      }
+    },
+    {
+      "id": "anchor_beacon",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_beacon",
+      "file": "anchor/beacon.fbx",
+      "webPivot": [
+        -3.86,
+        2.05,
+        -7.47
+      ],
+      "webBounds": [
+        [
+          -3.953,
+          2.05,
+          -7.563
+        ],
+        [
+          -3.767,
+          2.317,
+          -7.377
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.093,
+          0.0,
+          -0.093
+        ],
+        [
+          0.093,
+          0.267,
+          0.093
+        ]
+      ],
+      "webCenter": [
+        -3.86,
+        2.1835,
+        -7.47
+      ],
+      "localReferenceVertex": [
+        0.093,
+        0.0,
+        0.0
+      ],
+      "animation": {
+        "kind": "spin",
+        "axis": "y",
+        "amount": 360,
+        "clearAmount": 360,
+        "dockedAmount": 0,
+        "phaseDelay": 0
+      }
+    },
+    {
+      "id": "anchor_display",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_display",
+      "file": "anchor/display.fbx",
+      "webPivot": [
+        -3.29,
+        2.72,
+        -7.84
+      ],
+      "webBounds": [
+        [
+          -3.7165,
+          2.531,
+          -7.825
+        ],
+        [
+          -2.8635,
+          2.909,
+          -7.825
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.4265,
+          -0.189,
+          0.015
+        ],
+        [
+          0.4265,
+          0.189,
+          0.015
+        ]
+      ],
+      "webCenter": [
+        -3.29,
+        2.72,
+        -7.825
+      ],
+      "localReferenceVertex": [
+        -0.4265,
+        -0.189,
+        0.015
+      ]
+    },
+    {
+      "id": "anchor_apron",
+      "room": "anchor",
+      "station": "anchor",
+      "node": "anchor_apron",
+      "file": "anchor/apron.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -56.71,
+          -8.77545,
+          -158.64
+        ],
+        [
+          59.47,
+          17.412,
+          12.405
+        ]
+      ],
+      "localBounds": [
+        [
+          -56.71,
+          -8.77545,
+          -158.64
+        ],
+        [
+          59.47,
+          17.412,
+          12.405
+        ]
+      ],
+      "webCenter": [
+        1.38,
+        4.31827,
+        -73.1175
+      ],
+      "localReferenceVertex": [
+        -17.295,
+        -6.49,
+        8.58
+      ]
+    },
+    {
+      "id": "aster_static",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_static",
+      "file": "aster/static.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -12.14,
+          -11.014,
+          -28.285
+        ],
+        [
+          12.14,
+          10.27,
+          14.52
+        ]
+      ],
+      "localBounds": [
+        [
+          -12.14,
+          -11.014,
+          -28.285
+        ],
+        [
+          12.14,
+          10.27,
+          14.52
+        ]
+      ],
+      "webCenter": [
+        0.0,
+        -0.372,
+        -6.8825
+      ],
+      "localReferenceVertex": [
+        -12.135,
+        -0.185,
+        6.795
+      ]
+    },
+    {
+      "id": "aster_arm_port",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_arm_port",
+      "file": "aster/arm_port.fbx",
+      "webPivot": [
+        -4.88,
+        1.22,
+        -2.91
+      ],
+      "webBounds": [
+        [
+          -5.137,
+          0.98,
+          -3.167
+        ],
+        [
+          -2.357,
+          1.49,
+          -2.617
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.257,
+          -0.24,
+          -0.257
+        ],
+        [
+          2.523,
+          0.27,
+          0.293
+        ]
+      ],
+      "webCenter": [
+        -3.747,
+        1.235,
+        -2.892
+      ],
+      "localReferenceVertex": [
+        0.01763,
+        0.07118,
+        -0.22187
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "y",
+        "amount": 74,
+        "clearAmount": 74,
+        "dockedAmount": 0,
+        "phaseDelay": 0
+      }
+    },
+    {
+      "id": "aster_arm_starboard",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_arm_starboard",
+      "file": "aster/arm_starboard.fbx",
+      "webPivot": [
+        4.88,
+        1.22,
+        -2.91
+      ],
+      "webBounds": [
+        [
+          2.357,
+          0.98,
+          -3.167
+        ],
+        [
+          5.137,
+          1.49,
+          -2.617
+        ]
+      ],
+      "localBounds": [
+        [
+          -2.523,
+          -0.24,
+          -0.257
+        ],
+        [
+          0.257,
+          0.27,
+          0.293
+        ]
+      ],
+      "webCenter": [
+        3.747,
+        1.235,
+        -2.892
+      ],
+      "localReferenceVertex": [
+        -0.01362,
+        0.07118,
+        -0.11694
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "y",
+        "amount": -74,
+        "clearAmount": -74,
+        "dockedAmount": 0,
+        "phaseDelay": 0.055
+      }
+    },
+    {
+      "id": "aster_bridge",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_bridge",
+      "file": "aster/bridge.fbx",
+      "webPivot": [
+        0.0,
+        1.29,
+        5.93
+      ],
+      "webBounds": [
+        [
+          -1.275,
+          0.025,
+          5.94
+        ],
+        [
+          1.275,
+          2.555,
+          7.19
+        ]
+      ],
+      "localBounds": [
+        [
+          -1.275,
+          -1.265,
+          0.01
+        ],
+        [
+          1.275,
+          1.265,
+          1.26
+        ]
+      ],
+      "webCenter": [
+        0.0,
+        1.29,
+        6.565
+      ],
+      "localReferenceVertex": [
+        -0.926,
+        -1.26,
+        0.15
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "z",
+        "amount": 2.42,
+        "clearAmount": 2.42,
+        "dockedAmount": 0,
+        "phaseDelay": 0.09
+      }
+    },
+    {
+      "id": "aster_shutter_port",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_shutter_port",
+      "file": "aster/shutter_port.fbx",
+      "webPivot": [
+        -1.93,
+        10.16,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -4.251,
+          9.964,
+          -6.331
+        ],
+        [
+          -0.06,
+          10.323,
+          6.331
+        ]
+      ],
+      "localBounds": [
+        [
+          -2.321,
+          -0.196,
+          -6.331
+        ],
+        [
+          1.87,
+          0.163,
+          6.331
+        ]
+      ],
+      "webCenter": [
+        -2.1555,
+        10.1435,
+        0.0
+      ],
+      "localReferenceVertex": [
+        -1.87,
+        -0.0495,
+        -3.864
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": -3.83,
+        "clearAmount": -3.83,
+        "dockedAmount": 0,
+        "phaseDelay": 0.0
+      }
+    },
+    {
+      "id": "aster_shutter_starboard",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_shutter_starboard",
+      "file": "aster/shutter_starboard.fbx",
+      "webPivot": [
+        1.93,
+        10.16,
+        0.0
+      ],
+      "webBounds": [
+        [
+          0.06,
+          9.964,
+          -6.331
+        ],
+        [
+          4.251,
+          10.323,
+          6.331
+        ]
+      ],
+      "localBounds": [
+        [
+          -1.87,
+          -0.196,
+          -6.331
+        ],
+        [
+          2.321,
+          0.163,
+          6.331
+        ]
+      ],
+      "webCenter": [
+        2.1555,
+        10.1435,
+        0.0
+      ],
+      "localReferenceVertex": [
+        -1.87,
+        -0.0495,
+        -3.864
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": 3.83,
+        "clearAmount": 3.83,
+        "dockedAmount": 0,
+        "phaseDelay": 0.045
+      }
+    },
+    {
+      "id": "aster_drum",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_drum",
+      "file": "aster/drum.fbx",
+      "webPivot": [
+        5.42,
+        1.38,
+        -0.63
+      ],
+      "webBounds": [
+        [
+          4.73,
+          0.69,
+          -1.6156
+        ],
+        [
+          6.11,
+          2.07,
+          0.3556
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.69,
+          -0.69,
+          -0.9856
+        ],
+        [
+          0.69,
+          0.69,
+          0.9856
+        ]
+      ],
+      "webCenter": [
+        5.42,
+        1.38,
+        -0.63
+      ],
+      "localReferenceVertex": [
+        0.5244,
+        0.0,
+        -0.8109
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "z",
+        "amount": 193,
+        "clearAmount": 193,
+        "dockedAmount": 0,
+        "phaseDelay": 0.04
+      }
+    },
+    {
+      "id": "aster_beacon",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_beacon",
+      "file": "aster/beacon.fbx",
+      "webPivot": [
+        -4.28,
+        1.99,
+        -7.91
+      ],
+      "webBounds": [
+        [
+          -4.373,
+          1.99,
+          -8.003
+        ],
+        [
+          -4.187,
+          2.257,
+          -7.817
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.093,
+          0.0,
+          -0.093
+        ],
+        [
+          0.093,
+          0.267,
+          0.093
+        ]
+      ],
+      "webCenter": [
+        -4.28,
+        2.1235,
+        -7.91
+      ],
+      "localReferenceVertex": [
+        0.093,
+        0.0,
+        0.0
+      ],
+      "animation": {
+        "kind": "spin",
+        "axis": "y",
+        "amount": 360,
+        "clearAmount": 360,
+        "dockedAmount": 0,
+        "phaseDelay": 0
+      }
+    },
+    {
+      "id": "aster_display",
+      "room": "aster",
+      "station": "aster",
+      "node": "aster_display",
+      "file": "aster/display.fbx",
+      "webPivot": [
+        -3.72,
+        2.72,
+        -8.07
+      ],
+      "webBounds": [
+        [
+          -4.1465,
+          2.531,
+          -8.055
+        ],
+        [
+          -3.2935,
+          2.909,
+          -8.055
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.4265,
+          -0.189,
+          0.015
+        ],
+        [
+          0.4265,
+          0.189,
+          0.015
+        ]
+      ],
+      "webCenter": [
+        -3.72,
+        2.72,
+        -8.055
+      ],
+      "localReferenceVertex": [
+        -0.4265,
+        -0.189,
+        0.015
+      ]
+    }
+  ]
+}

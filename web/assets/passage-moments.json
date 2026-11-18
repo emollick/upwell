@@ -1,0 +1,24 @@
+{
+  "moments": [
+    {"id":"liftoff","name":"Liftoff","start":0,"event":9.2,"view":"window","detail":"The boarding bridge withdraws at Pelagic Anchor."},
+    {"id":"pier","name":"The anchor falls away","start":16,"event":22,"view":"floor","detail":"Look through the floor port as the service fleet and its wakes come into view around the pier."},
+    {"id":"crest","name":"Crest the cloud deck","start":96,"event":108,"view":"forward","detail":"Ride through the last bank and watch the sunlit towers fall below the carriage."},
+    {"id":"passenger","name":"Descending passenger carriage","start":125,"event":129.6,"view":"counter","detail":"Car C12 passes on the neighboring ribbon."},
+    {"id":"stars","name":"The first stars","start":142,"event":148,"view":"stars","detail":"Watch the sky darken above the blue atmospheric limb."},
+    {"id":"freight","name":"Freight on the counterline","start":190,"event":194.4,"view":"counter","detail":"The descending freight carrier crosses the guide assembly."},
+    {"id":"terminator","name":"Earth’s terminator","start":223.5,"event":226.5,"view":"earth","detail":"The line between daylight and night moves across Earth."},
+    {"id":"night","name":"Orbital night","start":233.7,"event":236,"view":"floor","detail":"Earth eclipses the sun. Look for city lights on the night side."},
+    {"id":"sunrise","name":"Sunrise over the limb","start":238.3,"event":240.3,"view":"earth","detail":"Sunlight returns along the rim of Earth and across the tether."},
+    {"id":"colony","name":"Aster Reach appears","start":310,"event":315,"view":"colony","detail":"The rotating habitat comes into view beyond the receiving hub."},
+    {"id":"receiving","name":"Into the receiving bay","start":335,"event":339,"view":"forward","detail":"Follow the guide rails into the capture collar."},
+    {"id":"bubble","name":"The galley bubble","start":354,"event":359.7,"view":"cell","detail":"Watch the gas pocket leave the lower wall as braking ends."},
+    {"id":"dock","name":"Docked at Aster Reach","start":360,"event":360,"view":"window","detail":"Braking ends at the nonrotating dock. Push off a handhold or release a carried item in microgravity."}
+  ],
+  "observations": [
+    {"id":"stargazing","name":"Stargazing from the saloon","start":236.35,"view":"window","detail":"Saloon lights off. Watch the forward glass as your eyes adjust. Guided holds 1× ship time here for 20 seconds."},
+    {"id":"harbor","name":"Pelagic Anchor harbor","start":24.5,"view":"earth","detail":"Earthward optics follow the tug, pilot launch and supply ship as the pier falls away."},
+    {"id":"tender","name":"Cable inspection tender T03","start":241.0,"view":"counter","detail":"Look for T03’s open cable reel and the folded probe arms on its inspection frame."},
+    {"id":"glory","name":"Shaded side window","start":72.5,"view":"shaded","detail":"Look opposite the Sun for the carriage’s shadow on the cloud."},
+    {"id":"valley","name":"Valley gallery","start":360,"view":"valley","detail":"The axial gallery looks down on the river, the waterfront station and the gardens turning beneath it."}
+  ]
+}

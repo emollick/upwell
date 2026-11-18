@@ -1,0 +1,171 @@
+{
+  "title": "Upwell",
+  "car": "07",
+  "destination": "Aster Reach",
+  "coordinate_system": "Web/GLB meters: X right, Y up, positive Z aft. Floor Y=0. Forward observation end Z=-5.7. Each room spans 4.4 m by 3.8 m by 2.64 m.",
+  "rooms": [
+    {
+      "id": "observation",
+      "props": [
+        {
+          "id": "pilot_console",
+          "name": "Systems console",
+          "action": "Read the automatic drive and seal telemetry",
+          "surface": "Graphite CFRP console with a ceramic palm rest"
+        },
+        {
+          "id": "nav_screen",
+          "name": "Navigation display",
+          "action": "Cycle the flight display",
+          "surface": "Bonded black flight glass and a titanium bezel"
+        },
+        {
+          "id": "ascent_lever",
+          "name": "Exterior camera selector",
+          "action": "Select the horizon, tether-guide or counterline camera",
+          "surface": "Machined titanium, graphite grip and vermilion detents"
+        },
+        {
+          "id": "window",
+          "name": "Observation glazing",
+          "action": "Look out along the tether",
+          "surface": "Multilayer pressure glass and a neutral silicone seal"
+        },
+        {
+          "id": "roller_shade",
+          "name": "Window shade",
+          "action": "Raise or lower the sunshade",
+          "surface": "Retractable microperforated solar-control film"
+        },
+        {
+          "id": "lounge_seat",
+          "name": "Passenger bench",
+          "action": "Sit by the window",
+          "surface": "Smoke-blue aramid upholstery, harness and a composite shell"
+        },
+        {
+          "id": "lamp",
+          "name": "Saloon luminaires",
+          "action": "Switch the cabin practicals",
+          "surface": "Recessed high-CRI LED behind an optical diffuser"
+        },
+        {
+          "id": "field_glasses",
+          "name": "Field glasses",
+          "action": "Pick up and inspect",
+          "surface": "Rubberized orbital observation optics and tether"
+        }
+      ]
+    },
+    {
+      "id": "berth",
+      "props": [
+        {
+          "id": "bunk",
+          "name": "Sleeper berth",
+          "action": "Lie down or get up",
+          "surface": "Molded sleep pod, technical quilt and restraint webbing"
+        },
+        {
+          "id": "privacy_curtain",
+          "name": "Berth screen",
+          "action": "Draw or stow the curtain",
+          "surface": "Pleated blue-gray aramid privacy screen"
+        },
+        {
+          "id": "locker_drawer",
+          "name": "Crew drawer",
+          "action": "Slide open or closed",
+          "surface": "Pale composite front, titanium slides and a captive latch"
+        },
+        {
+          "id": "access_card",
+          "name": "Service keycard",
+          "action": "Collect and use at the service hatch",
+          "surface": "Ceramic laminate and recessed contact pads"
+        },
+        {
+          "id": "reading_lamp",
+          "name": "Reading lamp",
+          "action": "Toggle the berth light",
+          "surface": "Satin aerospace alloy and a narrow LED optic"
+        },
+        {
+          "id": "logbook",
+          "name": "Flight log",
+          "action": "Pick up and read the last entry",
+          "surface": "Tethered flight notebook with a graphite protective cover"
+        },
+        {
+          "id": "mug",
+          "name": "Crew drink vessel",
+          "action": "Pick up and inspect",
+          "surface": "Sealed crew drink vessel with a latching lid"
+        },
+        {
+          "id": "grab_handle",
+          "name": "Berth handhold",
+          "action": "Inspect the safety fitting",
+          "surface": "Molded elastomer over a load-rated titanium core"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "props": [
+        {
+          "id": "pressure_hatch",
+          "name": "Service hatch",
+          "action": "Unlock with the keycard, then open or close",
+          "surface": "White composite pressure leaf and dual black bulb seals"
+        },
+        {
+          "id": "card_reader",
+          "name": "Hatch reader",
+          "action": "Use the service keycard",
+          "surface": "Flush graphite ceramic with an optical status line"
+        },
+        {
+          "id": "service_cabinet",
+          "name": "Cable inspection bay",
+          "action": "Unlatch the panel and inspect the power and fiber looms",
+          "surface": "Captive-latch avionics rack with light composite doors"
+        },
+        {
+          "id": "breaker",
+          "name": "Inspection light switch",
+          "action": "Toggle service lighting",
+          "surface": "Red guarded flight-rated switch"
+        },
+        {
+          "id": "pressure_gauge",
+          "name": "Seal pressure instrument",
+          "action": "Inspect the differential pressure",
+          "surface": "Digital differential-pressure instrument in a sealed bezel"
+        },
+        {
+          "id": "intercom",
+          "name": "Crew intercom",
+          "action": "Play the current route announcement",
+          "surface": "Flush crew audio panel, push-to-talk key and perforated grille"
+        },
+        {
+          "id": "tool_roll",
+          "name": "Mechanic’s tool roll",
+          "action": "Pick up and inspect",
+          "surface": "Tethered aramid tool wallet with fitted retention pockets"
+        },
+        {
+          "id": "docking_wheel",
+          "name": "Docking handwheel",
+          "action": "Seat the transfer clamp in three detents after arrival",
+          "surface": "Low-profile docking override wheel with a red ID band"
+        }
+      ]
+    }
+  ],
+  "fabrication": [
+    "Pressure-shell liners, carbon frames, seals, captive fasteners, cable raceways, return-air grilles, retention loops, light channels and airworthiness placards are fixed detailing within each room assembly.",
+    "Exterior assemblies: ribbon tether and climbing guides, Earth and atmosphere, starfield, Aster Reach rotating cylindrical habitat, truss docking collar."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source": "NOAA GOES-19 ABI, archived July 1, 2025 15:00 UTC",
+  "extentWestEastSouthNorth": [
+    -57.0,
+    -15.0,
+    -15.0,
+    15.0
+  ],
+  "fields": {
+    "COD": {
+      "url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-CODF/2025/182/15/OR_ABI-L2-CODF-M6_G19_s20251821500211_e20251821509520_c20251821514310.nc",
+      "sha256": "be5f04e1dba9b213c4fca7a43e31085876e43cb12f0975a94dc38db28672cc98"
+    },
+    "HT": {
+      "url": "https://noaa-goes19.s3.amazonaws.com/ABI-L2-ACHAF/2025/182/15/OR_ABI-L2-ACHAF-M6_G19_s20251821500211_e20251821509520_c20251821513110.nc",
+      "sha256": "6a01c9e740e451b8b9b9f0b3e422386a1d4fb42ebf0814271f8af84f783dbea2"
+    }
+  },
+  "usage": "Independent scalar fields for optical extinction and cloud height; local advection and evolving 3D structure are simulated. This is not a current weather feed.",
+  "catalog": "https://registry.opendata.aws/noaa-goes/",
+  "product": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc%3AC01508/html"
+}

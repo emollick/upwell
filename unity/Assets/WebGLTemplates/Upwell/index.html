@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c1519"><link rel="icon" href="data:,"><title>Upwell · Walk through Car 07</title>
+<style>
+*{box-sizing:border-box}html,body,main,canvas{width:100%;height:100%;margin:0}body{background:#0c1519;color:#e4eae9;font:16px system-ui,sans-serif;overflow:hidden}canvas{display:block;outline:none}#boarding{position:absolute;inset:0;display:grid;place-content:center;text-align:center;background:linear-gradient(148deg,#17252b,#0b1115 68%);padding:24px}h1{font-size:clamp(38px,8vw,92px);letter-spacing:-.075em;font-weight:550;margin:0 0 15px}.status{font:13px ui-monospace,monospace;color:#bdc8c9;letter-spacing:.02em}progress{width:230px;height:4px;margin:18px auto;accent-color:#bcdbdd}button,a{color:#dce7e6;background:#1c2e34;border:1px solid #50676d;border-radius:2px;padding:10px 16px;font:inherit;text-decoration:none;cursor:pointer}a{display:inline-block;margin:14px auto 0;font-size:13px;background:transparent;border-color:transparent;color:#b6c5c5}button[hidden],#boarding[hidden]{display:none}.hint{margin:8px 0 15px;color:#c6cdcd;font-size:14px}
+</style>
+<style>
+#movement{display:none}
+#nativePhotoTools[hidden],body.photo-review #nativePhotoTools,body.photo-review #movement{display:none}
+#nativePhotoTools{position:absolute;right:14px;bottom:max(14px,env(safe-area-inset-bottom));z-index:5;display:flex;gap:4px}
+#nativePhotoTools button{min-height:36px;padding:5px 10px;border-radius:4px;background:#132027dd;font:13px system-ui}
+#nativePhotoNotice{position:absolute;z-index:6;right:14px;bottom:62px;max-width:calc(100% - 28px);padding:7px 11px;border-radius:3px;background:#101c23ed;color:#eef4ee;font:13px system-ui;pointer-events:none}
+#nativePhotoNotice:empty{display:none}
+@media(pointer:coarse){#movement #nativePhotoTools{display:contents}#nativePhotoNotice{top:46%;bottom:auto;right:8px}}
+@media(pointer:coarse){#movement.ready{display:flex;position:absolute;z-index:4;bottom:max(28px,env(safe-area-inset-bottom));right:8px;gap:3px;flex-wrap:wrap;max-width:230px;justify-content:flex-end;touch-action:none}#movement button{margin:0;padding:4px 8px;min-width:40px;min-height:40px;color:#edf2ef;background:#132027d9;border:1px solid #67787b;border-radius:4px;font:13px system-ui}#movement button:active{background:#486263}}
+</style>
+</head>
+<body><main><canvas id="ride" tabindex="0" aria-label="Interactive first-person view inside Upwell Car 07"></canvas><section id="boarding">
+<h1>Upwell</h1><div class="status" id="status" role="status">Loading Car 07</div><progress id="progress" value="0" max="1"></progress>
+<label class="hint">Passage time <select id="pace" aria-describedby="boardingClockHint" style="color:#e4eae9;background:#192c34;border:1px solid #78908f;border-radius:3px;padding:7px;font:inherit"><option value="guided">Guided · 6 minutes</option><option value="real">Real ship time · 58 h 43 m</option></select></label>
+<small id="boardingClockHint">Guided speeds up the long climb and slows for passing cars.<br>At 1×, each second aboard takes one second.</small>
+<p class="hint">WASD to walk · Mouse to look · E to use</p><button id="board" hidden>Enter the carriage</button><a href="../">Open the lightweight ride</a></section></main>
+<script src="Build/{{{ LOADER_FILENAME }}}"></script>
+<script>
+const canvas=document.getElementById('ride'),board=document.getElementById('board'),statusNode=document.getElementById('status'),meter=document.getElementById('progress');
+const requested=new URLSearchParams(location.search).get('moment');
+const linked=requested?fetch('../assets/passage-moments.json').then(r=>r.json()).then(d=>d.moments.find(m=>m.id===requested)||d.observations?.find(m=>m.id===requested)).catch(()=>null):null;
+document.addEventListener('pointerlockchange',()=>{if((!document.getElementById('boarding').hidden||matchMedia('(pointer:coarse)').matches)&&document.pointerLockElement===canvas)document.exitPointerLock();});
+function lowPower(){
+    const probe=document.createElement('canvas').getContext('webgl2');
+    if(!probe)return false;
+    const renderer=probe.getExtension('WEBGL_debug_renderer_info');
+    const name=renderer?probe.getParameter(renderer.UNMASKED_RENDERER_WEBGL):'';
+    const software=/swiftshader|llvmpipe|softpipe|basic render|software raster/i.test(name);
+    probe.getExtension('WEBGL_lose_context')?.loseContext();
+    return software;
+}
+const software=lowPower();document.documentElement.dataset.softwareRaster=software?'1':'0';
+const pixelRatio=software?Math.min(1,448/window.innerWidth,310/window.innerHeight):Math.min(window.devicePixelRatio,1.6);
+const config={dataUrl:"Build/{{{ DATA_FILENAME }}}",frameworkUrl:"Build/{{{ FRAMEWORK_FILENAME }}}",codeUrl:"Build/{{{ CODE_FILENAME }}}",streamingAssetsUrl:"StreamingAssets",companyName:"Upwell",productName:"Car 07",productVersion:"1.0",devicePixelRatio:pixelRatio,
+#if MEMORY_FILENAME
+memoryUrl:"Build/{{{ MEMORY_FILENAME }}}",
+#endif
+};
+createUnityInstance(canvas,config,f=>{meter.value=f;statusNode.textContent="Loading Car 07 · "+Math.round(f*100)+"%"}).then(async instance=>{
+    const stop=await linked;
+    statusNode.textContent=stop?stop.name+' · '+Math.floor(stop.start/60)+':'+String(Math.floor(stop.start%60)).padStart(2,'0')+' into the guided ride':"Car 07 · Aster Reach";meter.hidden=true;board.hidden=false;
+    document.addEventListener('pointerlockchange',()=>{if(document.getElementById('boarding').hidden&&document.pointerLockElement===canvas)instance.SendMessage('Passenger','RecapturePointer');});
+    if(['localhost','127.0.0.1'].includes(location.hostname)&&new URLSearchParams(location.search).has('verify-graphics')){
+        canvas.addEventListener('verify-visible-edges',()=>instance.SendMessage('Passenger','VerifyVisibleEdges'));
+        canvas.addEventListener('read-visible-aim',()=>instance.SendMessage('Passenger','ReadVisibleAim'));
+        canvas.addEventListener('read-cartridge-target',e=>instance.SendMessage('Passenger','ReadCartridgeTarget',String(e.detail)));
+        canvas.addEventListener('read-load-target',e=>instance.SendMessage('Passenger','ReadLoadTarget',String(e.detail)));
+    }
+    const controls=document.createElement('nav');controls.id='movement';controls.setAttribute('aria-label','Passenger movement');document.body.append(controls);
+    const photoTools=document.createElement('nav');photoTools.id='nativePhotoTools';photoTools.setAttribute('aria-label','Photography');photoTools.hidden=true;
+    (matchMedia('(pointer:coarse)').matches?controls:document.body).append(photoTools);
+    for(const [label,title,command] of [['Photo','Take photo (K)','TakePassagePhoto'],['Journal','Photo journal (J)','TogglePhotoJournal']]){
+        const b=document.createElement('button');b.type='button';b.textContent=label;b.title=title;b.setAttribute('aria-label',title.split(' (')[0]);
+        if(command==='TogglePhotoJournal')b.setAttribute('aria-haspopup','dialog');
+        const activate=()=>{canvas.focus();instance.SendMessage('Passenger',command);};b.onclick=activate;
+        let held='';b.onkeydown=e=>{if(e.key!=='Enter'&&e.key!==' ')return;e.preventDefault();e.stopPropagation();if(!e.repeat)held=e.key;};
+        b.onkeyup=e=>{if(e.key!==held||!held)return;e.preventDefault();e.stopPropagation();held='';activate();};b.onblur=()=>{held='';};photoTools.append(b);
+    }
+    const photoNotice=document.createElement('output');photoNotice.id='nativePhotoNotice';photoNotice.setAttribute('role','status');document.body.append(photoNotice);
+    board.addEventListener('click',()=>{photoTools.hidden=false;});
+    const moments=document.createElement('button');moments.textContent='Moments';moments.onclick=()=>instance.SendMessage('Passenger','ToggleMoments');controls.append(moments);
+    const nextDock=document.createElement('button');nextDock.id='galley-onward';nextDock.textContent='Next · Docked at Aster Reach';nextDock.hidden=true;nextDock.onclick=()=>instance.SendMessage('Passenger','ContinueFromGalley');controls.append(nextDock);
+    const fingers=new Map();
+    function sendMovement(){let axes=0;for(const bit of fingers.values())axes|=bit;instance.SendMessage('Passenger','TouchMotion',String(axes));}
+    for(const [label,title,bit] of [['←','Left',1],['↑','Forward along sightline',4],['→','Right',2],['↓','Back',8],['Push off','Push off surface',16],['Down','Move deckward',32],['Brace','Hold a surface',64]]){
+        const b=document.createElement('button');b.textContent=label;b.setAttribute('aria-label',title);controls.append(b);
+        b.onpointerdown=e=>{e.preventDefault();b.setPointerCapture(e.pointerId);fingers.set(e.pointerId,bit);sendMovement();};
+        b.onpointerup=b.onpointercancel=b.onlostpointercapture=e=>{if(fingers.delete(e.pointerId))sendMovement();};
+    }
+    window.addEventListener('blur',()=>{fingers.clear();sendMovement();});
+    board.onclick=()=>{document.getElementById('boarding').hidden=true;canvas.focus();controls.classList.add('ready');if(canvas.requestPointerLock&&!matchMedia('(pointer:coarse)').matches)canvas.requestPointerLock();instance.SendMessage('Passenger','SetBoardingPace',document.getElementById('pace').value);if(stop)instance.SendMessage("Passenger","BoardAtMoment",stop.id);else instance.SendMessage("Passenger","BoardWeb");};
+}).catch(()=>{statusNode.textContent="This browser could not start the 3D carriage.";meter.hidden=true;});
+</script></body></html>

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "pilot_console",
+    "status": "complete",
+    "reference": "refs/pilot_console.png",
+    "mask": "masks/pilot_console_silhouette.png",
+    "alpha": "masks/pilot_console_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "nav_screen",
+    "status": "complete",
+    "reference": "refs/nav_screen.png",
+    "mask": "masks/nav_screen_silhouette.png",
+    "alpha": "masks/nav_screen_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1752,
+      897
+    ]
+  },
+  {
+    "id": "ascent_lever",
+    "status": "complete",
+    "reference": "refs/ascent_lever.png",
+    "mask": "masks/ascent_lever_silhouette.png",
+    "alpha": "masks/ascent_lever_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "window",
+    "status": "complete",
+    "reference": "refs/window.png",
+    "mask": "masks/window_silhouette.png",
+    "alpha": "masks/window_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1774,
+      887
+    ]
+  },
+  {
+    "id": "roller_shade",
+    "status": "complete",
+    "reference": "refs/roller_shade.png",
+    "mask": "masks/roller_shade_silhouette.png",
+    "alpha": "masks/roller_shade_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "lounge_seat",
+    "status": "complete",
+    "reference": "refs/lounge_seat.png",
+    "mask": "masks/lounge_seat_silhouette.png",
+    "alpha": "masks/lounge_seat_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "lamp",
+    "status": "complete",
+    "reference": "refs/lamp.png",
+    "mask": "masks/lamp_silhouette.png",
+    "alpha": "masks/lamp_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      2171,
+      724
+    ]
+  },
+  {
+    "id": "field_glasses",
+    "status": "complete",
+    "reference": "refs/field_glasses.png",
+    "mask": "masks/field_glasses_silhouette.png",
+    "alpha": "masks/field_glasses_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "bunk",
+    "status": "complete",
+    "reference": "refs/bunk.png",
+    "mask": "masks/bunk_silhouette.png",
+    "alpha": "masks/bunk_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1752,
+      897
+    ]
+  },
+  {
+    "id": "privacy_curtain",
+    "status": "complete",
+    "reference": "refs/privacy_curtain.png",
+    "mask": "masks/privacy_curtain_silhouette.png",
+    "alpha": "masks/privacy_curtain_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "locker_drawer",
+    "status": "complete",
+    "reference": "refs/locker_drawer.png",
+    "mask": "masks/locker_drawer_silhouette.png",
+    "alpha": "masks/locker_drawer_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "access_card",
+    "status": "complete",
+    "reference": "refs/access_card.png",
+    "mask": "masks/access_card_silhouette.png",
+    "alpha": "masks/access_card_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "reading_lamp",
+    "status": "complete",
+    "reference": "refs/reading_lamp.png",
+    "mask": "masks/reading_lamp_silhouette.png",
+    "alpha": "masks/reading_lamp_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "logbook",
+    "status": "complete",
+    "reference": "refs/logbook.png",
+    "mask": "masks/logbook_silhouette.png",
+    "alpha": "masks/logbook_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "mug",
+    "status": "complete",
+    "reference": "refs/mug.png",
+    "mask": "masks/mug_silhouette.png",
+    "alpha": "masks/mug_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "grab_handle",
+    "status": "complete",
+    "reference": "refs/grab_handle.png",
+    "mask": "masks/grab_handle_silhouette.png",
+    "alpha": "masks/grab_handle_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1774,
+      887
+    ]
+  },
+  {
+    "id": "pressure_hatch",
+    "status": "complete",
+    "reference": "refs/pressure_hatch.png",
+    "mask": "masks/pressure_hatch_silhouette.png",
+    "alpha": "masks/pressure_hatch_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1086,
+      1448
+    ]
+  },
+  {
+    "id": "card_reader",
+    "status": "complete",
+    "reference": "refs/card_reader.png",
+    "mask": "masks/card_reader_silhouette.png",
+    "alpha": "masks/card_reader_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "service_cabinet",
+    "status": "complete",
+    "reference": "refs/service_cabinet.png",
+    "mask": "masks/service_cabinet_silhouette.png",
+    "alpha": "masks/service_cabinet_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "id": "breaker",
+    "status": "complete",
+    "reference": "refs/breaker.png",
+    "mask": "masks/breaker_silhouette.png",
+    "alpha": "masks/breaker_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "pressure_gauge",
+    "status": "complete",
+    "reference": "refs/pressure_gauge.png",
+    "mask": "masks/pressure_gauge_silhouette.png",
+    "alpha": "masks/pressure_gauge_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "intercom",
+    "status": "complete",
+    "reference": "refs/intercom.png",
+    "mask": "masks/intercom_silhouette.png",
+    "alpha": "masks/intercom_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  {
+    "id": "tool_roll",
+    "status": "complete",
+    "reference": "refs/tool_roll.png",
+    "mask": "masks/tool_roll_silhouette.png",
+    "alpha": "masks/tool_roll_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1774,
+      887
+    ]
+  },
+  {
+    "id": "docking_wheel",
+    "status": "complete",
+    "reference": "refs/docking_wheel.png",
+    "mask": "masks/docking_wheel_silhouette.png",
+    "alpha": "masks/docking_wheel_alpha.png",
+    "mask_source": "actual generated alpha, threshold 128; includes visible transparent glass alpha",
+    "size": [
+      1536,
+      1024
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "AsterReach",
+    "meshes": [
+      {
+        "name": "rotating_habitat",
+        "vertices": 315286,
+        "faces": 80095
+      },
+      {
+        "name": "stationary_axle",
+        "vertices": 7024,
+        "faces": 1792
+      },
+      {
+        "name": "maintenance_train",
+        "vertices": 1056,
+        "faces": 264
+      },
+      {
+        "name": "pressure_members",
+        "vertices": 35432,
+        "faces": 8858
+      }
+    ]
+  },
+  {
+    "name": "CounterCar",
+    "meshes": [
+      {
+        "name": "counter_body",
+        "vertices": 18952,
+        "faces": 4738
+      },
+      {
+        "name": "counter_freight",
+        "vertices": 3872,
+        "faces": 968
+      },
+      {
+        "name": "counter_wheels",
+        "vertices": 672,
+        "faces": 168
+      }
+    ]
+  },
+  {
+    "name": "Receiver",
+    "meshes": [
+      {
+        "name": "survey_head",
+        "vertices": 168,
+        "faces": 42
+      },
+      {
+        "name": "survey_gimbal",
+        "vertices": 432,
+        "faces": 108
+      },
+      {
+        "name": "receiver_carriage",
+        "vertices": 440,
+        "faces": 110
+      },
+      {
+        "name": "receiver_track",
+        "vertices": 264,
+        "faces": 66
+      }
+    ]
+  }
+]

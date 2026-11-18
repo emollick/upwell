@@ -1,0 +1,1224 @@
+{
+  "basis": "glTF +X starboard, +Y up, +Z aft",
+  "units": "m",
+  "controls": [
+    {
+      "id": "reading_lamp",
+      "room": "berth",
+      "kind": "rotate",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "amount": -21,
+      "stops": 2
+    },
+    {
+      "id": "test_power",
+      "room": "service",
+      "kind": "press",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": 0.008,
+      "stops": 2
+    },
+    {
+      "id": "test_fiber",
+      "room": "service",
+      "kind": "press",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": 0.008,
+      "stops": 2
+    },
+    {
+      "id": "test_seal",
+      "room": "service",
+      "kind": "press",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": 0.008,
+      "stops": 2
+    },
+    {
+      "id": "test_return",
+      "room": "service",
+      "kind": "press",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": 0.008,
+      "stops": 2
+    },
+    {
+      "id": "breaker",
+      "room": "service",
+      "kind": "rotate",
+      "axis": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "amount": 26,
+      "stops": 2
+    },
+    {
+      "id": "intercom",
+      "room": "service",
+      "kind": "press",
+      "axis": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "amount": 0.008,
+      "stops": 2
+    },
+    {
+      "id": "guide_flood",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": -45,
+      "stops": 2
+    },
+    {
+      "id": "cabin_lights",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": -24,
+      "stops": 2
+    },
+    {
+      "id": "solar_film",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": -30,
+      "stops": 2
+    },
+    {
+      "id": "vent_fan",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "amount": -42,
+      "stops": 2
+    },
+    {
+      "id": "key_route",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_optics",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_seals",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_load",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_traffic",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_comms",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "key_lamp_test",
+      "room": "observation",
+      "kind": "press",
+      "axis": [
+        -0.0,
+        -0.8303534388542175,
+        -0.5572371482849121
+      ],
+      "amount": 0.0075,
+      "stops": 2
+    },
+    {
+      "id": "panel_gain",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        0.0,
+        0.8303534388542175,
+        0.5572371482849121
+      ],
+      "amount": -260,
+      "stops": 5
+    },
+    {
+      "id": "camera_focus",
+      "room": "observation",
+      "kind": "rotate",
+      "axis": [
+        0.0,
+        0.8303534388542175,
+        0.5572371482849121
+      ],
+      "amount": -260,
+      "stops": 5
+    }
+  ],
+  "displays": [
+    {
+      "id": "Berth",
+      "room": "berth",
+      "part": "shell",
+      "material": "Pixels_Berth",
+      "center": [
+        -2.1019999980926514,
+        1.4800000190734863,
+        -0.4410000145435333
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.244,
+        0.099
+      ]
+    },
+    {
+      "id": "Access",
+      "room": "service",
+      "part": "card_reader",
+      "material": "Pixels_Access",
+      "center": [
+        1.0199999809265137,
+        1.4220000505447388,
+        1.7389999628067017
+      ],
+      "normal": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "size": [
+        0.166,
+        0.075
+      ]
+    },
+    {
+      "id": "Service",
+      "room": "service",
+      "part": "shell",
+      "material": "Pixels_Service",
+      "center": [
+        1.9159998893737793,
+        1.9359999895095825,
+        3.6700000762939453
+      ],
+      "normal": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "size": [
+        0.542,
+        0.067
+      ]
+    },
+    {
+      "id": "Pressure",
+      "room": "service",
+      "part": "pressure_gauge",
+      "material": "Pixels_Pressure",
+      "center": [
+        -2.0409998893737793,
+        1.4600000381469727,
+        4.789999961853027
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.149,
+        0.109
+      ]
+    },
+    {
+      "id": "Intercom",
+      "room": "service",
+      "part": "shell",
+      "material": "Pixels_Intercom",
+      "center": [
+        -2.0889999866485596,
+        1.6990000009536743,
+        2.5350000858306885
+      ],
+      "normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "size": [
+        0.16,
+        0.046
+      ]
+    },
+    {
+      "id": "Diagnostic",
+      "room": "observation",
+      "part": "diagnostic_screen",
+      "material": "Pixels_Diagnostic",
+      "center": [
+        -0.12800000607967377,
+        1.2173811197280884,
+        -5.0715508460998535
+      ],
+      "normal": [
+        0.0,
+        0.579818844795227,
+        0.8147454261779785
+      ],
+      "size": [
+        0.23700000000000002,
+        0.194
+      ]
+    },
+    {
+      "id": "Drive",
+      "room": "observation",
+      "part": "drive_screen",
+      "material": "Pixels_Drive",
+      "center": [
+        0.15600000321865082,
+        1.2173811197280884,
+        -5.0715508460998535
+      ],
+      "normal": [
+        0.0,
+        0.579818844795227,
+        0.8147454261779785
+      ],
+      "size": [
+        0.227,
+        0.194
+      ]
+    },
+    {
+      "id": "Seal",
+      "room": "service",
+      "part": "pressure_hatch",
+      "material": "Pixels_Seal",
+      "center": [
+        0.0,
+        1.6349999904632568,
+        1.7969999313354492
+      ],
+      "normal": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "size": [
+        0.148,
+        0.206
+      ]
+    },
+    {
+      "id": "Seal",
+      "room": "service",
+      "part": "pressure_hatch",
+      "material": "Pixels_Seal",
+      "center": [
+        0.0,
+        1.6349999904632568,
+        2.003000020980835
+      ],
+      "normal": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "size": [
+        0.148,
+        0.206
+      ]
+    },
+    {
+      "id": "Folio",
+      "room": "berth",
+      "part": "logbook",
+      "pixelNode": "mech_log_leaf",
+      "material": "Pixels_Folio"
+    },
+    {
+      "id": "Vessel",
+      "room": "berth",
+      "part": "mug",
+      "pixelNode": "mug",
+      "material": "Pixels_Vessel"
+    },
+    {
+      "id": "Optic",
+      "room": "observation",
+      "part": "field_glasses",
+      "pixelNode": "field_glasses",
+      "material": "Pixels_Optic"
+    },
+    {
+      "id": "Passage",
+      "room": "observation",
+      "part": "nav_screen",
+      "material": "Nav_Active_Pixels"
+    }
+  ],
+  "traces": [
+    {
+      "id": "test_power",
+      "material": "Trace_Power",
+      "points": [
+        [
+          1.9780000448226929,
+          1.1139999628067017,
+          3.305999994277954
+        ],
+        [
+          1.9529999494552612,
+          1.1039999723434448,
+          3.305999994277954
+        ],
+        [
+          1.9179999828338623,
+          1.0770000219345093,
+          3.305999994277954
+        ],
+        [
+          1.9179999828338623,
+          1.0570000410079956,
+          3.318000078201294
+        ],
+        [
+          1.9179999828338623,
+          1.0470000505447388,
+          3.3359999656677246
+        ],
+        [
+          1.9179999828338623,
+          1.0470000505447388,
+          4.043000221252441
+        ],
+        [
+          1.9179999828338623,
+          1.0640000104904175,
+          4.076000213623047
+        ],
+        [
+          1.9179999828338623,
+          1.0880000591278076,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.5299999713897705,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.555999994277954,
+          4.079999923706055
+        ],
+        [
+          1.9179999828338623,
+          1.5700000524520874,
+          4.054999828338623
+        ],
+        [
+          1.9179999828338623,
+          1.5700000524520874,
+          3.3410000801086426
+        ],
+        [
+          1.9279999732971191,
+          1.5889999866485596,
+          3.315999984741211
+        ],
+        [
+          1.9559999704360962,
+          1.6200000047683716,
+          3.2899999618530273
+        ],
+        [
+          1.9789999723434448,
+          1.774999976158142,
+          3.2899999618530273
+        ]
+      ]
+    },
+    {
+      "id": "test_fiber",
+      "material": "Trace_Fiber",
+      "points": [
+        [
+          1.9780000448226929,
+          1.1139999628067017,
+          3.5360000133514404
+        ],
+        [
+          1.9529999494552612,
+          1.1039999723434448,
+          3.5360000133514404
+        ],
+        [
+          1.9179999828338623,
+          1.0770000219345093,
+          3.5360000133514404
+        ],
+        [
+          1.9179999828338623,
+          1.0889999866485596,
+          3.5480000972747803
+        ],
+        [
+          1.9179999828338623,
+          1.0789999961853027,
+          3.565999984741211
+        ],
+        [
+          1.9179999828338623,
+          1.0789999961853027,
+          4.043000221252441
+        ],
+        [
+          1.9179999828338623,
+          1.0959999561309814,
+          4.076000213623047
+        ],
+        [
+          1.9179999828338623,
+          1.1200000047683716,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.5870000123977661,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.6130000352859497,
+          4.079999923706055
+        ],
+        [
+          1.9179999828338623,
+          1.6269999742507935,
+          4.054999828338623
+        ],
+        [
+          1.9179999828338623,
+          1.6269999742507935,
+          3.571000099182129
+        ],
+        [
+          1.9279999732971191,
+          1.6460000276565552,
+          3.5460000038146973
+        ],
+        [
+          1.9559999704360962,
+          1.6770000457763672,
+          3.5199999809265137
+        ],
+        [
+          1.9789999723434448,
+          1.774999976158142,
+          3.5199999809265137
+        ]
+      ]
+    },
+    {
+      "id": "test_seal",
+      "material": "Trace_Seal",
+      "points": [
+        [
+          1.9780000448226929,
+          1.1139999628067017,
+          3.7660000324249268
+        ],
+        [
+          1.9529999494552612,
+          1.1039999723434448,
+          3.7660000324249268
+        ],
+        [
+          1.9179999828338623,
+          1.0770000219345093,
+          3.7660000324249268
+        ],
+        [
+          1.9179999828338623,
+          1.121000051498413,
+          3.7780001163482666
+        ],
+        [
+          1.9179999828338623,
+          1.1109999418258667,
+          3.7960000038146973
+        ],
+        [
+          1.9179999828338623,
+          1.1109999418258667,
+          4.043000221252441
+        ],
+        [
+          1.9179999828338623,
+          1.128000020980835,
+          4.076000213623047
+        ],
+        [
+          1.9179999828338623,
+          1.1519999504089355,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.6440000534057617,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.6699999570846558,
+          4.079999923706055
+        ],
+        [
+          1.9179999828338623,
+          1.684000015258789,
+          4.054999828338623
+        ],
+        [
+          1.9179999828338623,
+          1.684000015258789,
+          3.8010001182556152
+        ],
+        [
+          1.9279999732971191,
+          1.7029999494552612,
+          3.7760000228881836
+        ],
+        [
+          1.9559999704360962,
+          1.7339999675750732,
+          3.75
+        ],
+        [
+          1.9789999723434448,
+          1.774999976158142,
+          3.75
+        ]
+      ]
+    },
+    {
+      "id": "test_return",
+      "material": "Trace_Return",
+      "points": [
+        [
+          1.9780000448226929,
+          1.1139999628067017,
+          3.996000051498413
+        ],
+        [
+          1.9529999494552612,
+          1.1039999723434448,
+          3.996000051498413
+        ],
+        [
+          1.9179999828338623,
+          1.0770000219345093,
+          3.996000051498413
+        ],
+        [
+          1.9179999828338623,
+          1.152999997138977,
+          4.007999897003174
+        ],
+        [
+          1.9179999828338623,
+          1.1430000066757202,
+          4.026000022888184
+        ],
+        [
+          1.9179999828338623,
+          1.1430000066757202,
+          4.043000221252441
+        ],
+        [
+          1.9179999828338623,
+          1.159999966621399,
+          4.076000213623047
+        ],
+        [
+          1.9179999828338623,
+          1.184000015258789,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.7009999752044678,
+          4.09499979019165
+        ],
+        [
+          1.9179999828338623,
+          1.7269999980926514,
+          4.079999923706055
+        ],
+        [
+          1.9179999828338623,
+          1.7410000562667847,
+          4.054999828338623
+        ],
+        [
+          1.9179999828338623,
+          1.7410000562667847,
+          4.031000137329102
+        ],
+        [
+          1.9279999732971191,
+          1.7599999904632568,
+          4.00600004196167
+        ],
+        [
+          1.9559999704360962,
+          1.7910000085830688,
+          3.9800000190734863
+        ],
+        [
+          1.9789999723434448,
+          1.774999976158142,
+          3.9800000190734863
+        ]
+      ]
+    }
+  ],
+  "fan": {
+    "node": "prop_blower_rotor",
+    "part": "blower_rotor",
+    "pivot": [
+      0,
+      2.545,
+      -4.2715
+    ],
+    "axis": [
+      0,
+      -1,
+      0
+    ]
+  },
+  "materials": [
+    {
+      "name": "Deck_Legends",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.56,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Deck_Legends.png"
+    },
+    {
+      "name": "Berth_Diffuser",
+      "rgb": [
+        250,
+        220,
+        168
+      ],
+      "roughness": 0.42,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.6
+    },
+    {
+      "name": "Pixels_Diagnostic",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Diagnostic.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Drive",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Drive.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Access",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Access.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Pressure",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Pressure.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Berth",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Berth.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Seal",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Seal.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Intercom",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Intercom.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Service",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Service.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Folio",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Folio.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Optic",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Optic.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Pixels_Vessel",
+      "rgb": [
+        255,
+        255,
+        255
+      ],
+      "roughness": 0.23,
+      "metallic": 0.06,
+      "alpha": 1,
+      "baseColor": "Standby_Vessel.png",
+      "emission": 0.55
+    },
+    {
+      "name": "Ann_reading_lamp",
+      "rgb": [
+        244,
+        172,
+        94
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_test_power",
+      "rgb": [
+        248,
+        174,
+        86
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_test_fiber",
+      "rgb": [
+        101,
+        214,
+        231
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_test_seal",
+      "rgb": [
+        248,
+        174,
+        86
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_test_return",
+      "rgb": [
+        101,
+        214,
+        231
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_breaker",
+      "rgb": [
+        246,
+        176,
+        93
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_intercom",
+      "rgb": [
+        138,
+        231,
+        204
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_guide_flood",
+      "rgb": [
+        255,
+        174,
+        88
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_cabin_lights",
+      "rgb": [
+        140,
+        222,
+        213
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_solar_film",
+      "rgb": [
+        255,
+        174,
+        88
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_vent_fan",
+      "rgb": [
+        140,
+        222,
+        213
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_route",
+      "rgb": [
+        117,
+        223,
+        211
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_optics",
+      "rgb": [
+        117,
+        223,
+        211
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_seals",
+      "rgb": [
+        117,
+        223,
+        211
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_load",
+      "rgb": [
+        117,
+        223,
+        211
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_traffic",
+      "rgb": [
+        117,
+        223,
+        211
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_comms",
+      "rgb": [
+        244,
+        175,
+        99
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Ann_key_lamp_test",
+      "rgb": [
+        244,
+        175,
+        99
+      ],
+      "roughness": 0.26,
+      "metallic": 0.06,
+      "alpha": 1,
+      "emission": 1.15
+    },
+    {
+      "name": "Trace_Power",
+      "rgb": [
+        73,
+        86,
+        86
+      ],
+      "roughness": 0.38,
+      "metallic": 0.06,
+      "alpha": 1
+    },
+    {
+      "name": "Trace_Fiber",
+      "rgb": [
+        73,
+        86,
+        86
+      ],
+      "roughness": 0.38,
+      "metallic": 0.06,
+      "alpha": 1
+    },
+    {
+      "name": "Trace_Seal",
+      "rgb": [
+        73,
+        86,
+        86
+      ],
+      "roughness": 0.38,
+      "metallic": 0.06,
+      "alpha": 1
+    },
+    {
+      "name": "Trace_Return",
+      "rgb": [
+        73,
+        86,
+        86
+      ],
+      "roughness": 0.38,
+      "metallic": 0.06,
+      "alpha": 1
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "catalog_fittings": 19,
+  "floor_ports": 1,
+  "references": 20,
+  "alpha_masks": 20,
+  "silhouettes": 20,
+  "sheets": 5,
+  "exact_alpha_registration": true,
+  "all_material_map_paths_exist": true,
+  "empty_or_opaque_masks": 0,
+  "output_dimensions": {
+    "guide_flood": [
+      464,
+      580
+    ],
+    "cabin_lights": [
+      467,
+      581
+    ],
+    "solar_film": [
+      468,
+      586
+    ],
+    "vent_fan": [
+      469,
+      586
+    ],
+    "key_route": [
+      476,
+      596
+    ],
+    "key_optics": [
+      476,
+      596
+    ],
+    "key_seals": [
+      476,
+      596
+    ],
+    "key_load": [
+      476,
+      595
+    ],
+    "key_traffic": [
+      497,
+      592
+    ],
+    "key_comms": [
+      497,
+      592
+    ],
+    "key_lamp_test": [
+      497,
+      592
+    ],
+    "floor_observation_port": [
+      611,
+      474
+    ],
+    "panel_gain": [
+      526,
+      553
+    ],
+    "camera_focus": [
+      527,
+      556
+    ],
+    "diagnostic_screen": [
+      571,
+      531
+    ],
+    "drive_screen": [
+      574,
+      532
+    ],
+    "test_power": [
+      581,
+      599
+    ],
+    "test_fiber": [
+      580,
+      599
+    ],
+    "test_seal": [
+      580,
+      598
+    ],
+    "test_return": [
+      580,
+      598
+    ]
+  }
+}

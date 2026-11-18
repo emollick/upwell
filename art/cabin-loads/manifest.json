@@ -1,0 +1,1300 @@
+{
+  "count": 8,
+  "generation": "Built-in ImageGen; four two-object sheets plus two targeted mechanical corrections",
+  "generated_variants": 8,
+  "offline_blender_render_variants": 0,
+  "production_capture_evidence": 8,
+  "items": [
+    {
+      "id": "accelerometer",
+      "name": "Axial accelerometer",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/accelerometer.png",
+      "alpha": "masks/accelerometer_alpha.png",
+      "silhouette": "masks/accelerometer_silhouette.png",
+      "source_sheet": "sheets/instruments.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        0,
+        0,
+        561,
+        1254
+      ],
+      "trim": [
+        21,
+        88,
+        561,
+        1187
+      ],
+      "dimensions": [
+        540,
+        1099
+      ],
+      "materials": [
+        "Anodized_Frame",
+        "Handheld_Shell",
+        "Precision_Titanium",
+        "Black_Rubber",
+        "Carbon_Ceramic",
+        "Ceramic_Pearl",
+        "Gravity_Print",
+        "Load_Mass",
+        "Load_Index",
+        "Cell_Optical_Glass"
+      ],
+      "evidence": {
+        "file": "evidence/accelerometer.jpg",
+        "source": "qa/cabin-loads/finished/loaded-pointer.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "3e99e260d3d80108c914efcdcdf88f4e368c61f58cd30cbf532db51f9c5ce723"
+    },
+    {
+      "id": "capillary_cell",
+      "name": "77% capillary sight cell",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/capillary_cell.png",
+      "alpha": "masks/capillary_cell_alpha.png",
+      "silhouette": "masks/capillary_cell_silhouette.png",
+      "source_sheet": "sheets/instruments.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        561,
+        0,
+        1254,
+        1254
+      ],
+      "trim": [
+        38,
+        310,
+        693,
+        928
+      ],
+      "dimensions": [
+        655,
+        618
+      ],
+      "materials": [
+        "Anodized_Frame",
+        "Handheld_Shell",
+        "Precision_Titanium",
+        "Black_Rubber",
+        "Cell_Diffuser",
+        "Cell_Etch",
+        "Cell_Optical_Glass",
+        "Cell_Liquid",
+        "Cell_Gas",
+        "Cell_Meniscus",
+        "Wick_Mesh",
+        "Gravity_Print"
+      ],
+      "evidence": {
+        "file": "evidence/capillary_cell.jpg",
+        "source": "qa/cabin-loads/finished/ground-cell.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "a12fd2b7a44729b4e123f7de7485eeae934eccb076885ce0fc4080676ec2e616"
+    },
+    {
+      "id": "accel_test",
+      "name": "+0.10 g test plunger",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/accel_test.png",
+      "alpha": "masks/accel_test_alpha.png",
+      "silhouette": "masks/accel_test_silhouette.png",
+      "source_sheet": "sheets/plungers.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        0,
+        0,
+        543,
+        1254
+      ],
+      "trim": [
+        12,
+        397,
+        543,
+        889
+      ],
+      "dimensions": [
+        531,
+        492
+      ],
+      "materials": [
+        "Anodized_Frame",
+        "Precision_Titanium",
+        "Load_Index"
+      ],
+      "evidence": {
+        "file": "evidence/accel_test.jpg",
+        "source": "qa/cabin-loads/finished/test-stroke.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "fe015e9b44b1cdce74b39f85aae5f1ae5c5d230525b22bdcb060d4e4379f1a6e"
+    },
+    {
+      "id": "capillary_primer",
+      "name": "Capillary primer piston",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/capillary_primer.png",
+      "alpha": "masks/capillary_primer_alpha.png",
+      "silhouette": "masks/capillary_primer_silhouette.png",
+      "source_sheet": "sheets/plungers.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        543,
+        0,
+        1254,
+        1254
+      ],
+      "trim": [
+        74,
+        377,
+        691,
+        914
+      ],
+      "dimensions": [
+        617,
+        537
+      ],
+      "materials": [
+        "Titanium",
+        "Anodized_Frame",
+        "Precision_Titanium",
+        "Load_Index"
+      ],
+      "evidence": {
+        "file": "evidence/capillary_primer.jpg",
+        "source": "qa/cabin-loads/finished/primer-target.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "be2b8fa308521afe079eb9e77995b038cf478080158cb5ad87d93c92a0e705fa"
+    },
+    {
+      "id": "loom_service_power",
+      "name": "Orange feeder service span",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/loom_service_power.png",
+      "alpha": "masks/loom_service_power_alpha.png",
+      "silhouette": "masks/loom_service_power_silhouette.png",
+      "source_sheet": "sheets/looms.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        0,
+        0,
+        539,
+        1254
+      ],
+      "trim": [
+        55,
+        245,
+        525,
+        903
+      ],
+      "dimensions": [
+        470,
+        658
+      ],
+      "materials": [
+        "Cable_Orange",
+        "Anodized_Frame",
+        "Precision_Titanium",
+        "Grip_Elastomer",
+        "Technical_Twill",
+        "Load_Index"
+      ],
+      "evidence": {
+        "file": "evidence/loom_service_power.jpg",
+        "source": "qa/fabric-evidence/12-cable-in-hand.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "950c3c61b933a14d09c592e72b67f5ce25ef5aef8ff76bb887a71b1eaf7fd82a"
+    },
+    {
+      "id": "loom_service_fiber",
+      "name": "Blue fiber service span",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/loom_service_fiber.png",
+      "alpha": "masks/loom_service_fiber_alpha.png",
+      "silhouette": "masks/loom_service_fiber_silhouette.png",
+      "source_sheet": "sheets/looms.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        539,
+        0,
+        1254,
+        1254
+      ],
+      "trim": [
+        192,
+        245,
+        654,
+        905
+      ],
+      "dimensions": [
+        462,
+        660
+      ],
+      "materials": [
+        "Cable_Cyan",
+        "Anodized_Frame",
+        "Precision_Titanium",
+        "Grip_Elastomer",
+        "Technical_Twill",
+        "Load_Index"
+      ],
+      "evidence": {
+        "file": "evidence/loom_service_fiber.jpg",
+        "source": "qa/fabric-evidence/09-panel-open-anchor.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "af0351ecd87b47cc91db30f3900ebcaf6b1d4deebdf32285f9ec6510b0379830"
+    },
+    {
+      "id": "cloth_berth_quilt",
+      "name": "Stitched ripstop berth quilt",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/cloth_berth_quilt.png",
+      "alpha": "masks/cloth_berth_quilt_alpha.png",
+      "silhouette": "masks/cloth_berth_quilt_silhouette.png",
+      "source_sheet": "sheets/fabrics.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        0,
+        0,
+        573,
+        1254
+      ],
+      "trim": [
+        0,
+        221,
+        573,
+        1106
+      ],
+      "dimensions": [
+        573,
+        885
+      ],
+      "materials": [
+        "Quilt_Ripstop",
+        "Quilt_Lining",
+        "Berth_Bias_Tape"
+      ],
+      "evidence": {
+        "file": "evidence/cloth_berth_quilt.jpg",
+        "source": "qa/fabric-evidence/01-berth-anchor.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "70bfa5945cab722840d7a4412f016dab306fed9a2258f7c037777634f061c6ec"
+    },
+    {
+      "id": "cloth_berth_curtain",
+      "name": "Pleated acoustic berth curtain",
+      "variant": "generated_documentary_concept",
+      "reference": "refs/cloth_berth_curtain.png",
+      "alpha": "masks/cloth_berth_curtain_alpha.png",
+      "silhouette": "masks/cloth_berth_curtain_silhouette.png",
+      "source_sheet": "sheets/fabrics.png",
+      "source_dimensions": [
+        1254,
+        1254
+      ],
+      "sheet_crop": [
+        573,
+        0,
+        1254,
+        1254
+      ],
+      "trim": [
+        103,
+        132,
+        662,
+        1129
+      ],
+      "dimensions": [
+        559,
+        997
+      ],
+      "materials": [
+        "Curtain_Acoustic",
+        "Quilt_Lining",
+        "Berth_Bias_Tape",
+        "Precision_Titanium",
+        "Anodized_Frame"
+      ],
+      "evidence": {
+        "file": "evidence/cloth_berth_curtain.jpg",
+        "source": "qa/fabric-evidence/06-screen-drawn.jpg",
+        "type": "actual production in-engine capture of Blender-authored geometry; not an offline Blender render"
+      },
+      "registration": "Alpha and silhouette are pixel registered to generated reference only; not to production mesh, UVs or evidence camera.",
+      "sha256": "93a880734f50d8fb107b994f988055cb12972ef5d7be0fff2963d03a83497612"
+    }
+  ],
+  "materials": {
+    "Anodized_Frame": {
+      "production_parameters": {
+        "baseColor": "Anodized_Frame_Color.jpg",
+        "roughnessMap": "Anodized_Frame_Roughness.jpg",
+        "normal": "Anodized_Frame_Normal.jpg",
+        "roughness": 0.38,
+        "metallic": 0.63,
+        "alpha": 1,
+        "rgb": [
+          73,
+          80,
+          86
+        ],
+        "normalStrength": 0.16
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Anodized_Frame_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Anodized_Frame_Color.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "e4bb87c266831c3ab2712dd3b49782f125d90b9245b2670e6756e53098565471"
+        },
+        "roughnessMap": {
+          "file": "samples/Anodized_Frame_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Anodized_Frame_Roughness.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "7dd2e9cc56a7eae169eeab60214c71f6280aead50a81ef82e4366051c70a9fd3"
+        },
+        "normal": {
+          "file": "samples/Anodized_Frame_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Anodized_Frame_Normal.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "784a67898bffaea2cf852e2a5e5a633494bf144c802d7eaa35beba8551563a9d"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Berth_Bias_Tape": {
+      "production_parameters": {
+        "rgb": [
+          67,
+          78,
+          77
+        ],
+        "roughness": 0.86,
+        "metallic": 0.0,
+        "alpha": 1.0,
+        "normalStrength": 0.76,
+        "specular": 0.24,
+        "sheen": 0.24,
+        "sheenRoughness": 0.65,
+        "baseColor": "Berth_Bias_Tape_Color.jpg",
+        "normal": "Berth_Bias_Tape_Normal.jpg",
+        "roughnessMap": "Berth_Bias_Tape_Roughness.jpg"
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Berth_Bias_Tape_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Berth_Bias_Tape_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "3f088587b8aca250df5fc23ccd3d08a51d3fb6ddd0782137c0482bfef48e508f"
+        },
+        "roughnessMap": {
+          "file": "samples/Berth_Bias_Tape_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Berth_Bias_Tape_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "b6212bd3adae3e6a8e4c92abeff0f189ba7ffec911954cf727de7c11fe515811"
+        },
+        "normal": {
+          "file": "samples/Berth_Bias_Tape_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Berth_Bias_Tape_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "b19aa4be7048d1bec698dd89228dc90fd2b5bf423b9b256ca4365d97d291707c"
+        }
+      },
+      "provenance": {
+        "source": "https://polyhaven.com/a/denim_fabric_06",
+        "license": "CC0",
+        "recipe": "source/gravity_finishes.py: measured_cloth; retinted captured yarn, source roughness/normal; Quilt_Ripstop adds authored paired-yarn reinforcement at 5.4 mm pitch."
+      }
+    },
+    "Black_Rubber": {
+      "production_parameters": {
+        "baseColor": "Black_Rubber_Color.jpg",
+        "roughnessMap": "Black_Rubber_Roughness.jpg",
+        "normal": "Black_Rubber_Normal.jpg",
+        "roughness": 0.76,
+        "metallic": 0.03,
+        "alpha": 1,
+        "rgb": [
+          33,
+          38,
+          36
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Black_Rubber_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Black_Rubber_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "4242d4d610a794dcbf2ef1984c178f8cce8cdd31cc41c4d095989f71528d4a5d"
+        },
+        "roughnessMap": {
+          "file": "samples/Black_Rubber_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Black_Rubber_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "e134a9f56e77e389651bce359d42656b1ceada946e95864f042c87837e156a6a"
+        },
+        "normal": {
+          "file": "samples/Black_Rubber_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Black_Rubber_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "a0be81af311bc021ad659222dbfba58d6cf8964246e4014d3681e44e36dbd743"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cable_Cyan": {
+      "production_parameters": {
+        "baseColor": "Cable_Cyan_Color.jpg",
+        "roughnessMap": "Cable_Cyan_Roughness.jpg",
+        "normal": "Cable_Cyan_Normal.jpg",
+        "roughness": 0.54,
+        "metallic": 0.1,
+        "alpha": 1,
+        "rgb": [
+          53,
+          113,
+          132
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Cable_Cyan_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Cyan_Color.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "90d043cdb023a3b206d4338dacd8bf03dc4cce26b1152f1e0cf8780297a485f3"
+        },
+        "roughnessMap": {
+          "file": "samples/Cable_Cyan_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Cyan_Roughness.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "f15bc25e1f0064cd594b29d4df989eee4e6665235279630dc97aeddd64ec20d6"
+        },
+        "normal": {
+          "file": "samples/Cable_Cyan_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Cyan_Normal.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "e814ef2497e99f178764d15999e726b9745636657324993cce437c984b7b6ab4"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cable_Orange": {
+      "production_parameters": {
+        "baseColor": "Cable_Orange_Color.jpg",
+        "roughnessMap": "Cable_Orange_Roughness.jpg",
+        "normal": "Cable_Orange_Normal.jpg",
+        "roughness": 0.58,
+        "metallic": 0.08,
+        "alpha": 1,
+        "rgb": [
+          166,
+          84,
+          43
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Cable_Orange_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Orange_Color.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "ba0d08a67ab75d9dfae81f4a2e98155670fce4ffc92c9e025a26e74a16a63bd3"
+        },
+        "roughnessMap": {
+          "file": "samples/Cable_Orange_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Orange_Roughness.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "8033875b8bc8fe68d48411908ec3829a873d03538210b5d54320621910b34db7"
+        },
+        "normal": {
+          "file": "samples/Cable_Orange_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Cable_Orange_Normal.jpg",
+          "dimensions": [
+            512,
+            512
+          ],
+          "sha256": "4d03cfd870807d065abbe41cabd78fa8c4f5bbefe2f8a240369c8cf9a91ef1bb"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Carbon_Ceramic": {
+      "production_parameters": {
+        "baseColor": "Carbon_Ceramic_Color.jpg",
+        "roughnessMap": "Carbon_Ceramic_Roughness.jpg",
+        "normal": "Carbon_Ceramic_Normal.jpg",
+        "roughness": 0.37,
+        "metallic": 0.46,
+        "alpha": 1,
+        "rgb": [
+          40,
+          46,
+          49
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Carbon_Ceramic_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Carbon_Ceramic_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "bab89ffa831eb771378d110913b64e329427232665f89459c8d3391afd6d609b"
+        },
+        "roughnessMap": {
+          "file": "samples/Carbon_Ceramic_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Carbon_Ceramic_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "ec3298c4de29f5426e17bcce8d1312112aa3fd14127ddc5281498331baf9528e"
+        },
+        "normal": {
+          "file": "samples/Carbon_Ceramic_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Carbon_Ceramic_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "058d74bcda5385043c38810da6aaaf58d0050712c4d9574a9f391eafd2927a83"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Diffuser": {
+      "production_parameters": {
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "roughness": 0.49,
+        "metallic": 0.02,
+        "alpha": 1,
+        "baseColor": "Gravity_Instruments.jpg",
+        "emission": 0.61
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Gravity_Instruments.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Gravity_Instruments.jpg",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "sha256": "4e43d2b30857666d77621633a829cf28a185c81ee08db9e79652c75d8e9659b6"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Etch": {
+      "production_parameters": {
+        "rgb": [
+          45,
+          70,
+          65
+        ],
+        "roughness": 0.65,
+        "metallic": 0.11,
+        "alpha": 1
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Gas": {
+      "production_parameters": {
+        "rgb": [
+          203,
+          217,
+          205
+        ],
+        "roughness": 0.065,
+        "metallic": 0,
+        "alpha": 0.09,
+        "transmission": 0.77,
+        "coat": 0.35,
+        "coatRoughness": 0.05,
+        "ior": 1.05
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Liquid": {
+      "production_parameters": {
+        "rgb": [
+          213,
+          164,
+          62
+        ],
+        "roughness": 0.065,
+        "metallic": 0,
+        "alpha": 0.47,
+        "transmission": 0.7,
+        "coat": 0.34,
+        "coatRoughness": 0.045,
+        "ior": 1.333
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Meniscus": {
+      "production_parameters": {
+        "rgb": [
+          137,
+          155,
+          124
+        ],
+        "roughness": 0.105,
+        "metallic": 0.19,
+        "alpha": 0.8,
+        "coat": 0.74,
+        "coatRoughness": 0.06
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Cell_Optical_Glass": {
+      "production_parameters": {
+        "rgb": [
+          194,
+          217,
+          214
+        ],
+        "roughness": 0.105,
+        "metallic": 0.1,
+        "alpha": 0.065,
+        "transmission": 0.28,
+        "coat": 0.69,
+        "coatRoughness": 0.09
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Ceramic_Pearl": {
+      "production_parameters": {
+        "baseColor": "Ceramic_Pearl_Color.jpg",
+        "roughnessMap": "Ceramic_Pearl_Roughness.jpg",
+        "normal": "Ceramic_Pearl_Normal.jpg",
+        "roughness": 0.41,
+        "metallic": 0.3,
+        "alpha": 1,
+        "rgb": [
+          190,
+          196,
+          193
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Ceramic_Pearl_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Ceramic_Pearl_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "d821c5045d7dd3998d7848b310b436d3bc72b702f2e714e63b9ed397580cd432"
+        },
+        "roughnessMap": {
+          "file": "samples/Ceramic_Pearl_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Ceramic_Pearl_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "c134f0e5215859897546e735f73d4c58523191b25728340a9338c168f4818e43"
+        },
+        "normal": {
+          "file": "samples/Ceramic_Pearl_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Ceramic_Pearl_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "058d74bcda5385043c38810da6aaaf58d0050712c4d9574a9f391eafd2927a83"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Curtain_Acoustic": {
+      "production_parameters": {
+        "rgb": [
+          111,
+          127,
+          123
+        ],
+        "roughness": 0.91,
+        "metallic": 0.0,
+        "alpha": 1.0,
+        "normalStrength": 0.76,
+        "specular": 0.24,
+        "sheen": 0.24,
+        "sheenRoughness": 0.65,
+        "baseColor": "Curtain_Acoustic_Color.jpg",
+        "normal": "Curtain_Acoustic_Normal.jpg",
+        "roughnessMap": "Curtain_Acoustic_Roughness.jpg"
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Curtain_Acoustic_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Curtain_Acoustic_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "ccdeb7feaed5d5a778515f127868537cae895dffac5ce81d198b7c732e2bb812"
+        },
+        "roughnessMap": {
+          "file": "samples/Curtain_Acoustic_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Curtain_Acoustic_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "976130cf1fa4cbaaa99afaed9b4437386a2976ef489110cd4f7eb0e344a6ba5b"
+        },
+        "normal": {
+          "file": "samples/Curtain_Acoustic_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Curtain_Acoustic_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "b19aa4be7048d1bec698dd89228dc90fd2b5bf423b9b256ca4365d97d291707c"
+        }
+      },
+      "provenance": {
+        "source": "https://polyhaven.com/a/denim_fabric_06",
+        "license": "CC0",
+        "recipe": "source/gravity_finishes.py: measured_cloth; retinted captured yarn, source roughness/normal; Quilt_Ripstop adds authored paired-yarn reinforcement at 5.4 mm pitch."
+      }
+    },
+    "Gravity_Print": {
+      "production_parameters": {
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "roughness": 0.53,
+        "metallic": 0.16,
+        "alpha": 1,
+        "baseColor": "Gravity_Instruments.jpg"
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Gravity_Instruments.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Gravity_Instruments.jpg",
+          "dimensions": [
+            2048,
+            2048
+          ],
+          "sha256": "4e43d2b30857666d77621633a829cf28a185c81ee08db9e79652c75d8e9659b6"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Grip_Elastomer": {
+      "production_parameters": {
+        "baseColor": "Grip_Elastomer_Color.jpg",
+        "roughnessMap": "Grip_Elastomer_Roughness.jpg",
+        "normal": "Grip_Elastomer_Normal.jpg",
+        "roughness": 0.76,
+        "metallic": 0.03,
+        "alpha": 1,
+        "rgb": [
+          42,
+          46,
+          44
+        ],
+        "normalStrength": 0.22
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Grip_Elastomer_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Grip_Elastomer_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "fdaa59e0ab6f0fadf2f5d8accf51e71715692ab13c1222c9aabf519a26616246"
+        },
+        "roughnessMap": {
+          "file": "samples/Grip_Elastomer_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Grip_Elastomer_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "33049280ca7ae440f212af5c5409dbde5cd7072ae3d86892eebd843862461e4e"
+        },
+        "normal": {
+          "file": "samples/Grip_Elastomer_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Grip_Elastomer_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "0f3c05f50c18dca4d1388bcf7f2eabc32120b17b69a2dce7786cd67659b41596"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Handheld_Shell": {
+      "production_parameters": {
+        "baseColor": "Handheld_Shell_Color.jpg",
+        "roughnessMap": "Handheld_Shell_Roughness.jpg",
+        "normal": "Handheld_Shell_Normal.jpg",
+        "roughness": 0.41,
+        "metallic": 0.3,
+        "alpha": 1,
+        "rgb": [
+          190,
+          196,
+          193
+        ],
+        "normalStrength": 0.14
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Handheld_Shell_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Handheld_Shell_Color.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "09835556019dac4f684417bc119801d152c1c92749f542b04bc129b894f4b8d6"
+        },
+        "roughnessMap": {
+          "file": "samples/Handheld_Shell_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Handheld_Shell_Roughness.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "3022cbc24099db1b6fa3810ef00ca40f36172dba5f352277c66977b25915cc20"
+        },
+        "normal": {
+          "file": "samples/Handheld_Shell_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Handheld_Shell_Normal.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "e6d93bc3ce3d14debd6955e9d5976d3eea0212787ad860500a96111b06cc0fa7"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Load_Index": {
+      "production_parameters": {
+        "rgb": [
+          220,
+          100,
+          49
+        ],
+        "roughness": 0.36,
+        "metallic": 0.33,
+        "alpha": 1,
+        "emission": 0.12
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Load_Mass": {
+      "production_parameters": {
+        "rgb": [
+          91,
+          96,
+          92
+        ],
+        "roughness": 0.29,
+        "metallic": 0.82,
+        "alpha": 1
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Precision_Titanium": {
+      "production_parameters": {
+        "baseColor": "Precision_Titanium_Color.jpg",
+        "roughnessMap": "Precision_Titanium_Roughness.jpg",
+        "normal": "Precision_Titanium_Normal.jpg",
+        "roughness": 0.27,
+        "metallic": 0.84,
+        "alpha": 1,
+        "rgb": [
+          143,
+          151,
+          154
+        ],
+        "normalStrength": 0.19
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Precision_Titanium_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Precision_Titanium_Color.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "a53d51d9e2e78562f19c09687b95da4aef19afef03a33e4951c0ce11b4a8a9d2"
+        },
+        "roughnessMap": {
+          "file": "samples/Precision_Titanium_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Precision_Titanium_Roughness.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "9bfa57faaf59badaf3cfc8be1ad4851de0e31faf58e6c101ec8db0fc1fa7a9d1"
+        },
+        "normal": {
+          "file": "samples/Precision_Titanium_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Precision_Titanium_Normal.jpg",
+          "dimensions": [
+            640,
+            640
+          ],
+          "sha256": "784a67898bffaea2cf852e2a5e5a633494bf144c802d7eaa35beba8551563a9d"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Quilt_Lining": {
+      "production_parameters": {
+        "rgb": [
+          140,
+          147,
+          135
+        ],
+        "roughness": 0.88,
+        "metallic": 0.0,
+        "alpha": 1.0,
+        "normalStrength": 0.76,
+        "specular": 0.24,
+        "sheen": 0.24,
+        "sheenRoughness": 0.65,
+        "baseColor": "Quilt_Lining_Color.jpg",
+        "normal": "Quilt_Lining_Normal.jpg",
+        "roughnessMap": "Quilt_Lining_Roughness.jpg"
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Quilt_Lining_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Lining_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "b34d1e07f9c6879c620235d0cb5c61b929e1ddf29c509d472d76b8a23337961b"
+        },
+        "roughnessMap": {
+          "file": "samples/Quilt_Lining_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Lining_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "bfb2eb203a5b9a80bcd3913764265188d8b0cf21a135636ca5592e172b00e2e6"
+        },
+        "normal": {
+          "file": "samples/Quilt_Lining_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Lining_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "16f4d256514a79471cc9d2be61d40640e8473d40204ea1ff1fe85ca99949d8cf"
+        }
+      },
+      "provenance": {
+        "source": "https://polyhaven.com/a/terlenka",
+        "license": "CC0",
+        "recipe": "source/gravity_finishes.py: measured_cloth; retinted captured yarn, source roughness/normal; Quilt_Ripstop adds authored paired-yarn reinforcement at 5.4 mm pitch."
+      }
+    },
+    "Quilt_Ripstop": {
+      "production_parameters": {
+        "rgb": [
+          88,
+          104,
+          101
+        ],
+        "roughness": 0.89,
+        "metallic": 0.0,
+        "alpha": 1.0,
+        "normalStrength": 0.76,
+        "specular": 0.24,
+        "sheen": 0.24,
+        "sheenRoughness": 0.65,
+        "baseColor": "Quilt_Ripstop_Color.jpg",
+        "normal": "Quilt_Ripstop_Normal.jpg",
+        "roughnessMap": "Quilt_Ripstop_Roughness.jpg"
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Quilt_Ripstop_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Ripstop_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "495cea3376b5311c8847abc04b4d563345f9477e911d931d70f6655fb2a512a3"
+        },
+        "roughnessMap": {
+          "file": "samples/Quilt_Ripstop_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Ripstop_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "8613ab17150a749e588c98b20c006c48e37730b9cc2379d4bb76285e3017daeb"
+        },
+        "normal": {
+          "file": "samples/Quilt_Ripstop_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Quilt_Ripstop_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "27a183ec0249aac320e879d4aa18081245c95e9344b588635f2264e913d46768"
+        }
+      },
+      "provenance": {
+        "source": "https://polyhaven.com/a/terlenka",
+        "license": "CC0",
+        "recipe": "source/gravity_finishes.py: measured_cloth; retinted captured yarn, source roughness/normal; Quilt_Ripstop adds authored paired-yarn reinforcement at 5.4 mm pitch."
+      }
+    },
+    "Technical_Twill": {
+      "production_parameters": {
+        "baseColor": "Technical_Twill_Color.jpg",
+        "roughnessMap": "Technical_Twill_Roughness.jpg",
+        "normal": "Technical_Twill_Normal.jpg",
+        "roughness": 0.86,
+        "metallic": 0.0,
+        "alpha": 1,
+        "rgb": [
+          145,
+          155,
+          154
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Technical_Twill_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Technical_Twill_Color.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "6b03167908fd1d530cab968f5d50b2440c517f55391a126bee0f182e24bff7e8"
+        },
+        "roughnessMap": {
+          "file": "samples/Technical_Twill_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Technical_Twill_Roughness.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "b3d1b6af763209627753acc46fd4824ac96d16b8451a5da78c28214e780ffa8c"
+        },
+        "normal": {
+          "file": "samples/Technical_Twill_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Technical_Twill_Normal.jpg",
+          "dimensions": [
+            1024,
+            1024
+          ],
+          "sha256": "877c0b632d0da3de2ea3cfc388df1e842f94e842640090c52f75c2c721ffb042"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Titanium": {
+      "production_parameters": {
+        "baseColor": "Titanium_Color.jpg",
+        "roughnessMap": "Titanium_Roughness.jpg",
+        "normal": "Titanium_Normal.jpg",
+        "roughness": 0.27,
+        "metallic": 0.81,
+        "alpha": 1,
+        "rgb": [
+          143,
+          151,
+          154
+        ]
+      },
+      "maps": {
+        "baseColor": {
+          "file": "samples/Titanium_Color.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Titanium_Color.jpg",
+          "dimensions": [
+            768,
+            768
+          ],
+          "sha256": "8e03e1f6c5e635f2a4259f9388927d28e9244f86baac244200f5a6265779dffe"
+        },
+        "roughnessMap": {
+          "file": "samples/Titanium_Roughness.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Titanium_Roughness.jpg",
+          "dimensions": [
+            768,
+            768
+          ],
+          "sha256": "4ca2007044d05f24c9f39a5eb7c417077c01e887debb85b2a0e86a97f217c9fc"
+        },
+        "normal": {
+          "file": "samples/Titanium_Normal.jpg",
+          "production_source": "unity/Assets/Upwell/SourceModels/Textures/Titanium_Normal.jpg",
+          "dimensions": [
+            768,
+            768
+          ],
+          "sha256": "28daaf558108b78208cc7cc4996aaa7fbee5bb16581bab1263fcf2abf86e4e7e"
+        }
+      },
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    },
+    "Wick_Mesh": {
+      "production_parameters": {
+        "rgb": [
+          139,
+          125,
+          88
+        ],
+        "roughness": 0.48,
+        "metallic": 0.65,
+        "alpha": 1
+      },
+      "maps": {},
+      "provenance": {
+        "recipe": "Existing production material definition and image maps, copied byte-for-byte. No claim that these finishes are measured aerospace samples. Analytic materials intentionally have no image maps."
+      }
+    }
+  },
+  "limitations": [
+    "Generated assembly details are conceptual; production geometry and simulation remain authoritative.",
+    "Native returned sheets measure 1254 by 1254 pixels. Crops retain their native resolution.",
+    "The 77% cell fill comes from the production simulation.",
+    "Glass alpha records image coverage."
+  ]
+}

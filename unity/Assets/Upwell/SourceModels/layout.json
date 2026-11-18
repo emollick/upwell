@@ -1,0 +1,1720 @@
+{
+  "basis": "glTF +X starboard, +Y up, +Z aft",
+  "units": "m",
+  "parts": [
+    {
+      "id": "shell",
+      "room": "observation",
+      "file": "observation/shell.fbx",
+      "node": "shell_observation",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -2.295,
+          -0.178,
+          -5.85
+        ],
+        [
+          2.295,
+          2.745,
+          -1.7954
+        ]
+      ],
+      "dimensions": [
+        4.59,
+        2.923,
+        4.0546
+      ]
+    },
+    {
+      "id": "window",
+      "room": "observation",
+      "file": "observation/prop_window.fbx",
+      "node": "prop_window",
+      "webPivot": [
+        0.0,
+        1.59,
+        -5.706
+      ],
+      "webCenter": [
+        0.0,
+        1.6,
+        -5.66
+      ],
+      "webBounds": [
+        [
+          -1.903,
+          0.697,
+          -5.727
+        ],
+        [
+          1.903,
+          2.483,
+          -5.6191
+        ]
+      ],
+      "dimensions": [
+        3.806,
+        1.786,
+        0.1079
+      ]
+    },
+    {
+      "id": "roller_shade",
+      "room": "observation",
+      "file": "observation/prop_roller_shade.fbx",
+      "node": "prop_roller_shade",
+      "webPivot": [
+        0.0,
+        2.36,
+        -5.43
+      ],
+      "webCenter": [
+        1.35,
+        2.28,
+        -5.43
+      ],
+      "webBounds": [
+        [
+          -1.745,
+          2.2465,
+          -5.4365
+        ],
+        [
+          1.745,
+          2.3605,
+          -5.4135
+        ]
+      ],
+      "dimensions": [
+        3.49,
+        0.114,
+        0.023
+      ],
+      "animation": {
+        "kind": "scale",
+        "axis": "y",
+        "amount": 13.1
+      }
+    },
+    {
+      "id": "pilot_console",
+      "room": "observation",
+      "file": "observation/prop_pilot_console.fbx",
+      "node": "prop_pilot_console",
+      "webPivot": [
+        0.78,
+        0.72,
+        -5.0
+      ],
+      "webCenter": [
+        0.77,
+        0.9,
+        -4.97
+      ],
+      "webBounds": [
+        [
+          -0.477,
+          0.127,
+          -5.74077
+        ],
+        [
+          2.026,
+          1.37104,
+          -4.77102
+        ]
+      ],
+      "dimensions": [
+        2.503,
+        1.24404,
+        0.96975
+      ]
+    },
+    {
+      "id": "nav_screen",
+      "room": "observation",
+      "file": "observation/prop_nav_screen.fbx",
+      "node": "prop_nav_screen",
+      "webPivot": [
+        0.71,
+        1.15,
+        -5.186
+      ],
+      "webCenter": [
+        0.68,
+        1.235,
+        -5.005
+      ],
+      "webBounds": [
+        [
+          0.337,
+          1.10403,
+          -5.15956
+        ],
+        [
+          1.095,
+          1.34505,
+          -4.97563
+        ]
+      ],
+      "dimensions": [
+        0.758,
+        0.24102,
+        0.18393
+      ]
+    },
+    {
+      "id": "ascent_lever",
+      "room": "observation",
+      "file": "observation/prop_ascent_lever.fbx",
+      "node": "prop_ascent_lever",
+      "webPivot": [
+        1.461,
+        1.048,
+        -5.09
+      ],
+      "webCenter": [
+        1.46,
+        1.17,
+        -5.0
+      ],
+      "webBounds": [
+        [
+          1.382,
+          1.03908,
+          -5.10888
+        ],
+        [
+          1.54,
+          1.253,
+          -4.985
+        ]
+      ],
+      "dimensions": [
+        0.158,
+        0.21392,
+        0.12388
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "x",
+        "amount": -27.0
+      }
+    },
+    {
+      "id": "lounge_seat",
+      "room": "observation",
+      "file": "observation/prop_lounge_seat.fbx",
+      "node": "prop_lounge_seat",
+      "webPivot": [
+        -1.7,
+        0.63,
+        -3.7
+      ],
+      "webCenter": [
+        -1.57,
+        0.8,
+        -3.62
+      ],
+      "webBounds": [
+        [
+          -2.13498,
+          0.021,
+          -4.684
+        ],
+        [
+          -1.20324,
+          1.52836,
+          -2.713
+        ]
+      ],
+      "dimensions": [
+        0.93174,
+        1.50736,
+        1.971
+      ]
+    },
+    {
+      "id": "lamp",
+      "room": "observation",
+      "file": "observation/prop_lamp.fbx",
+      "node": "prop_lamp",
+      "webPivot": [
+        -1.928,
+        2.31,
+        -4.73
+      ],
+      "webCenter": [
+        -1.9,
+        2.31,
+        -4.68
+      ],
+      "webBounds": [
+        [
+          -2.00115,
+          2.25255,
+          -5.08
+        ],
+        [
+          -1.91545,
+          2.34745,
+          -4.38
+        ]
+      ],
+      "dimensions": [
+        0.0857,
+        0.0949,
+        0.7
+      ]
+    },
+    {
+      "id": "field_glasses",
+      "room": "observation",
+      "file": "observation/prop_field_glasses.fbx",
+      "node": "prop_field_glasses",
+      "webPivot": [
+        -1.17,
+        1.03,
+        -5.13
+      ],
+      "webCenter": [
+        -1.17,
+        1.045,
+        -5.13
+      ],
+      "webBounds": [
+        [
+          -1.247,
+          0.97274,
+          -5.228
+        ],
+        [
+          -1.093,
+          1.0613,
+          -5.067
+        ]
+      ],
+      "dimensions": [
+        0.154,
+        0.08856,
+        0.161
+      ]
+    },
+    {
+      "id": "diagnostic_screen",
+      "room": "observation",
+      "file": "observation/prop_diagnostic_screen.fbx",
+      "node": "prop_diagnostic_screen",
+      "webPivot": [
+        -0.128,
+        1.21008,
+        -5.08182
+      ],
+      "webCenter": [
+        -0.128,
+        1.22051,
+        -5.06715
+      ],
+      "webBounds": [
+        [
+          -0.262,
+          1.11319,
+          -5.15368
+        ],
+        [
+          0.006,
+          1.3091,
+          -5.00652
+        ]
+      ],
+      "dimensions": [
+        0.268,
+        0.19591,
+        0.14716
+      ]
+    },
+    {
+      "id": "drive_screen",
+      "room": "observation",
+      "file": "observation/prop_drive_screen.fbx",
+      "node": "prop_drive_screen",
+      "webPivot": [
+        0.156,
+        1.21008,
+        -5.08182
+      ],
+      "webCenter": [
+        0.156,
+        1.22051,
+        -5.06715
+      ],
+      "webBounds": [
+        [
+          0.027,
+          1.11319,
+          -5.15368
+        ],
+        [
+          0.285,
+          1.3091,
+          -5.00652
+        ]
+      ],
+      "dimensions": [
+        0.258,
+        0.19591,
+        0.14716
+      ]
+    },
+    {
+      "id": "guide_flood",
+      "room": "observation",
+      "file": "observation/prop_guide_flood.fbx",
+      "node": "prop_guide_flood",
+      "webPivot": [
+        -0.186,
+        0.99366,
+        -4.83362
+      ],
+      "webCenter": [
+        -0.186,
+        1.01442,
+        -4.81969
+      ],
+      "webBounds": [
+        [
+          -0.196,
+          0.98439,
+          -4.84007
+        ],
+        [
+          -0.176,
+          1.0358,
+          -4.77734
+        ]
+      ],
+      "dimensions": [
+        0.02,
+        0.05141,
+        0.06273
+      ]
+    },
+    {
+      "id": "cabin_lights",
+      "room": "observation",
+      "file": "observation/prop_cabin_lights.fbx",
+      "node": "prop_cabin_lights",
+      "webPivot": [
+        -0.074,
+        0.99366,
+        -4.83362
+      ],
+      "webCenter": [
+        -0.074,
+        0.99948,
+        -4.82972
+      ],
+      "webBounds": [
+        [
+          -0.1025,
+          0.96967,
+          -4.85728
+        ],
+        [
+          -0.0455,
+          1.02264,
+          -4.80644
+        ]
+      ],
+      "dimensions": [
+        0.057,
+        0.05297,
+        0.05084
+      ]
+    },
+    {
+      "id": "solar_film",
+      "room": "observation",
+      "file": "observation/prop_solar_film.fbx",
+      "node": "prop_solar_film",
+      "webPivot": [
+        0.038,
+        0.99366,
+        -4.83362
+      ],
+      "webCenter": [
+        0.038,
+        0.99948,
+        -4.82972
+      ],
+      "webBounds": [
+        [
+          0.007,
+          0.96967,
+          -4.85728
+        ],
+        [
+          0.069,
+          1.02264,
+          -4.80373
+        ]
+      ],
+      "dimensions": [
+        0.062,
+        0.05297,
+        0.05355
+      ]
+    },
+    {
+      "id": "vent_fan",
+      "room": "observation",
+      "file": "observation/prop_vent_fan.fbx",
+      "node": "prop_vent_fan",
+      "webPivot": [
+        0.15,
+        0.99366,
+        -4.83362
+      ],
+      "webCenter": [
+        0.15,
+        1.01442,
+        -4.81969
+      ],
+      "webBounds": [
+        [
+          0.1345,
+          0.98439,
+          -4.84007
+        ],
+        [
+          0.1655,
+          1.03182,
+          -4.78321
+        ]
+      ],
+      "dimensions": [
+        0.031,
+        0.04743,
+        0.05686
+      ]
+    },
+    {
+      "id": "key_route",
+      "room": "observation",
+      "file": "observation/prop_key_route.fbx",
+      "node": "prop_key_route",
+      "webPivot": [
+        0.252,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.252,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.225,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.279,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_optics",
+      "room": "observation",
+      "file": "observation/prop_key_optics.fbx",
+      "node": "prop_key_optics",
+      "webPivot": [
+        0.33,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.33,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.303,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.357,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_seals",
+      "room": "observation",
+      "file": "observation/prop_key_seals.fbx",
+      "node": "prop_key_seals",
+      "webPivot": [
+        0.408,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.408,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.381,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.435,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_load",
+      "room": "observation",
+      "file": "observation/prop_key_load.fbx",
+      "node": "prop_key_load",
+      "webPivot": [
+        0.486,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.486,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.459,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.513,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_traffic",
+      "room": "observation",
+      "file": "observation/prop_key_traffic.fbx",
+      "node": "prop_key_traffic",
+      "webPivot": [
+        0.564,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.564,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.537,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.591,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_comms",
+      "room": "observation",
+      "file": "observation/prop_key_comms.fbx",
+      "node": "prop_key_comms",
+      "webPivot": [
+        0.642,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.642,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.615,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.669,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "key_lamp_test",
+      "room": "observation",
+      "file": "observation/prop_key_lamp_test.fbx",
+      "node": "prop_key_lamp_test",
+      "webPivot": [
+        0.72,
+        0.98894,
+        -4.83197
+      ],
+      "webCenter": [
+        0.72,
+        0.99642,
+        -4.82695
+      ],
+      "webBounds": [
+        [
+          0.693,
+          0.96544,
+          -4.86298
+        ],
+        [
+          0.747,
+          1.01482,
+          -4.80022
+        ]
+      ],
+      "dimensions": [
+        0.054,
+        0.04938,
+        0.06276
+      ]
+    },
+    {
+      "id": "panel_gain",
+      "room": "observation",
+      "file": "observation/prop_panel_gain.fbx",
+      "node": "prop_panel_gain",
+      "webPivot": [
+        0.906,
+        0.9848,
+        -4.83836
+      ],
+      "webCenter": [
+        0.906,
+        1.00307,
+        -4.8261
+      ],
+      "webBounds": [
+        [
+          0.867,
+          0.96307,
+          -4.87074
+        ],
+        [
+          0.945,
+          1.03281,
+          -4.79008
+        ]
+      ],
+      "dimensions": [
+        0.078,
+        0.06974,
+        0.08066
+      ]
+    },
+    {
+      "id": "camera_focus",
+      "room": "observation",
+      "file": "observation/prop_camera_focus.fbx",
+      "node": "prop_camera_focus",
+      "webPivot": [
+        1.066,
+        0.9848,
+        -4.83836
+      ],
+      "webCenter": [
+        1.066,
+        1.00307,
+        -4.8261
+      ],
+      "webBounds": [
+        [
+          1.027,
+          0.96307,
+          -4.87074
+        ],
+        [
+          1.105,
+          1.0317,
+          -4.79212
+        ]
+      ],
+      "dimensions": [
+        0.078,
+        0.06863,
+        0.07862
+      ]
+    },
+    {
+      "id": "accelerometer",
+      "room": "observation",
+      "file": "observation/prop_accelerometer.fbx",
+      "node": "prop_accelerometer",
+      "webPivot": [
+        -0.76,
+        1.305,
+        -5.257
+      ],
+      "webCenter": [
+        -0.759,
+        1.31,
+        -5.186
+      ],
+      "webBounds": [
+        [
+          -0.9,
+          0.9685,
+          -5.3225
+        ],
+        [
+          -0.62,
+          1.531,
+          -5.15531
+        ]
+      ],
+      "dimensions": [
+        0.28,
+        0.5625,
+        0.16719
+      ]
+    },
+    {
+      "id": "accel_test",
+      "room": "observation",
+      "file": "observation/prop_accel_test.fbx",
+      "node": "prop_accel_test",
+      "webPivot": [
+        -0.658,
+        1.099,
+        -5.191
+      ],
+      "webCenter": [
+        -0.658,
+        1.099,
+        -5.187
+      ],
+      "webBounds": [
+        [
+          -0.67458,
+          1.08248,
+          -5.227
+        ],
+        [
+          -0.64128,
+          1.11552,
+          -5.18525
+        ]
+      ],
+      "dimensions": [
+        0.0333,
+        0.03304,
+        0.04175
+      ]
+    },
+    {
+      "id": "blower_rotor",
+      "room": "observation",
+      "file": "observation/prop_blower_rotor.fbx",
+      "node": "prop_blower_rotor",
+      "webPivot": [
+        0.0,
+        2.545,
+        -4.2715
+      ],
+      "webCenter": [
+        0.0,
+        2.545,
+        -4.2715
+      ],
+      "webBounds": [
+        [
+          -0.12279,
+          2.519,
+          -4.39282
+        ],
+        [
+          0.12108,
+          2.536,
+          -4.1475
+        ]
+      ],
+      "dimensions": [
+        0.24387,
+        0.017,
+        0.24532
+      ]
+    },
+    {
+      "id": "shell",
+      "room": "berth",
+      "file": "berth/shell.fbx",
+      "node": "shell_berth",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -2.2925,
+          -0.178,
+          -1.905
+        ],
+        [
+          2.295,
+          2.745,
+          1.905
+        ]
+      ],
+      "dimensions": [
+        4.5875,
+        2.923,
+        3.81
+      ]
+    },
+    {
+      "id": "bunk",
+      "room": "berth",
+      "file": "berth/prop_bunk.fbx",
+      "node": "prop_bunk",
+      "webPivot": [
+        -1.66,
+        0.82,
+        0.0
+      ],
+      "webCenter": [
+        -1.61,
+        0.87,
+        0.09
+      ],
+      "webBounds": [
+        [
+          -2.1365,
+          0.649,
+          -1.2125
+        ],
+        [
+          -1.2215,
+          1.053,
+          1.2125
+        ]
+      ],
+      "dimensions": [
+        0.915,
+        0.404,
+        2.425
+      ]
+    },
+    {
+      "id": "privacy_curtain",
+      "room": "berth",
+      "file": "berth/prop_privacy_curtain.fbx",
+      "node": "prop_privacy_curtain",
+      "webPivot": [
+        -1.228,
+        2.155,
+        -1.207
+      ],
+      "webCenter": [
+        -1.225,
+        1.57,
+        -1.034
+      ],
+      "webBounds": [
+        [
+          -1.2615,
+          2.1175,
+          -1.23
+        ],
+        [
+          -1.1894,
+          2.1845,
+          -1.212
+        ]
+      ],
+      "dimensions": [
+        0.0721,
+        0.067,
+        0.018
+      ]
+    },
+    {
+      "id": "locker_drawer",
+      "room": "berth",
+      "file": "berth/prop_locker_drawer.fbx",
+      "node": "prop_locker_drawer",
+      "webPivot": [
+        1.397,
+        0.657,
+        -0.31
+      ],
+      "webCenter": [
+        1.364,
+        0.708,
+        -0.31
+      ],
+      "webBounds": [
+        [
+          1.27268,
+          0.536,
+          -0.6805
+        ],
+        [
+          1.9915,
+          0.816,
+          0.0605
+        ]
+      ],
+      "dimensions": [
+        0.71882,
+        0.28,
+        0.741
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": -0.42
+      }
+    },
+    {
+      "id": "access_card",
+      "room": "berth",
+      "file": "berth/prop_access_card.fbx",
+      "node": "prop_access_card",
+      "webPivot": [
+        1.67,
+        0.713,
+        -0.31
+      ],
+      "webCenter": [
+        1.67,
+        0.717,
+        -0.31
+      ],
+      "webBounds": [
+        [
+          1.6267,
+          0.70097,
+          -0.3375
+        ],
+        [
+          1.7133,
+          0.70335,
+          -0.2825
+        ]
+      ],
+      "dimensions": [
+        0.0866,
+        0.00238,
+        0.055
+      ],
+      "parent": "locker_drawer"
+    },
+    {
+      "id": "reading_lamp",
+      "room": "berth",
+      "file": "berth/prop_reading_lamp.fbx",
+      "node": "prop_reading_lamp",
+      "webPivot": [
+        -2.099,
+        1.438,
+        -0.846
+      ],
+      "webCenter": [
+        -2.09,
+        1.438,
+        -0.846
+      ],
+      "webBounds": [
+        [
+          -2.10301,
+          1.41649,
+          -0.8645
+        ],
+        [
+          -2.08499,
+          1.45951,
+          -0.8275
+        ]
+      ],
+      "dimensions": [
+        0.01802,
+        0.04302,
+        0.037
+      ]
+    },
+    {
+      "id": "logbook",
+      "room": "berth",
+      "file": "berth/prop_logbook.fbx",
+      "node": "prop_logbook",
+      "webPivot": [
+        1.71,
+        0.97,
+        0.19
+      ],
+      "webCenter": [
+        1.71,
+        0.985,
+        0.19
+      ],
+      "webBounds": [
+        [
+          1.58104,
+          0.94821,
+          0.1045
+        ],
+        [
+          1.819,
+          0.98107,
+          0.2615
+        ]
+      ],
+      "dimensions": [
+        0.23796,
+        0.03286,
+        0.157
+      ]
+    },
+    {
+      "id": "mug",
+      "room": "berth",
+      "file": "berth/prop_mug.fbx",
+      "node": "prop_mug",
+      "webPivot": [
+        1.8,
+        0.998,
+        -0.934
+      ],
+      "webCenter": [
+        1.8,
+        1.058,
+        -0.934
+      ],
+      "webBounds": [
+        [
+          1.7533,
+          0.95,
+          -0.9804
+        ],
+        [
+          1.8467,
+          1.08522,
+          -0.8416
+        ]
+      ],
+      "dimensions": [
+        0.0934,
+        0.13522,
+        0.1388
+      ]
+    },
+    {
+      "id": "grab_handle",
+      "room": "berth",
+      "file": "berth/prop_grab_handle.fbx",
+      "node": "prop_grab_handle",
+      "webPivot": [
+        -1.3,
+        1.31,
+        0.97
+      ],
+      "webCenter": [
+        -1.242,
+        1.33,
+        0.99
+      ],
+      "webBounds": [
+        [
+          -1.301,
+          1.071,
+          1.197
+        ],
+        [
+          -1.18944,
+          1.549,
+          1.285
+        ]
+      ],
+      "dimensions": [
+        0.11156,
+        0.478,
+        0.088
+      ]
+    },
+    {
+      "id": "capillary_cell",
+      "room": "berth",
+      "file": "berth/prop_capillary_cell.fbx",
+      "node": "prop_capillary_cell",
+      "webPivot": [
+        2.067,
+        1.326,
+        -0.671
+      ],
+      "webCenter": [
+        2.051,
+        1.326,
+        -0.671
+      ],
+      "webBounds": [
+        [
+          2.046,
+          1.1565,
+          -0.799
+        ],
+        [
+          2.166,
+          1.46,
+          -0.466
+        ]
+      ],
+      "dimensions": [
+        0.12,
+        0.3035,
+        0.333
+      ]
+    },
+    {
+      "id": "capillary_primer",
+      "room": "berth",
+      "file": "berth/prop_capillary_primer.fbx",
+      "node": "prop_capillary_primer",
+      "webPivot": [
+        2.06,
+        1.299,
+        -0.506
+      ],
+      "webCenter": [
+        2.057,
+        1.299,
+        -0.506
+      ],
+      "webBounds": [
+        [
+          2.05535,
+          1.28132,
+          -0.52358
+        ],
+        [
+          2.093,
+          1.31668,
+          -0.48828
+        ]
+      ],
+      "dimensions": [
+        0.03765,
+        0.03536,
+        0.0353
+      ]
+    },
+    {
+      "id": "shell",
+      "room": "service",
+      "file": "service/shell.fbx",
+      "node": "shell_service",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webCenter": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -2.295,
+          -0.178,
+          1.783
+        ],
+        [
+          2.2925,
+          2.745,
+          5.785
+        ]
+      ],
+      "dimensions": [
+        4.5875,
+        2.923,
+        4.002
+      ]
+    },
+    {
+      "id": "pressure_hatch",
+      "room": "service",
+      "file": "service/prop_pressure_hatch.fbx",
+      "node": "prop_pressure_hatch",
+      "webPivot": [
+        0.0,
+        1.09,
+        1.9
+      ],
+      "webCenter": [
+        0.0,
+        1.32,
+        1.827
+      ],
+      "webBounds": [
+        [
+          -0.6985,
+          0.021,
+          1.75116
+        ],
+        [
+          0.6985,
+          2.197,
+          2.04884
+        ]
+      ],
+      "dimensions": [
+        1.397,
+        2.176,
+        0.29768
+      ],
+      "animation": {
+        "kind": "translate",
+        "axis": "x",
+        "amount": 1.51
+      }
+    },
+    {
+      "id": "card_reader",
+      "room": "service",
+      "file": "service/prop_card_reader.fbx",
+      "node": "prop_card_reader",
+      "webPivot": [
+        1.02,
+        1.32,
+        1.783
+      ],
+      "webCenter": [
+        1.02,
+        1.34,
+        1.777
+      ],
+      "webBounds": [
+        [
+          0.9005,
+          1.1875,
+          1.7285
+        ],
+        [
+          1.1395,
+          1.5225,
+          1.826
+        ]
+      ],
+      "dimensions": [
+        0.239,
+        0.335,
+        0.0975
+      ]
+    },
+    {
+      "id": "test_power",
+      "room": "service",
+      "file": "service/prop_test_power.fbx",
+      "node": "prop_test_power",
+      "webPivot": [
+        1.918,
+        1.194,
+        3.355
+      ],
+      "webCenter": [
+        1.91,
+        1.194,
+        3.355
+      ],
+      "webBounds": [
+        [
+          1.91071,
+          1.168,
+          3.329
+        ],
+        [
+          1.923,
+          1.22,
+          3.381
+        ]
+      ],
+      "dimensions": [
+        0.01229,
+        0.052,
+        0.052
+      ]
+    },
+    {
+      "id": "test_fiber",
+      "room": "service",
+      "file": "service/prop_test_fiber.fbx",
+      "node": "prop_test_fiber",
+      "webPivot": [
+        1.918,
+        1.194,
+        3.585
+      ],
+      "webCenter": [
+        1.91,
+        1.194,
+        3.585
+      ],
+      "webBounds": [
+        [
+          1.9088,
+          1.171,
+          3.553
+        ],
+        [
+          1.926,
+          1.217,
+          3.617
+        ]
+      ],
+      "dimensions": [
+        0.0172,
+        0.046,
+        0.064
+      ]
+    },
+    {
+      "id": "test_seal",
+      "room": "service",
+      "file": "service/prop_test_seal.fbx",
+      "node": "prop_test_seal",
+      "webPivot": [
+        1.918,
+        1.194,
+        3.815
+      ],
+      "webCenter": [
+        1.91,
+        1.194,
+        3.815
+      ],
+      "webBounds": [
+        [
+          1.91071,
+          1.168,
+          3.789
+        ],
+        [
+          1.923,
+          1.22,
+          3.841
+        ]
+      ],
+      "dimensions": [
+        0.01229,
+        0.052,
+        0.052
+      ]
+    },
+    {
+      "id": "test_return",
+      "room": "service",
+      "file": "service/prop_test_return.fbx",
+      "node": "prop_test_return",
+      "webPivot": [
+        1.918,
+        1.194,
+        4.045
+      ],
+      "webCenter": [
+        1.91,
+        1.194,
+        4.045
+      ],
+      "webBounds": [
+        [
+          1.9088,
+          1.171,
+          4.013
+        ],
+        [
+          1.926,
+          1.217,
+          4.077
+        ]
+      ],
+      "dimensions": [
+        0.0172,
+        0.046,
+        0.064
+      ]
+    },
+    {
+      "id": "service_cabinet",
+      "room": "service",
+      "file": "service/prop_service_cabinet.fbx",
+      "node": "prop_service_cabinet",
+      "webPivot": [
+        1.755,
+        1.487,
+        2.877
+      ],
+      "webCenter": [
+        1.733,
+        1.53,
+        3.52
+      ],
+      "webBounds": [
+        [
+          1.63468,
+          0.952,
+          2.84483
+        ],
+        [
+          1.84173,
+          2.028,
+          4.227
+        ]
+      ],
+      "dimensions": [
+        0.20705,
+        1.076,
+        1.38217
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "y",
+        "amount": -84.0
+      }
+    },
+    {
+      "id": "breaker",
+      "room": "service",
+      "file": "service/prop_breaker.fbx",
+      "node": "prop_breaker",
+      "webPivot": [
+        2.048,
+        1.393,
+        4.739
+      ],
+      "webCenter": [
+        2.002,
+        1.397,
+        4.739
+      ],
+      "webBounds": [
+        [
+          1.97819,
+          1.35756,
+          4.7085
+        ],
+        [
+          2.05781,
+          1.43644,
+          4.7735
+        ]
+      ],
+      "dimensions": [
+        0.07962,
+        0.07888,
+        0.065
+      ]
+    },
+    {
+      "id": "pressure_gauge",
+      "room": "service",
+      "file": "service/prop_pressure_gauge.fbx",
+      "node": "prop_pressure_gauge",
+      "webPivot": [
+        -2.098,
+        1.44,
+        4.79
+      ],
+      "webCenter": [
+        -2.043,
+        1.46,
+        4.79
+      ],
+      "webBounds": [
+        [
+          -2.172,
+          1.285,
+          4.6245
+        ],
+        [
+          -2.04,
+          1.635,
+          4.9555
+        ]
+      ],
+      "dimensions": [
+        0.132,
+        0.35,
+        0.331
+      ]
+    },
+    {
+      "id": "intercom",
+      "room": "service",
+      "file": "service/prop_intercom.fbx",
+      "node": "prop_intercom",
+      "webPivot": [
+        -2.083,
+        1.536,
+        2.535
+      ],
+      "webCenter": [
+        -2.074,
+        1.536,
+        2.535
+      ],
+      "webBounds": [
+        [
+          -2.088,
+          1.508,
+          2.507
+        ],
+        [
+          -2.0706,
+          1.564,
+          2.563
+        ]
+      ],
+      "dimensions": [
+        0.0174,
+        0.056,
+        0.056
+      ]
+    },
+    {
+      "id": "tool_roll",
+      "room": "service",
+      "file": "service/prop_tool_roll.fbx",
+      "node": "prop_tool_roll",
+      "webPivot": [
+        -1.87,
+        0.893,
+        3.7
+      ],
+      "webCenter": [
+        -1.87,
+        0.907,
+        3.7
+      ],
+      "webBounds": [
+        [
+          -2.08743,
+          0.849,
+          3.46
+        ],
+        [
+          -1.7075,
+          1.06064,
+          3.948
+        ]
+      ],
+      "dimensions": [
+        0.37993,
+        0.21164,
+        0.488
+      ]
+    },
+    {
+      "id": "docking_wheel",
+      "room": "service",
+      "file": "service/prop_docking_wheel.fbx",
+      "node": "prop_docking_wheel",
+      "webPivot": [
+        0.0,
+        1.27,
+        5.43
+      ],
+      "webCenter": [
+        0.0,
+        1.27,
+        5.426
+      ],
+      "webBounds": [
+        [
+          -0.30283,
+          0.96717,
+          5.368
+        ],
+        [
+          0.30283,
+          1.57283,
+          5.587
+        ]
+      ],
+      "dimensions": [
+        0.60566,
+        0.60566,
+        0.219
+      ],
+      "animation": {
+        "kind": "rotate",
+        "axis": "z",
+        "amount": 88.0
+      }
+    }
+  ]
+}

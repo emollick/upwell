@@ -1,0 +1,15 @@
+{
+  "Tow_Carbon": {
+    "rgb": [
+      49,
+      56,
+      58
+    ],
+    "metallic": 0.42,
+    "roughness": 0.39,
+    "alpha": 1,
+    "baseColor": "Tow_Carbon_Color.jpg",
+    "normal": "Tow_Carbon_Normal.jpg",
+    "roughnessMap": "Tow_Carbon_Roughness.jpg"
+  }
+}

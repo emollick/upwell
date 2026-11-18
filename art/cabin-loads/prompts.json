@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "id": "instruments",
+      "ids": [
+        "accelerometer",
+        "capillary_cell"
+      ],
+      "refs": [],
+      "prompt": "Create one transparent high-resolution documentary product reference sheet containing EXACTLY TWO fully isolated equipment objects LEFT and RIGHT, separated by a broad transparent vertical gutter at x50%, no overlap. Each object entirely inside its half with 7% blank edge margins. No backgrounds, no floor, no scenery, no cast shadow beyond object, genuine alpha. Current UPWELL advanced orbital hardware, realistic neutral studio product photograph, faithful industrial geometry, restrained titanium/graphite/pearl shell, no retro motifs. Native 2048x2048 requested. Use supplied screenshots ONLY as object geometry/material references; remove all room/scenery. LEFT: complete full-size vertical AXIAL LOAD mechanical accelerometer 280mm wide452mm high, two mounting feet, ivory anodized frame around black transparent-front chamber. Exactly TWO vertically opposed helical springs, above and below a rectangular dark tungsten proof mass riding two vertical titanium guide rods. Orange triangular pointer extends right toward ivory linear g ruler, 0 near upper third, +1.00 near bottom; no dial. Testplunger orange/black at lower right. RIGHT: complete upright circular CAPILLARY CELL instrument256mm diameter with4pearl mounting lugs,12rim screws, titanium/graphite seal rim and clear glass. Cream contrasting backplate engraved rings and radial tick scale. Teal water fills77%of the circle's area below a horizontal meniscus, leaving clear upper23%airspace. Thin vertical wick mesh strip atleft. Side orange/black primer, two small pipes, labels FILL77%, PRIME, CAPILLARY CELL. Preserve functional geometry, do not invent gears or gauges."
+    },
+    {
+      "id": "plungers",
+      "ids": [
+        "accel_test",
+        "capillary_primer"
+      ],
+      "refs": [],
+      "prompt": "Create one transparent high-resolution documentary product reference sheet containing EXACTLY TWO fully isolated equipment objects LEFT and RIGHT, separated by a broad transparent vertical gutter at x50%, no overlap. Each object entirely inside its half with 7% blank edge margins. No backgrounds, no floor, no scenery, no cast shadow beyond object, genuine alpha. Current UPWELL advanced orbital hardware, realistic neutral studio product photograph, faithful industrial geometry, restrained titanium/graphite/pearl shell, no retro motifs. Native 2048x2048 requested. Use screenshots as reference for the two small orange/black buttons; depict isolated complete piston assemblies enlarged. LEFT: accelerometer TEST +0.10 g spring-return plunger,32mm diameter knurled orange collar, black circular front face with3thin orange vertical grip indexes, narrow titanium captive axial shaft behind, graphite cylindrical mounting boss, small attached cream label TEST +0.10 g. RIGHT: capillary PRIME piston34mm diameter, matching orange knurled collar black face3orange grip indexes, silver retaining ring and stepped titanium shaft, graphite mounting boss; two tiny compression capillary ports at side and cream label PRIME / ONE PULSE. Near threequarter view shows shaft extension and mechanical mounting, not two flat buttons. No loose components."
+    },
+    {
+      "id": "looms",
+      "ids": [
+        "loom_service_power",
+        "loom_service_fiber"
+      ],
+      "refs": [],
+      "prompt": "Create one transparent high-resolution documentary product reference sheet containing EXACTLY TWO fully isolated equipment objects LEFT and RIGHT, separated by a broad transparent vertical gutter at x50%, no overlap. Each object entirely inside its half with 7% blank edge margins. No backgrounds, no floor, no scenery, no cast shadow beyond object, genuine alpha. Current UPWELL advanced orbital hardware, realistic neutral studio product photograph, faithful industrial geometry, restrained titanium/graphite/pearl shell, no retro motifs. Native 2048x2048 requested. Screenshot is reference only for cabinet cable materials. Show two individual flexible SERVICE SPANS, no cabinet. LEFT: matte orange feeder loop, thick smooth insulated cable in shallow broad hanging U, two short straight approach collars at its ends, titanium crimp collars, black rubber strain relief and compact aerospace circular contacts, restrained dark service print PWR / 6. RIGHT: slightly thinner blue-cyan fiber loop in deeper broad U, minimum bend radius respected, two straight approach collars, titanium/graphite connector ends with delicate blue fiber identification band, service print FO / 11. No loose spaghetti, no decorative braiding, no glowing optical strands, no coiled telephone cord. Clear real smooth crosssection and softweight gravity sag."
+    },
+    {
+      "id": "fabrics",
+      "ids": [
+        "cloth_berth_quilt",
+        "cloth_berth_curtain"
+      ],
+      "refs": [],
+      "prompt": "Create one transparent high-resolution documentary product reference sheet containing EXACTLY TWO fully isolated equipment objects LEFT and RIGHT, separated by a broad transparent vertical gutter at x50%, no overlap. Each object entirely inside its half with 7% blank edge margins. No backgrounds, no floor, no scenery, no cast shadow beyond object, genuine alpha. Current UPWELL advanced orbital hardware, realistic neutral studio product photograph, faithful industrial geometry, restrained titanium/graphite/pearl shell, no retro motifs. Native 2048x2048 requested. Screenshot is assembly reference. LEFT: isolated berth quilt assembly about0.82m wide1.65m long, photographed threequarter slightly above. Soft muted sea-green/gray MATTE ripstop woven textile, small rectangular quilt cells raised gently by padding, real dark stitched seams and fine paired-yarn grid5.4mm pitch, dark bound edge, two restraint webbing bands with small vermilion buckle tabs. No bedframe or mattress, no shiny plastic, no inflatable tufts. RIGHT: isolated hanging acoustic privacy curtain assembly, matte desaturated sage-gray dense woven textile, regular deep vertical sewn pleats, doubled stitched bottom hem and dark bias tape, top carrier loops attached to a slim graphite track with small silver rollers, lower loose edge subtly folds. Fabric must show actual subtle fiber grain not metal sheen. No room or scenic plate."
+    }
+  ],
+  "correction": {
+    "prompt": "Precisely correct ONLY the left accelerometer mechanism in this transparent two-object reference sheet. Keep entire housing, feet, scale text, transparent background, image framing and entire right circular cell unchanged. The orange pointer at +1.00 g MUST be physically attached to the right side of the rectangular tungsten proof mass, not floating beneath it. Move the rectangular mass and its guide sleeves DOWN so its center aligns exactly with existing orange pointer at +1.00g. Extend the upper helical spring from top anchor to top of mass; compress the lower spring from bottom of mass to bottom anchor. Exactly TWO opposed springs, one above mass, one below. The orange pointer becomes a rigid extension of mass right edge. Preserve documentary photographic finish. This is the loaded1g position."
+  },
+  "loom_correction": {
+    "prompt": "Correct this two-object transparent service-loop reference to match fixed cabin cable spans. Preserve orange LEFT cable and blue RIGHT cable, U shapes, framing, matte surfaces, transparent background. Replace ALL FOUR oversized plug/socket assemblies at the tops with very SHORT compact plain graphite strain-relief sleeves, a single thin titanium gland collar and short straight continuation of the same colored cable exiting upward. These are fixed chassis glands, NOT detachable electrical connectors: no contact pins, no long knurled plug modules. Add only three tiny dark tape witness bands around each flexible cable, one small orange index. Keep the flexible span itself clearly visible, no brackets/cabinet. Preserve two isolated separate assemblies."
+  }
+}

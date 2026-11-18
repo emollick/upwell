@@ -1,0 +1,33 @@
+{
+  "ordinaryInteractiveRoots": 48,
+  "instrumentAccessories": 5,
+  "furnishingSections": 13,
+  "packedFileImages": 203,
+  "states": {
+    "anchor": {
+      "signedG": 0.9956886172294617,
+      "massWorldY": 1.187698483467102,
+      "idealWorldY": 1.1876984440088272,
+      "nativeGasFraction": 0.22969462150070924
+    },
+    "braking": {
+      "signedG": -0.014275675639510155,
+      "massWorldY": 1.3513126373291016,
+      "idealWorldY": 1.3513126594536007,
+      "nativeGasFraction": 0.22958370947799447
+    },
+    "docked": {
+      "signedG": 5.844928097076263e-08,
+      "massWorldY": 1.3489999771118164,
+      "idealWorldY": 1.3489999905312164,
+      "nativeGasFraction": 0.22990764422442617
+    }
+  },
+  "testPointerDeltaM": -0.016199946403503418,
+  "testPlungerTravelM": -0.008999824523925781,
+  "primerTravelM": 0.009000062942504883,
+  "primerSurfaceTiltDeg": 7.16197243913529,
+  "drawnFabricSpanM": 2.232537865638733,
+  "leadCarrierTravelM": 1.8600000143051147,
+  "occupiedQuiltDepressionM": 0.04099094867706299
+}

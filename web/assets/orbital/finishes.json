@@ -1,0 +1,284 @@
+{
+  "materials": [
+    {
+      "name": "Aster_Shell",
+      "color": "#d7d5cc",
+      "metal": 0.41,
+      "rough": 0.46,
+      "image": "armor",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Recoat",
+      "color": "#b2b7b3",
+      "metal": 0.37,
+      "rough": 0.5,
+      "image": "armor",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_BlueGrey",
+      "color": "#677d89",
+      "metal": 0.56,
+      "rough": 0.38,
+      "image": "armor",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Structure",
+      "color": "#97a6a6",
+      "metal": 0.63,
+      "rough": 0.34,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Frame",
+      "color": "#414d55",
+      "metal": 0.61,
+      "rough": 0.41,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Gasket",
+      "color": "#272e31",
+      "metal": 0.12,
+      "rough": 0.7,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Foil",
+      "color": "#b79a67",
+      "metal": 0.65,
+      "rough": 0.49,
+      "image": "foil",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Radiator",
+      "color": "#596268",
+      "metal": 0.46,
+      "rough": 0.59,
+      "image": "radiator",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Mirror",
+      "color": "#b8cbc9",
+      "metal": 0.78,
+      "rough": 0.16,
+      "image": "mirror",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Glass",
+      "color": "#729fa9",
+      "metal": 0.29,
+      "rough": 0.17,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 0.115
+    },
+    {
+      "name": "Aster_Soil",
+      "color": "#ffffff",
+      "metal": 0.02,
+      "rough": 0.91,
+      "image": "valley",
+      "emit": "#ffeece",
+      "gain": 0.64,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Water",
+      "color": "#42868c",
+      "metal": 0.41,
+      "rough": 0.23,
+      "image": "",
+      "emit": "#295158",
+      "gain": 0.27,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Timber",
+      "color": "#718058",
+      "metal": 0.01,
+      "rough": 0.95,
+      "image": "",
+      "emit": "#74835a",
+      "gain": 0.44,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Building",
+      "color": "#ced0ba",
+      "metal": 0.13,
+      "rough": 0.72,
+      "image": "",
+      "emit": "#b9b99e",
+      "gain": 0.37,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Roof",
+      "color": "#a79179",
+      "metal": 0.14,
+      "rough": 0.72,
+      "image": "",
+      "emit": "#9c8968",
+      "gain": 0.42,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Greenhouse",
+      "color": "#a2c3b5",
+      "metal": 0.29,
+      "rough": 0.32,
+      "image": "",
+      "emit": "#859f84",
+      "gain": 0.43,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_TowerGlass",
+      "color": "#799698",
+      "metal": 0.32,
+      "rough": 0.32,
+      "image": "",
+      "emit": "#7d9992",
+      "gain": 0.37,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_LitWindow",
+      "color": "#d7b37b",
+      "metal": 0.06,
+      "rough": 0.52,
+      "image": "",
+      "emit": "#ffe2ac",
+      "gain": 1.35,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Navigation",
+      "color": "#b5d5cf",
+      "metal": 0.08,
+      "rough": 0.43,
+      "image": "",
+      "emit": "#cce7e3",
+      "gain": 2,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Orange",
+      "color": "#ac5e32",
+      "metal": 0.31,
+      "rough": 0.58,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_CarSkin",
+      "color": "#ffffff",
+      "metal": 0.37,
+      "rough": 0.44,
+      "image": "car-skin",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_CarGlass",
+      "color": "#75939e",
+      "metal": 0.32,
+      "rough": 0.19,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 0.22
+    },
+    {
+      "name": "Aster_Seat",
+      "color": "#596b71",
+      "metal": 0.04,
+      "rough": 0.81,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Mark",
+      "color": "#ffffff",
+      "metal": 0.17,
+      "rough": 0.57,
+      "image": "mark",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_PaleStone",
+      "color": "#c1b496",
+      "metal": 0.05,
+      "rough": 0.83,
+      "image": "",
+      "emit": "#a39578",
+      "gain": 0.32,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_WindowBank",
+      "color": "#678386",
+      "metal": 0.35,
+      "rough": 0.27,
+      "image": "",
+      "emit": "#99afa5",
+      "gain": 0.45,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_Liner",
+      "color": "#5c6461",
+      "metal": 0.13,
+      "rough": 0.7,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 1
+    },
+    {
+      "name": "Aster_LandShadow",
+      "color": "#273c3d",
+      "metal": 0.02,
+      "rough": 0.94,
+      "image": "",
+      "emit": "#000000",
+      "gain": 0,
+      "alpha": 0.33
+    }
+  ]
+}

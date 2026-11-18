@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#10161c" />
+    <meta
+      name="description"
+      content="Board Car 07 for a first-person passage up the equatorial space elevator to Aster Reach."
+    />
+    <meta property="og:title" content="Upwell — Earth to Aster Reach" />
+    <meta property="og:image" content="https://upwell-tetherline.netlify.app/assets/world/carriage-window.webp" />
+    <title>Upwell — Earth to Aster Reach</title>
+    <link rel="icon" type="image/svg+xml" href="./mark.svg" />
+    <link rel="preload" as="image" href="./assets/world/carriage-window.webp" />
+    <link
+      rel="preload"
+      as="font"
+      href="./assets/fonts/geist-latin.woff2"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./photo-journal.css" />
+    <script type="importmap">
+      { "imports": { "three": "./assets/vendor/three.js" } }
+    </script>
+  </head>
+  <body>
+    <svg class="defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <symbol id="mark" viewBox="0 0 38 36">
+          <path
+            fill="currentColor"
+            d="M2 30 18.3 2h6.3L8.3 30zm10.7 0 12-20.7H31L19 30zm10.6 0 7.8-13.4h6.3L29.6 30z"
+          />
+        </symbol>
+        <symbol id="arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" /></symbol>
+        <symbol id="sound" viewBox="0 0 24 24">
+          <path d="M3 10h4l5-4v12l-5-4H3zM16 8.5a5 5 0 0 1 0 7m3-10a9 9 0 0 1 0 13" />
+        </symbol>
+        <symbol id="silent" viewBox="0 0 24 24">
+          <path d="M3 10h4l5-4v12l-5-4H3zM16 9l6 6m0-6-6 6" />
+        </symbol>
+        <symbol id="full" viewBox="0 0 24 24">
+          <path d="M4 9V4h5m6 0h5v5m0 6v5h-5m-6 0H4v-5" />
+        </symbol>
+        <symbol id="bag" viewBox="0 0 24 24">
+          <rect x="4" y="7.5" width="16" height="13" rx="2" />
+          <path d="M8.5 7.5V6a3.5 3.5 0 0 1 7 0v1.5M4 12.5h16m-9 0v2h2v-2" />
+        </symbol>
+        <symbol id="menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18" /></symbol>
+        <symbol id="graphics" viewBox="0 0 24 24"><path d="M3 6h8m5 0h5M3 12h2m5 0h11M3 18h10m5 0h3"/><circle cx="13.5" cy="6" r="2.3"/><circle cx="7.5" cy="12" r="2.3"/><circle cx="15.5" cy="18" r="2.3"/></symbol>
+        <symbol id="close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" /></symbol>
+        <symbol id="path" viewBox="0 0 24 24">
+          <circle cx="5" cy="18" r="2" />
+          <circle cx="19" cy="6" r="2" />
+          <path d="M7 18h4a3 3 0 0 0 3-3V9a3 3 0 0 1 3-3" />
+        </symbol>
+        <symbol id="expand" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10" /></symbol>
+        <symbol id="focus" viewBox="0 0 24 24">
+          <circle cx="10" cy="10" r="6" />
+          <path d="m14.5 14.5 5 5" />
+        </symbol>
+        <symbol id="photo-camera" viewBox="0 0 24 24"><path d="M3 7h4l2-3h6l2 3h4v13H3z"/><circle cx="12" cy="13" r="4"/></symbol>
+      </defs>
+    </svg>
+    <main id="app">
+      <div id="scene" tabindex="-1" aria-label="First-person carriage"></div>
+      <div id="station" hidden></div>
+      <div id="landing">
+        <div class="landing-image"></div>
+        <div class="landing-shade"></div>
+        <div class="titleblock">
+          <div class="service-tag"><i></i>EQUATORIAL LINE <span></span> CAR 07</div>
+          <h1>Upwell</h1>
+          <p>
+            Take the space elevator to Aster Reach, a rotating<br class="wide" />
+            colony 35,786 km above Earth.
+          </p>
+          <label class="boarding-pace">Passage time <select id="boardingPace" aria-describedby="boardingClockHint"><option value="guided">Guided · 6 minutes</option><option value="real">Real ship time · 58 h 43 m</option></select></label>
+          <small id="boardingClockHint">Guided speeds up the long climb and slows for passing cars.<br>At 1×, each second aboard takes one second.</small>
+          <div class="boarding-actions">
+            <button id="board" class="primary">
+              <span>Board carriage</span><svg><use href="#arrow" /></svg>
+            </button>
+            <button id="seatBoard" class="seat-board">
+              Take a window seat <svg><use href="#expand" /></svg>
+            </button>
+          </div>
+          <div class="passage-links">
+            <button id="resumeRide" class="resume-link" hidden>Resume saved passage</button>
+            <a class="resume-link" href="https://upwell-tetherline.netlify.app/media/upwell-cloud-passage.mp4">Watch the one-minute film</a>
+          </div>
+          <div class="boarding-state" id="boardingState" role="status"></div>
+        </div>
+        <div class="ticket">
+          <div class="ticket-drawing" aria-hidden="true"><i></i><b></b><em></em></div>
+          <div class="ticket-stops"><span>Earth</span><span>Aster Reach</span></div>
+          <small>35,786 KM · 58 H 43 MIN ABOARD</small>
+        </div>
+      </div>
+      <header>
+        <div class="brand">
+          <svg class="brand-mark" aria-hidden="true"><use href="#mark" /></svg
+          ><span>Tetherline</span><i></i><b id="networkLabel">Orbital Transit</b>
+        </div>
+        <div class="utilities">
+          <button
+            class="icon"
+            id="inventoryButton"
+            title="Inventory (I)"
+            aria-label="Inventory"
+            hidden
+          >
+            <svg><use href="#bag" /></svg><em id="bagCount"></em>
+          </button>
+          <button class="icon" id="soundButton" title="Cabin sound" aria-label="Mute cabin sound">
+            <svg><use href="#sound" /></svg>
+          </button>
+          <button class="icon" id="fullButton" title="Full screen" aria-label="Full screen">
+            <svg><use href="#full" /></svg>
+          </button>
+          <button class="icon" id="graphicsButton" title="Graphics (F2)" aria-label="Graphics" aria-haspopup="dialog" hidden>
+            <svg><use href="#graphics" /></svg>
+          </button>
+          <button
+            class="icon"
+            id="menuButton"
+            title="Carriage guide (Tab)"
+            aria-label="Carriage guide"
+            hidden
+          >
+            <svg><use href="#menu" /></svg>
+          </button>
+        </div>
+        <nav id="photoTools" aria-label="Photography" hidden>
+          <button type="button" id="photoShutter" aria-label="Take photo" title="Take photo (K)"><svg aria-hidden="true"><use href="#photo-camera"/></svg>Photo</button>
+          <button type="button" id="photoReview" aria-label="Photo journal" aria-haspopup="dialog" title="Photo journal (J)">Journal</button>
+        </nav>
+      </header>
+      <div id="hud" hidden>
+        <div id="reticle" aria-hidden="true"></div>
+        <div id="target" hidden><span id="targetName"></span><small id="targetAction"></small></div>
+        <div id="passageHud">
+        <button id="telemetry" title="Open passage timetable">
+          <span class="tiny"><i class="pulse"></i><span id="phase">Equatorial anchor</span></span
+          ><span class="alt"><span id="alt">0</span> <small id="altUnit">m</small></span
+          ><span id="cabinLoad" class="cabin-load">0.996 g · cabin load</span><span id="shipReadout" class="ship-readout">00:00:00 aboard · Guided 1×</span><span class="scale"><i id="scaleFill"></i></span>
+        </button>
+        <nav class="moment-bar" aria-label="Passage navigation">
+          <button id="momentPrev" aria-label="Previous moment" title="Previous moment ([)"><span aria-hidden="true">‹</span></button>
+          <button id="momentsButton" title="Passage moments (M)" aria-haspopup="dialog">Moments</button>
+          <button id="momentNext" aria-label="Next moment" title="Next moment (])"><span aria-hidden="true">›</span></button>
+        </nav>
+        <div id="floatControls" aria-label="Microgravity movement" hidden>
+          <button id="pushOff" title="Push away from the nearest deck or overhead handhold (Space)">Push off <kbd>Space</kbd></button>
+          <button id="deckward" title="Push toward the deck (X or Ctrl)">Down <kbd>X</kbd></button>
+        </div>
+        </div>
+        <div id="passNote" hidden><i></i><span></span></div>
+        <button id="stand" class="quiet floating" hidden>Stand up <kbd>Space</kbd></button>
+        <div id="hints">
+          <kbd>WASD</kbd> Move <span>·</span> Drag to look <span>·</span> Click a fitting
+          <button title="Hide movement tips" aria-label="Hide movement tips">×</button>
+        </div>
+        <div id="pad" aria-label="Movement controls">
+          <button data-move="w" aria-label="Move forward">↑</button
+          ><button data-move="a" aria-label="Move left">←</button
+          ><button data-move="s" aria-label="Move back">↓</button
+          ><button data-move="d" aria-label="Move right">→</button>
+        </div>
+      </div>
+      <div id="toast" role="status" aria-live="polite"></div>
+      <div id="backdrop" hidden></div>
+      <div id="handlingHint" hidden>Drag to turn <span>·</span> Scroll to magnify</div>
+      <aside id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitle" hidden>
+        <div class="panel-head">
+          <div>
+            <div class="micro" id="panelTag"></div>
+            <h2 id="panelTitle"></h2>
+          </div>
+          <button id="inspectionMoments" class="inspect-route" type="button" aria-haspopup="dialog" hidden>Moments</button>
+          <button id="panelClose" class="icon" aria-label="Close panel">
+            <svg><use href="#close" /></svg>
+          </button>
+        </div>
+        <div id="panelBody"></div>
+      </aside>
+      <dialog id="graphicsDialog" aria-labelledby="graphicsTitle">
+        <h2 id="graphicsTitle">Graphics</h2>
+        <label>Antialiasing<select name="aa"></select></label>
+        <label>Cast shadows<select name="shadows">
+          <option value="auto">Automatic</option><option value="off">Off</option>
+          <option value="standard">Standard</option><option value="fine">Fine</option>
+        </select></label>
+        <label>Render resolution<select name="resolution">
+          <option value="auto">Adaptive</option><option value="0.75">75% of display</option><option value="1">100% of display</option><option value="1.5">150% supersampling</option>
+        </select></label>
+        <output aria-label="Rendered image"></output>
+        <div class="graphics-actions"><button type="button" class="quiet" data-defaults>Restore defaults</button><button type="button" class="primary" data-done>Done</button></div>
+      </dialog>
+      <dialog id="photoDialog" aria-labelledby="photoTitle">
+        <div class="photo-heading">
+          <div><h2 id="photoTitle">Photo journal</h2><p data-photo-count aria-live="polite"></p></div>
+          <button type="button" class="quiet" data-close-photos>Close</button>
+        </div>
+        <div data-photos></div>
+      </dialog>
+    </main>
+    <noscript><p class="noscript">Enable JavaScript to board Car 07.</p></noscript>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

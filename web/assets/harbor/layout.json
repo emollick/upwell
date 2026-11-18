@@ -1,0 +1,506 @@
+{
+  "basis": "glTF metres; +X starboard, +Y up, -Z bow",
+  "unityBasis": "Unity metres; +X starboard, +Y up, +Z bow",
+  "waterline": 0,
+  "units": "m",
+  "models": {
+    "tug": {
+      "name": "Nereid",
+      "role": "Azimuth harbour tug",
+      "length": 24.6,
+      "beam": 9.1,
+      "draft": 3.55,
+      "wakes": [
+        [
+          -2.1,
+          0,
+          11.06
+        ],
+        [
+          2.1,
+          0,
+          11.06
+        ]
+      ],
+      "receiver": [
+        0,
+        2.13,
+        9.56
+      ],
+      "cleats": {
+        "port_forward": [
+          -3.06483,
+          2.33264,
+          -8.4
+        ],
+        "port_aft": [
+          -2.93376,
+          1.97834,
+          9.73
+        ]
+      },
+      "id": "tug",
+      "node": "tug",
+      "glb": "tug.glb",
+      "fbx": "tug.fbx",
+      "bounds": [
+        [
+          -4.95102,
+          -3.57945,
+          -12.50841
+        ],
+        [
+          4.95094,
+          9.765,
+          12.3231
+        ]
+      ],
+      "anchors": {
+        "bow": {
+          "node": "tug_bow",
+          "web": [
+            0,
+            0,
+            -12.3
+          ],
+          "unity": [
+            0,
+            0,
+            12.3
+          ]
+        },
+        "stern": {
+          "node": "tug_stern",
+          "web": [
+            0,
+            0,
+            12.3
+          ],
+          "unity": [
+            0,
+            0,
+            -12.3
+          ]
+        },
+        "receiver": {
+          "node": "tug_receiver",
+          "web": [
+            0,
+            2.13,
+            9.56
+          ],
+          "unity": [
+            0,
+            2.13,
+            -9.56
+          ]
+        },
+        "port_forward": {
+          "node": "tug_port_forward",
+          "web": [
+            -3.06483,
+            2.33264,
+            -8.4
+          ],
+          "unity": [
+            -3.06483,
+            2.33264,
+            8.4
+          ]
+        },
+        "port_aft": {
+          "node": "tug_port_aft",
+          "web": [
+            -2.93376,
+            1.97834,
+            9.73
+          ],
+          "unity": [
+            -2.93376,
+            1.97834,
+            -9.73
+          ]
+        },
+        "wake_0": {
+          "node": "tug_wake_0",
+          "web": [
+            -2.1,
+            0,
+            11.06
+          ],
+          "unity": [
+            -2.1,
+            0,
+            -11.06
+          ]
+        },
+        "wake_1": {
+          "node": "tug_wake_1",
+          "web": [
+            2.1,
+            0,
+            11.06
+          ],
+          "unity": [
+            2.1,
+            0,
+            -11.06
+          ]
+        }
+      },
+      "materials": [
+        "Harbor_CoatedPlate",
+        "Harbor_Alloy",
+        "Harbor_Deck",
+        "Harbor_Rubber",
+        "Harbor_DampRubber",
+        "Harbor_Graphite",
+        "Harbor_Mark",
+        "Harbor_Glass",
+        "Harbor_Enamel",
+        "Harbor_Safety",
+        "Harbor_Rope",
+        "Harbor_Port",
+        "Harbor_Starboard",
+        "Harbor_Ochre",
+        "Harbor_Lens"
+      ],
+      "vertices": 48150,
+      "triangles": 92660,
+      "drawCalls": 15
+    },
+    "supply": {
+      "name": "Ceiba",
+      "role": "Offshore supply vessel",
+      "length": 43.5,
+      "beam": 10.6,
+      "draft": 3.45,
+      "wakes": [
+        [
+          -2.88,
+          0,
+          20.15
+        ],
+        [
+          2.88,
+          0,
+          20.15
+        ]
+      ],
+      "receiver": [
+        0,
+        2.38,
+        20.9
+      ],
+      "id": "supply",
+      "node": "supply",
+      "glb": "supply.glb",
+      "fbx": "supply.fbx",
+      "bounds": [
+        [
+          -5.27148,
+          -3.3607,
+          -21.76948
+        ],
+        [
+          5.27148,
+          14.02,
+          21.76766
+        ]
+      ],
+      "anchors": {
+        "bow": {
+          "node": "supply_bow",
+          "web": [
+            0,
+            0,
+            -21.75
+          ],
+          "unity": [
+            0,
+            0,
+            21.75
+          ]
+        },
+        "stern": {
+          "node": "supply_stern",
+          "web": [
+            0,
+            0,
+            21.75
+          ],
+          "unity": [
+            0,
+            0,
+            -21.75
+          ]
+        },
+        "receiver": {
+          "node": "supply_receiver",
+          "web": [
+            0,
+            2.38,
+            20.9
+          ],
+          "unity": [
+            0,
+            2.38,
+            -20.9
+          ]
+        },
+        "wake_0": {
+          "node": "supply_wake_0",
+          "web": [
+            -2.88,
+            0,
+            20.15
+          ],
+          "unity": [
+            -2.88,
+            0,
+            -20.15
+          ]
+        },
+        "wake_1": {
+          "node": "supply_wake_1",
+          "web": [
+            2.88,
+            0,
+            20.15
+          ],
+          "unity": [
+            2.88,
+            0,
+            -20.15
+          ]
+        }
+      },
+      "materials": [
+        "Harbor_CoatedPlate",
+        "Harbor_Alloy",
+        "Harbor_Deck",
+        "Harbor_Graphite",
+        "Harbor_Mark",
+        "Harbor_Enamel",
+        "Harbor_Glass",
+        "Harbor_Rubber",
+        "Harbor_Safety",
+        "Harbor_Rope",
+        "Harbor_Port",
+        "Harbor_Lens",
+        "Harbor_Ochre",
+        "Harbor_Starboard"
+      ],
+      "vertices": 24072,
+      "triangles": 44498,
+      "drawCalls": 14
+    },
+    "pilot": {
+      "name": "Pilot 12",
+      "role": "Twin-hull pilot launch",
+      "length": 11.9,
+      "beam": 4.4,
+      "draft": 1.0,
+      "wakes": [
+        [
+          -1.49,
+          0,
+          5.68
+        ],
+        [
+          1.49,
+          0,
+          5.68
+        ]
+      ],
+      "receiver": [
+        0,
+        1.12,
+        5.35
+      ],
+      "id": "pilot",
+      "node": "pilot",
+      "glb": "pilot.glb",
+      "fbx": "pilot.fbx",
+      "bounds": [
+        [
+          -2.29733,
+          -0.98997,
+          -5.95602
+        ],
+        [
+          2.29733,
+          4.816,
+          6.06291
+        ]
+      ],
+      "anchors": {
+        "bow": {
+          "node": "pilot_bow",
+          "web": [
+            0,
+            0,
+            -5.95
+          ],
+          "unity": [
+            0,
+            0,
+            5.95
+          ]
+        },
+        "stern": {
+          "node": "pilot_stern",
+          "web": [
+            0,
+            0,
+            5.95
+          ],
+          "unity": [
+            0,
+            0,
+            -5.95
+          ]
+        },
+        "receiver": {
+          "node": "pilot_receiver",
+          "web": [
+            0,
+            1.12,
+            5.35
+          ],
+          "unity": [
+            0,
+            1.12,
+            -5.35
+          ]
+        },
+        "wake_0": {
+          "node": "pilot_wake_0",
+          "web": [
+            -1.49,
+            0,
+            5.68
+          ],
+          "unity": [
+            -1.49,
+            0,
+            -5.68
+          ]
+        },
+        "wake_1": {
+          "node": "pilot_wake_1",
+          "web": [
+            1.49,
+            0,
+            5.68
+          ],
+          "unity": [
+            1.49,
+            0,
+            -5.68
+          ]
+        }
+      },
+      "materials": [
+        "Harbor_CoatedPlate",
+        "Harbor_Alloy",
+        "Harbor_Deck",
+        "Harbor_Rubber",
+        "Harbor_DampRubber",
+        "Harbor_Graphite",
+        "Harbor_Mark",
+        "Harbor_Glass",
+        "Harbor_Safety",
+        "Harbor_Enamel",
+        "Harbor_Rope",
+        "Harbor_Port",
+        "Harbor_Lens",
+        "Harbor_Starboard"
+      ],
+      "vertices": 14352,
+      "triangles": 27170,
+      "drawCalls": 14
+    },
+    "buoy": {
+      "name": "P4 fairway mark",
+      "role": "Green conical navigation buoy",
+      "length": 2.1,
+      "beam": 2.1,
+      "draft": 2.05,
+      "wakes": [],
+      "receiver": [
+        0,
+        -2.04,
+        0
+      ],
+      "id": "buoy",
+      "node": "buoy",
+      "glb": "buoy.glb",
+      "fbx": "buoy.fbx",
+      "bounds": [
+        [
+          -1.07125,
+          -2.15039,
+          -1.07125
+        ],
+        [
+          1.07125,
+          3.89,
+          1.07125
+        ]
+      ],
+      "anchors": {
+        "bow": {
+          "node": "buoy_bow",
+          "web": [
+            0,
+            0,
+            -1.05
+          ],
+          "unity": [
+            0,
+            0,
+            1.05
+          ]
+        },
+        "stern": {
+          "node": "buoy_stern",
+          "web": [
+            0,
+            0,
+            1.05
+          ],
+          "unity": [
+            0,
+            0,
+            -1.05
+          ]
+        },
+        "receiver": {
+          "node": "buoy_receiver",
+          "web": [
+            0,
+            -2.04,
+            0
+          ],
+          "unity": [
+            0,
+            -2.04,
+            0
+          ]
+        }
+      },
+      "materials": [
+        "Harbor_CoatedPlate",
+        "Harbor_Graphite",
+        "Harbor_Rubber",
+        "Harbor_Alloy",
+        "Harbor_Mark",
+        "Harbor_Starboard"
+      ],
+      "vertices": 1247,
+      "triangles": 2304,
+      "drawCalls": 6
+    }
+  }
+}

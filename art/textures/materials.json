@@ -1,0 +1,482 @@
+[
+  {
+    "id": "pilot_console",
+    "primary_surface": "Graphite CFRP console with a ceramic palm rest",
+    "family": "aramid",
+    "base_color_srgb": [
+      223,
+      229,
+      229
+    ],
+    "roughness": 0.32,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "nav_screen",
+    "primary_surface": "Bonded black flight glass and a titanium bezel",
+    "family": "glass",
+    "base_color_srgb": [
+      12,
+      20,
+      25
+    ],
+    "roughness": 0.1,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": "Set transmission in shader; basecolor is tinted surface study, not opacity."
+  },
+  {
+    "id": "ascent_lever",
+    "primary_surface": "Machined titanium, graphite grip and vermilion detents",
+    "family": "metal",
+    "base_color_srgb": [
+      130,
+      140,
+      145
+    ],
+    "roughness": 0.28,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 1,
+    "glass_note": null
+  },
+  {
+    "id": "window",
+    "primary_surface": "Multilayer pressure glass and a neutral silicone seal",
+    "family": "glass",
+    "base_color_srgb": [
+      160,
+      184,
+      192
+    ],
+    "roughness": 0.05,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": "Set transmission in shader; basecolor is tinted surface study, not opacity."
+  },
+  {
+    "id": "roller_shade",
+    "primary_surface": "Retractable microperforated solar-control film",
+    "family": "fabric",
+    "base_color_srgb": [
+      35,
+      42,
+      47
+    ],
+    "roughness": 0.57,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.25,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "lounge_seat",
+    "primary_surface": "Smoke-blue aramid upholstery, harness and a composite shell",
+    "family": "fabric",
+    "base_color_srgb": [
+      42,
+      49,
+      55
+    ],
+    "roughness": 0.78,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.25,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "lamp",
+    "primary_surface": "Recessed high-CRI LED behind an optical diffuser",
+    "family": "glass",
+    "base_color_srgb": [
+      231,
+      237,
+      238
+    ],
+    "roughness": 0.22,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": "Set transmission in shader; basecolor is tinted surface study, not opacity."
+  },
+  {
+    "id": "field_glasses",
+    "primary_surface": "Rubberized orbital observation optics and tether",
+    "family": "carbon",
+    "base_color_srgb": [
+      30,
+      37,
+      43
+    ],
+    "roughness": 0.48,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "bunk",
+    "primary_surface": "Molded sleep pod, technical quilt and restraint webbing",
+    "family": "fabric",
+    "base_color_srgb": [
+      45,
+      52,
+      57
+    ],
+    "roughness": 0.81,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.25,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "privacy_curtain",
+    "primary_surface": "Pleated blue-gray aramid privacy screen",
+    "family": "fabric",
+    "base_color_srgb": [
+      183,
+      193,
+      198
+    ],
+    "roughness": 0.73,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.25,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "locker_drawer",
+    "primary_surface": "Pale composite front, titanium slides and a captive latch",
+    "family": "aramid",
+    "base_color_srgb": [
+      221,
+      229,
+      229
+    ],
+    "roughness": 0.34,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "access_card",
+    "primary_surface": "Ceramic laminate and recessed contact pads",
+    "family": "laminate",
+    "base_color_srgb": [
+      16,
+      23,
+      29
+    ],
+    "roughness": 0.28,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "reading_lamp",
+    "primary_surface": "Satin aerospace alloy and a narrow LED optic",
+    "family": "metal",
+    "base_color_srgb": [
+      147,
+      157,
+      163
+    ],
+    "roughness": 0.27,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 1,
+    "glass_note": null
+  },
+  {
+    "id": "logbook",
+    "primary_surface": "Tethered flight notebook with a graphite protective cover",
+    "family": "glass",
+    "base_color_srgb": [
+      20,
+      28,
+      34
+    ],
+    "roughness": 0.2,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": "Set transmission in shader; basecolor is tinted surface study, not opacity."
+  },
+  {
+    "id": "mug",
+    "primary_surface": "Sealed crew drink vessel with a latching lid",
+    "family": "aramid",
+    "base_color_srgb": [
+      223,
+      230,
+      230
+    ],
+    "roughness": 0.28,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "grab_handle",
+    "primary_surface": "Molded elastomer over a load-rated titanium core",
+    "family": "metal",
+    "base_color_srgb": [
+      124,
+      137,
+      145
+    ],
+    "roughness": 0.3,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 1,
+    "glass_note": null
+  },
+  {
+    "id": "pressure_hatch",
+    "primary_surface": "White composite pressure leaf and dual black bulb seals",
+    "family": "aramid",
+    "base_color_srgb": [
+      223,
+      230,
+      230
+    ],
+    "roughness": 0.33,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "card_reader",
+    "primary_surface": "Flush graphite ceramic with an optical status line",
+    "family": "glass",
+    "base_color_srgb": [
+      17,
+      25,
+      31
+    ],
+    "roughness": 0.16,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": "Set transmission in shader; basecolor is tinted surface study, not opacity."
+  },
+  {
+    "id": "service_cabinet",
+    "primary_surface": "Captive-latch avionics rack with light composite doors",
+    "family": "aramid",
+    "base_color_srgb": [
+      219,
+      227,
+      229
+    ],
+    "roughness": 0.34,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "breaker",
+    "primary_surface": "Red guarded flight-rated switch",
+    "family": "metal",
+    "base_color_srgb": [
+      128,
+      140,
+      147
+    ],
+    "roughness": 0.28,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 1,
+    "glass_note": null
+  },
+  {
+    "id": "pressure_gauge",
+    "primary_surface": "Digital differential-pressure instrument in a sealed bezel",
+    "family": "metal",
+    "base_color_srgb": [
+      130,
+      141,
+      147
+    ],
+    "roughness": 0.26,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 1,
+    "glass_note": null
+  },
+  {
+    "id": "intercom",
+    "primary_surface": "Flush crew audio panel, push-to-talk key and perforated grille",
+    "family": "aramid",
+    "base_color_srgb": [
+      222,
+      230,
+      231
+    ],
+    "roughness": 0.34,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "tool_roll",
+    "primary_surface": "Tethered aramid tool wallet with fitted retention pockets",
+    "family": "fabric",
+    "base_color_srgb": [
+      35,
+      43,
+      49
+    ],
+    "roughness": 0.8,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.25,
+    "metallic": 0,
+    "glass_note": null
+  },
+  {
+    "id": "docking_wheel",
+    "primary_surface": "Low-profile docking override wheel with a red ID band",
+    "family": "carbon",
+    "base_color_srgb": [
+      29,
+      37,
+      43
+    ],
+    "roughness": 0.42,
+    "dimensions": [
+      512,
+      512
+    ],
+    "normal_convention": "OpenGL tangent space +Y",
+    "source": "deterministic procedural tile; not measured or photo-reconstructed",
+    "physical_tile_m": 0.5,
+    "metallic": 0,
+    "glass_note": null
+  }
+]

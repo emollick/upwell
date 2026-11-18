@@ -1,0 +1,572 @@
+{
+  "basis": "glTF metres, vertical +Y, car attachment on +X",
+  "file": "guideway.glb",
+  "spanNode": "load_span",
+  "repeatHeight": 8,
+  "spanMinY": -4,
+  "spanMaxY": 4,
+  "spliceNode": "splice",
+  "splicePeriod": 16,
+  "bogieNode": "bogie",
+  "railCenters": [
+    [
+      0.059,
+      0,
+      -0.485
+    ],
+    [
+      0.059,
+      0,
+      0.485
+    ]
+  ],
+  "railRadius": 0.063,
+  "rollerAxis": "z",
+  "rollers": [
+    {
+      "node": "roller_front_lower_drive",
+      "pivot": [
+        0.336,
+        -0.343,
+        -0.485
+      ],
+      "axis": "z",
+      "radius": 0.214,
+      "sign": 1
+    },
+    {
+      "node": "roller_front_lower_idler",
+      "pivot": [
+        -0.166,
+        -0.343,
+        -0.485
+      ],
+      "axis": "z",
+      "radius": 0.162,
+      "sign": -1
+    },
+    {
+      "node": "roller_front_upper_drive",
+      "pivot": [
+        0.336,
+        0.343,
+        -0.485
+      ],
+      "axis": "z",
+      "radius": 0.214,
+      "sign": 1
+    },
+    {
+      "node": "roller_front_upper_idler",
+      "pivot": [
+        -0.166,
+        0.343,
+        -0.485
+      ],
+      "axis": "z",
+      "radius": 0.162,
+      "sign": -1
+    },
+    {
+      "node": "roller_rear_lower_drive",
+      "pivot": [
+        0.336,
+        -0.343,
+        0.485
+      ],
+      "axis": "z",
+      "radius": 0.214,
+      "sign": 1
+    },
+    {
+      "node": "roller_rear_lower_idler",
+      "pivot": [
+        -0.166,
+        -0.343,
+        0.485
+      ],
+      "axis": "z",
+      "radius": 0.162,
+      "sign": -1
+    },
+    {
+      "node": "roller_rear_upper_drive",
+      "pivot": [
+        0.336,
+        0.343,
+        0.485
+      ],
+      "axis": "z",
+      "radius": 0.214,
+      "sign": 1
+    },
+    {
+      "node": "roller_rear_upper_idler",
+      "pivot": [
+        -0.166,
+        0.343,
+        0.485
+      ],
+      "axis": "z",
+      "radius": 0.162,
+      "sign": -1
+    }
+  ],
+  "placements": [
+    {
+      "id": "saloon",
+      "position": [
+        -3.46,
+        1.27,
+        -4.87
+      ]
+    },
+    {
+      "id": "service",
+      "position": [
+        -3.46,
+        1.37,
+        3.06
+      ]
+    },
+    {
+      "id": "counterline",
+      "position": [
+        -7.89,
+        0,
+        -24.8
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "load_span",
+      "node": "load_span",
+      "file": "load_span.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -0.21865,
+          -4.00293,
+          -0.608
+        ],
+        [
+          0.122,
+          4.00333,
+          0.65676
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.21865,
+          -4.00293,
+          -0.608
+        ],
+        [
+          0.122,
+          4.00333,
+          0.65676
+        ]
+      ],
+      "localReferenceVertex": [
+        0.108,
+        4.0,
+        0.0
+      ]
+    },
+    {
+      "id": "splice",
+      "node": "splice",
+      "file": "splice.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -0.208,
+          -0.153,
+          -0.6016
+        ],
+        [
+          0.1676,
+          0.153,
+          0.665
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.208,
+          -0.153,
+          -0.6016
+        ],
+        [
+          0.1676,
+          0.153,
+          0.665
+        ]
+      ],
+      "localReferenceVertex": [
+        -0.15,
+        -0.11264,
+        0.33414
+      ]
+    },
+    {
+      "id": "bogie",
+      "node": "bogie",
+      "file": "bogie.fbx",
+      "webPivot": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "webBounds": [
+        [
+          -0.24046,
+          -0.473,
+          -0.78877
+        ],
+        [
+          1.1216,
+          0.473,
+          0.78877
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.24046,
+          -0.473,
+          -0.78877
+        ],
+        [
+          1.1216,
+          0.473,
+          0.78877
+        ]
+      ],
+      "localReferenceVertex": [
+        0.69671,
+        -0.26604,
+        -0.30041
+      ]
+    },
+    {
+      "id": "roller_front_lower_drive",
+      "node": "roller_front_lower_drive",
+      "file": "roller_front_lower_drive.fbx",
+      "webPivot": [
+        0.336,
+        -0.343,
+        -0.485
+      ],
+      "webBounds": [
+        [
+          0.10659,
+          -0.57241,
+          -0.589
+        ],
+        [
+          0.56541,
+          -0.11359,
+          -0.381
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.22941,
+          -0.22941,
+          -0.104
+        ],
+        [
+          0.22941,
+          0.22941,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.08346,
+        0.0,
+        -0.06888
+      ]
+    },
+    {
+      "id": "roller_front_lower_idler",
+      "node": "roller_front_lower_idler",
+      "file": "roller_front_lower_idler.fbx",
+      "webPivot": [
+        -0.166,
+        -0.343,
+        -0.485
+      ],
+      "webBounds": [
+        [
+          -0.33966,
+          -0.51666,
+          -0.589
+        ],
+        [
+          0.00766,
+          -0.16934,
+          -0.381
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.17366,
+          -0.17366,
+          -0.104
+        ],
+        [
+          0.17366,
+          0.17366,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.06318,
+        0.0,
+        -0.056
+      ]
+    },
+    {
+      "id": "roller_front_upper_drive",
+      "node": "roller_front_upper_drive",
+      "file": "roller_front_upper_drive.fbx",
+      "webPivot": [
+        0.336,
+        0.343,
+        -0.485
+      ],
+      "webBounds": [
+        [
+          0.10659,
+          0.11359,
+          -0.589
+        ],
+        [
+          0.56541,
+          0.57241,
+          -0.381
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.22941,
+          -0.22941,
+          -0.104
+        ],
+        [
+          0.22941,
+          0.22941,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.08346,
+        0.0,
+        -0.06888
+      ]
+    },
+    {
+      "id": "roller_front_upper_idler",
+      "node": "roller_front_upper_idler",
+      "file": "roller_front_upper_idler.fbx",
+      "webPivot": [
+        -0.166,
+        0.343,
+        -0.485
+      ],
+      "webBounds": [
+        [
+          -0.33966,
+          0.16934,
+          -0.589
+        ],
+        [
+          0.00766,
+          0.51666,
+          -0.381
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.17366,
+          -0.17366,
+          -0.104
+        ],
+        [
+          0.17366,
+          0.17366,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.06318,
+        0.0,
+        -0.056
+      ]
+    },
+    {
+      "id": "roller_rear_lower_drive",
+      "node": "roller_rear_lower_drive",
+      "file": "roller_rear_lower_drive.fbx",
+      "webPivot": [
+        0.336,
+        -0.343,
+        0.485
+      ],
+      "webBounds": [
+        [
+          0.10659,
+          -0.57241,
+          0.381
+        ],
+        [
+          0.56541,
+          -0.11359,
+          0.589
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.22941,
+          -0.22941,
+          -0.104
+        ],
+        [
+          0.22941,
+          0.22941,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.08346,
+        0.0,
+        -0.06888
+      ]
+    },
+    {
+      "id": "roller_rear_lower_idler",
+      "node": "roller_rear_lower_idler",
+      "file": "roller_rear_lower_idler.fbx",
+      "webPivot": [
+        -0.166,
+        -0.343,
+        0.485
+      ],
+      "webBounds": [
+        [
+          -0.33966,
+          -0.51666,
+          0.381
+        ],
+        [
+          0.00766,
+          -0.16934,
+          0.589
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.17366,
+          -0.17366,
+          -0.104
+        ],
+        [
+          0.17366,
+          0.17366,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.06318,
+        0.0,
+        -0.056
+      ]
+    },
+    {
+      "id": "roller_rear_upper_drive",
+      "node": "roller_rear_upper_drive",
+      "file": "roller_rear_upper_drive.fbx",
+      "webPivot": [
+        0.336,
+        0.343,
+        0.485
+      ],
+      "webBounds": [
+        [
+          0.10659,
+          0.11359,
+          0.381
+        ],
+        [
+          0.56541,
+          0.57241,
+          0.589
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.22941,
+          -0.22941,
+          -0.104
+        ],
+        [
+          0.22941,
+          0.22941,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.08346,
+        0.0,
+        -0.06888
+      ]
+    },
+    {
+      "id": "roller_rear_upper_idler",
+      "node": "roller_rear_upper_idler",
+      "file": "roller_rear_upper_idler.fbx",
+      "webPivot": [
+        -0.166,
+        0.343,
+        0.485
+      ],
+      "webBounds": [
+        [
+          -0.33966,
+          0.16934,
+          0.381
+        ],
+        [
+          0.00766,
+          0.51666,
+          0.589
+        ]
+      ],
+      "localBounds": [
+        [
+          -0.17366,
+          -0.17366,
+          -0.104
+        ],
+        [
+          0.17366,
+          0.17366,
+          0.104
+        ]
+      ],
+      "localReferenceVertex": [
+        0.06318,
+        0.0,
+        -0.056
+      ]
+    }
+  ]
+}

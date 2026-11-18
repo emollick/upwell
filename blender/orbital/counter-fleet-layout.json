@@ -1,0 +1,144 @@
+{
+  "units": "m",
+  "basis": "glTF +Y along the cable; guide lies at -X. Unity Local Z is negative glTF Z after the existing CounterCar import rotation.",
+  "filename": "CounterFleet",
+  "bogie": "counter_common_bogie",
+  "passenger": "counter_body",
+  "inspection": "counter_inspection_tender",
+  "freight": "counter_freight_carrier",
+  "registration": {
+    "web": [
+      0,
+      1.7,
+      1.359
+    ],
+    "normal": [
+      0,
+      0,
+      1
+    ],
+    "size": [
+      1.04,
+      0.262
+    ]
+  },
+  "wheelAssembly": "counter_wheels",
+  "wheelCentres": [
+    [
+      -1.28,
+      -2.5,
+      -0.5
+    ],
+    [
+      -1.28,
+      -2.5,
+      0.47
+    ],
+    [
+      -1.28,
+      2.46,
+      -0.5
+    ],
+    [
+      -1.28,
+      2.46,
+      0.47
+    ]
+  ],
+  "parts": {
+    "counter_common_bogie": {
+      "node": "counter_common_bogie",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "webBounds": [
+        [
+          -1.62842,
+          -3.016382,
+          -0.63
+        ],
+        [
+          -0.77,
+          2.835,
+          0.63
+        ]
+      ],
+      "slots": [
+        "Aster_Frame",
+        "Aster_Structure",
+        "Aster_Orange",
+        "Aster_Gasket",
+        "Aster_Recoat",
+        "Aster_BlueGrey"
+      ],
+      "triangles": 6280
+    },
+    "counter_inspection_tender": {
+      "node": "counter_inspection_tender",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "webBounds": [
+        [
+          -0.982625,
+          -3.933126,
+          -1.184814
+        ],
+        [
+          1.715815,
+          4.125417,
+          1.366
+        ]
+      ],
+      "slots": [
+        "Aster_Structure",
+        "Aster_Frame",
+        "Aster_BlueGrey",
+        "Aster_Recoat",
+        "Aster_Orange",
+        "Aster_Shell",
+        "Aster_Gasket",
+        "Aster_CarGlass",
+        "Aster_Mirror",
+        "Aster_Navigation",
+        "Aster_Foil",
+        "Aster_Radiator"
+      ],
+      "triangles": 23824
+    },
+    "counter_freight_carrier": {
+      "node": "counter_freight_carrier",
+      "localPosition": [
+        0,
+        0,
+        0
+      ],
+      "webBounds": [
+        [
+          -1.245,
+          -3.765,
+          -1.095
+        ],
+        [
+          1.605,
+          3.9715,
+          1.366
+        ]
+      ],
+      "slots": [
+        "Aster_BlueGrey",
+        "Aster_Frame",
+        "Aster_Orange",
+        "Aster_Structure",
+        "Aster_Gasket",
+        "Aster_Recoat",
+        "Aster_Foil"
+      ],
+      "triangles": 12788
+    }
+  }
+}

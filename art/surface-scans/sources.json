@@ -1,0 +1,142 @@
+[
+  {
+    "asset": "terlenka",
+    "page": "https://polyhaven.com/a/terlenka",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/terlenka/terlenka_diff_2k.jpg",
+        "sha256": "9528ce33df474c01f938b3afafe895b79a7b66f5706e4c735e8362e61b5bfb84"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/terlenka/terlenka_nor_gl_2k.jpg",
+        "sha256": "7fd916e6d897dfe003dac3400c81dd919e11e3441558bac04c26e07be380e6a0"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/terlenka/terlenka_rough_2k.jpg",
+        "sha256": "1184d1715c1d57dc3eb2550cbf6e42bac67ee6b7a271eb7b83874b011392c036"
+      }
+    }
+  },
+  {
+    "asset": "denim_fabric_06",
+    "page": "https://polyhaven.com/a/denim_fabric_06",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric_06/denim_fabric_06_diff_2k.jpg",
+        "sha256": "ddeaa6edd75e9bb8f01764a3cf591a88cf260b89dadc1ac9ab6185c03ff0cecf"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric_06/denim_fabric_06_nor_gl_2k.jpg",
+        "sha256": "901f5ccd9f0a5c4957d6ce84efb0abf1e37fb41c011d96db4f98334019259e91"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/denim_fabric_06/denim_fabric_06_rough_2k.jpg",
+        "sha256": "1fdbf0bc2ee32b8f8d7c8f7618a6c950a19566b802cf775822edebd3035ea199"
+      }
+    }
+  },
+  {
+    "asset": "scuba_suede",
+    "page": "https://polyhaven.com/a/scuba_suede",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_diff_2k.jpg",
+        "sha256": "9c0b3ed2ffc4862c571940b139680ac6f612041b9454bbddff21f90dc027033c"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_nor_gl_2k.jpg",
+        "sha256": "3bce1a0272cacffcd8f7414fb679a0ea27944b9b82dab5165a6dd079d6eda871"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/scuba_suede/scuba_suede_rough_2k.jpg",
+        "sha256": "fc43e105b4cffb5246753d7cbf43bb2cda79c084bd159daf28ce8cfa82573a30"
+      }
+    }
+  },
+  {
+    "asset": "blue_metal_plate",
+    "page": "https://polyhaven.com/a/blue_metal_plate",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/blue_metal_plate/blue_metal_plate_diff_2k.jpg",
+        "sha256": "82855f6297ad07ea7ea4d1c501e6b56ed4c9c758653ca126bda9fd0ebba63c59"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/blue_metal_plate/blue_metal_plate_nor_gl_2k.jpg",
+        "sha256": "4cd3069a918cf891295b369b26f47c0a0631c634d0fd1006b6b7412a8f2b3550"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/blue_metal_plate/blue_metal_plate_rough_2k.jpg",
+        "sha256": "dd1726d8217fe4f6c3947cb20700d51774a0773e9abaeb4120769c8f6fce1d69"
+      }
+    }
+  },
+  {
+    "asset": "metal_plate",
+    "page": "https://polyhaven.com/a/metal_plate",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_diff_2k.jpg",
+        "sha256": "864c9a653acd1f5034c9bbe7f955b18cc9687a81bbdfa805e7a2319939676910"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_nor_gl_2k.jpg",
+        "sha256": "146f8c00874a584bcc4a184643e72f160da2a7568d469198e02b26c9ff93cf43"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/metal_plate/metal_plate_rough_2k.jpg",
+        "sha256": "3cdc139df4ec5b304dd986278c1fb026c67c42e6623f0ee5caa7f373d51c7bef"
+      }
+    }
+  },
+  {
+    "asset": "rubber_tiles",
+    "page": "https://polyhaven.com/a/rubber_tiles",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rubber_tiles/rubber_tiles_diff_2k.jpg",
+        "sha256": "a14ed9c9b8235a71ce2d7d0d5d0d949a07b8e895d2b78cb3589a6c755bd95215"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rubber_tiles/rubber_tiles_nor_gl_2k.jpg",
+        "sha256": "27b1e34b797cf4f8ccbfa8fba1736b0ec6d9e0e14522c095b68fe16d483f2aa5"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rubber_tiles/rubber_tiles_rough_2k.jpg",
+        "sha256": "5679ff2440d15093bd60df56460199f3b31cdee14bb7bf1983be3af8b8fa60c2"
+      }
+    }
+  },
+  {
+    "asset": "hangar_concrete_floor",
+    "page": "https://polyhaven.com/a/hangar_concrete_floor",
+    "license": "CC0",
+    "licenseUrl": "https://polyhaven.com/license",
+    "maps": {
+      "albedo": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hangar_concrete_floor/hangar_concrete_floor_diff_2k.jpg",
+        "sha256": "8662d6f8f1c40277a507fa259cd79392346e598de68add790b4102170092e34d"
+      },
+      "normal": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hangar_concrete_floor/hangar_concrete_floor_nor_gl_2k.jpg",
+        "sha256": "7fef61132d948d0e6476824289a21f8aa76a7930e2647ece0a0279d6972550f3"
+      },
+      "roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/hangar_concrete_floor/hangar_concrete_floor_rough_2k.jpg",
+        "sha256": "c0cfc35bf55275e0787ccabde0329ffd5c3fb4d594e162b94cc1554206f4fee0"
+      }
+    }
+  }
+]

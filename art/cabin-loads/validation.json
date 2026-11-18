@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "reference_count": 8,
+  "alpha_masks": 8,
+  "silhouette_masks": 8,
+  "source_sheets": 4,
+  "evidence_captures": 8,
+  "production_maps": 46,
+  "alpha_registration": true,
+  "all_map_paths_verified": true,
+  "dimensions": {
+    "accelerometer": [
+      540,
+      1099
+    ],
+    "capillary_cell": [
+      655,
+      618
+    ],
+    "accel_test": [
+      531,
+      492
+    ],
+    "capillary_primer": [
+      617,
+      537
+    ],
+    "loom_service_power": [
+      470,
+      658
+    ],
+    "loom_service_fiber": [
+      462,
+      660
+    ],
+    "cloth_berth_quilt": [
+      573,
+      885
+    ],
+    "cloth_berth_curtain": [
+      559,
+      997
+    ]
+  }
+}

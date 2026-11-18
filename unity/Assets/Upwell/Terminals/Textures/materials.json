@@ -1,0 +1,117 @@
+{
+  "Marine_Primer": {
+    "rgb": [
+      72,
+      99,
+      96
+    ],
+    "alpha": 1,
+    "metallic": 0.46,
+    "roughness": 0.51,
+    "baseColor": "Marine_Primer_Color.jpg",
+    "roughnessMap": "Marine_Primer_Roughness.jpg",
+    "normal": "Marine_Primer_Normal.jpg"
+  },
+  "Marine_Vermilion": {
+    "rgb": [
+      159,
+      75,
+      50
+    ],
+    "alpha": 1,
+    "metallic": 0.41,
+    "roughness": 0.49,
+    "baseColor": "Marine_Vermilion_Color.jpg",
+    "roughnessMap": "Marine_Vermilion_Roughness.jpg",
+    "normal": "Marine_Vermilion_Normal.jpg"
+  },
+  "Tidal_Deck": {
+    "rgb": [
+      67,
+      75,
+      77
+    ],
+    "alpha": 1,
+    "metallic": 0.56,
+    "roughness": 0.54,
+    "baseColor": "Tidal_Deck_Color.jpg",
+    "roughnessMap": "Tidal_Deck_Roughness.jpg",
+    "normal": "Tidal_Deck_Normal.jpg"
+  },
+  "Structural_Galvanized": {
+    "rgb": [
+      146,
+      154,
+      150
+    ],
+    "alpha": 1,
+    "metallic": 0.78,
+    "roughness": 0.38,
+    "baseColor": "Structural_Galvanized_Color.jpg",
+    "roughnessMap": "Structural_Galvanized_Roughness.jpg",
+    "normal": "Structural_Galvanized_Normal.jpg"
+  },
+  "Orbital_Porcelain": {
+    "rgb": [
+      176,
+      180,
+      172
+    ],
+    "alpha": 1,
+    "metallic": 0.33,
+    "roughness": 0.44,
+    "baseColor": "Orbital_Porcelain_Color.jpg",
+    "roughnessMap": "Orbital_Porcelain_Roughness.jpg",
+    "normal": "Orbital_Porcelain_Normal.jpg"
+  },
+  "Capture_Blue": {
+    "rgb": [
+      39,
+      69,
+      85
+    ],
+    "alpha": 1,
+    "metallic": 0.52,
+    "roughness": 0.39,
+    "baseColor": "Capture_Blue_Color.jpg",
+    "roughnessMap": "Capture_Blue_Roughness.jpg",
+    "normal": "Capture_Blue_Normal.jpg"
+  },
+  "Pier_Concrete": {
+    "rgb": [
+      120,
+      126,
+      124
+    ],
+    "alpha": 1,
+    "metallic": 0.07,
+    "roughness": 0.73,
+    "baseColor": "Pier_Concrete_Color.jpg",
+    "roughnessMap": "Pier_Concrete_Roughness.jpg",
+    "normal": "Pier_Concrete_Normal.jpg"
+  },
+  "Terminal_Print": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "baseColor": "Terminal_Atlas.jpg",
+    "roughness": 0.51,
+    "metallic": 0.1,
+    "alpha": 1,
+    "emission": 0
+  },
+  "Terminal_Display": {
+    "rgb": [
+      255,
+      255,
+      255
+    ],
+    "baseColor": "Terminal_Atlas.jpg",
+    "roughness": 0.51,
+    "metallic": 0.1,
+    "alpha": 1,
+    "emission": 0.67
+  }
+}
